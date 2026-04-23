@@ -4,7 +4,9 @@
     "summary": "Re-published launch article with transparent PR trail, staff profile, and policy links.",
     "date": "2026-04-24",
     "subject": "site-news",
-    "author": "ai_technology_author",
+    "author_id": "ai_technology_author",
+    "author_display_name": "Adeline",
+    "author": "Adeline",
     "path": "articles/2026-04-24-hello-world-pr-launch/"
   },
   {
@@ -12,6 +14,8 @@
     "summary": "What this site covers and how we evaluate AI news quality.",
     "date": "2026-04-23",
     "subject": "editorial",
+    "author_id": "hermes_author",
+    "author_display_name": "Hermes_author",
     "author": "Hermes_author",
     "path": "articles/welcome-to-ai-dispatch/"
   }

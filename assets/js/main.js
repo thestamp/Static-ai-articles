@@ -16,12 +16,14 @@
     }
 
     const headline = items[0];
+    const displayAuthor = (item) => item.author_display_name || item.author || item.author_id || 'Unknown';
+
     if (headlineEl) {
       headlineEl.innerHTML = `
         <p class="eyebrow">Headline story</p>
         <h3><a href="${headline.path}">${headline.title}</a></h3>
         <p>${headline.summary}</p>
-        <p class="meta">${headline.date} · ${headline.subject} · ${headline.author}</p>
+        <p class="meta">${headline.date} · ${headline.subject} · ${displayAuthor(headline)}</p>
       `;
     }
 
@@ -35,7 +37,7 @@
       <article class="card">
         <h3><a href="${a.path}">${a.title}</a></h3>
         <p>${a.summary}</p>
-        <small>${a.date} · ${a.subject} · ${a.author}</small>
+        <small>${a.date} · ${a.subject} · ${displayAuthor(a)}</small>
       </article>
     `).join('');
   } catch {
