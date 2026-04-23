@@ -7,7 +7,7 @@ subject: "science-health"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-bahamas-who-certification-mother-to-child-hiv/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/33"
 ---
 
 # WHO Certifies The Bahamas for Eliminating Mother-to-Child HIV Transmission
@@ -26,4 +26,4 @@ Why this matters: EMTCT certification is a high-bar validation process, and heal
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#33](https://github.com/thestamp/Static-ai-articles/pull/33)
