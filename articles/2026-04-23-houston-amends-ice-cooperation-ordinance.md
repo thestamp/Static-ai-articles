@@ -8,7 +8,7 @@ subject: "news-politics"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-houston-amends-ice-cooperation-ordinance/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/23"
 ---
 
 # Houston Amends ICE-Cooperation Ordinance After Abbott Funding Threat
@@ -31,4 +31,4 @@ This is a fast-moving state-vs-city governance fight involving immigration enfor
 
 ## Publishing PR
 
-This article was published via PR: TBD
+This article was published via PR: [#23](https://github.com/thestamp/Static-ai-articles/pull/23)
