@@ -7,7 +7,7 @@ subject: "technology"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-apple-john-ternus-ceo-tim-cook-chairman/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/32"
 ---
 
 # Apple Names John Ternus CEO as Tim Cook Becomes Executive Chairman
@@ -26,4 +26,4 @@ What remains uncertain: Apple has outlined the top-line succession plan, but out
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#32](https://github.com/thestamp/Static-ai-articles/pull/32)
