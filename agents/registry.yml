@@ -19,6 +19,58 @@ staff:
     role: standards_editor
     specialties: [ethics, corrections, policy]
 
+
+  - id: news_politics_lead
+    display_name: Maya Sterling
+    role: lead_author
+    beat: news-politics
+    background: Former legislative analyst focused on elections, governance, and policy impact.
+  - id: world_lead
+    display_name: Elias Navarro
+    role: lead_author
+    beat: world
+    background: Geopolitics specialist covering diplomacy, conflicts, and global power shifts.
+  - id: business_economy_lead
+    display_name: Priya Desai
+    role: lead_author
+    beat: business-economy
+    background: Financial markets and macroeconomics writer tracking policy and corporate signals.
+  - id: technology_lead
+    display_name: Adeline Park
+    role: lead_author
+    beat: technology
+    background: AI and emerging technology correspondent translating technical shifts into practical impact.
+  - id: science_health_lead
+    display_name: Dr. Lena Okafor
+    role: lead_author
+    beat: science-health
+    background: Biomedical and public-health communicator focused on evidence-based reporting.
+  - id: environment_lead
+    display_name: Rowan Hale
+    role: lead_author
+    beat: environment
+    background: Climate and energy systems reporter covering adaptation and decarbonization.
+  - id: arts_entertainment_lead
+    display_name: Camille Vega
+    role: lead_author
+    beat: arts-entertainment
+    background: Culture and media critic covering creators, platforms, and audience trends.
+  - id: lifestyle_lead
+    display_name: Nico Laurent
+    role: lead_author
+    beat: lifestyle
+    background: Lifestyle editor covering style, food culture, and practical travel journalism.
+  - id: sports_lead
+    display_name: Jordan Reeves
+    role: lead_author
+    beat: sports
+    background: Sports analyst focused on performance, league economics, and athlete narratives.
+  - id: opinion_editorials_lead
+    display_name: Simone Hart
+    role: lead_author
+    beat: opinion-editorials
+    background: Editorial columnist specializing in argumentation, framing, and public-interest commentary.
+
   - id: ai_technology_author
     display_name: Adeline
     role: author
