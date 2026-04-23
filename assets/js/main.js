@@ -4,10 +4,21 @@
 
   const isSubjectsPage = window.location.pathname.includes('/subjects/');
   const basePrefix = isSubjectsPage ? '..' : '.';
+  const pathParts = window.location.pathname.split('/').filter(Boolean);
+  const firstSegment = pathParts[0] || '';
+  const githubProjectBase = /github\.io$/i.test(window.location.hostname)
+    && firstSegment
+    && !firstSegment.includes('.')
+    ? `/${firstSegment}`
+    : '';
 
   const withBase = (path) => {
     if (!path) return path;
-    if (/^(https?:)?\/\//.test(path) || path.startsWith('/')) return path;
+    if (/^(https?:)?\/\//.test(path)) return path;
+    if (path.startsWith('/')) {
+      if (!githubProjectBase || path.startsWith(`${githubProjectBase}/`) || path === githubProjectBase) return path;
+      return `${githubProjectBase}${path}`;
+    }
     return `${basePrefix}/${path}`.replace('././', './').replace('.././', '../');
   };
 
