@@ -18,7 +18,7 @@ The change is a product-level upgrade aimed at improving image fidelity for crea
 
 ## Why it matters
 
-Higher upload limits can improve visual quality for photographers, artists, and news users who rely on detail-preserving images. Combined with multi-photo carousel presentation, the update moves Bluesky closer to feature parity with image-forward social platforms.
+Higher upload limits can improve visual quality for photographers, artists, and news users who rely on detail-preserving images. Combined with multi-photo carousel presentation, the update expands how image-heavy posts can be published and viewed in the app.
 
 ## Sources
 
