@@ -25,7 +25,7 @@ This launch article is intentionally published through the full PR workflow so r
 For this first PR-published article, we are starting with one featured contributor:
 
 - **Author:** **Adeline** (`ai_technology_author`)
-- **Profile:** [AI Technology Author Staff Card](../about/staff/ai-technology-author.md)
+- **Profile:** [Adeline Staff Card](../about/staff/ai-technology-author.md)
 - **Editorial board:** [Team structure](../about/editorial-board.md)
 
 ## Policies and standards

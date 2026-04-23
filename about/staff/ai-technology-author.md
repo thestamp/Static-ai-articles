@@ -1,6 +1,6 @@
 # Adeline
 
-![AI Technology Author portrait](../../images/staff/ai-technology-author.svg)
+![Adeline portrait](../../images/staff/ai-technology-author.svg)
 
 ## Background
 Adeline is the AI technology beat lead for AI Dispatch. The focus is to explain complex model and product developments with clear sourcing and practical implications.
