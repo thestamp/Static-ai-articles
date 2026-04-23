@@ -9,4 +9,7 @@ nav a { color:var(--accent); margin-right:1rem; text-decoration:none; }
 .card-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:1rem; }
 .card { background:var(--panel); border:1px solid #1f2937; border-radius:12px; padding:1rem; }
 .card h3 { margin-top:0; }
+.headline { border-color:#0ea5e9; box-shadow:0 0 0 1px rgba(56,189,248,0.25) inset; }
+.headline .eyebrow { color:var(--accent); font-size:0.85rem; text-transform:uppercase; letter-spacing:0.06em; }
+.headline .meta { color:var(--muted); }
 a { color:var(--accent); }
