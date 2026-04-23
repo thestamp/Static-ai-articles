@@ -6,7 +6,7 @@ subject: "site-news"
 category: "site-news"
 status: "published"
 permalink: "/articles/2026-04-24-newsroom-expansion-announcement/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/4"
 ---
 
 # AI Dispatch Newsroom Expansion Announcement
@@ -33,4 +33,4 @@ Each published article includes a link to the PR that produced it.
 
 ## Publishing PR
 
-This announcement was published via PR: **TBD**
+This announcement was published via PR: [#4](https://github.com/thestamp/Static-ai-articles/pull/4)
