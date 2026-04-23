@@ -17,7 +17,7 @@ Nike is cutting about 1,400 roles in a new layoff round, according to same-day r
 
 Both outlets describe the move as part of broader efforts to tighten operations while management pursues a multi-quarter performance recovery strategy.
 
-From a market perspective, the immediate significance is less about a single headcount number and more about sustained operating-discipline signals in global consumer brands facing uneven demand and margin pressure.
+From a market perspective, the immediate significance is less about a single headcount number and more about operating-discipline signaling in a large global consumer brand. That interpretation is analysis, while the reported layoff count and turnaround linkage are directly sourced facts.
 
 ## What we know
 
@@ -30,6 +30,8 @@ From a market perspective, the immediate significance is less about a single hea
 This is a business-economy workforce and corporate restructuring story with direct implications for margins, operating costs, and retail-sector labor trends.
 
 ## What to watch next
+
+Public same-day reports do not yet provide a definitive regional or function-level breakdown of affected roles.
 
 - Whether Nike provides regional or function-level breakdowns for the cuts.
 - Any updated guidance around inventory, gross margin trajectory, and North America demand.
