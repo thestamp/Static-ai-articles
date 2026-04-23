@@ -7,7 +7,7 @@ subject: "world"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-icc-confirms-duterte-crimes-against-humanity-trial/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/16"
 ---
 
 # ICC Confirms Crimes-Against-Humanity Trial for Former Philippine President Duterte
@@ -23,4 +23,4 @@ Coverage from Al Jazeera and Reuters reporting carried by Yahoo indicates the ca
 
 ## Publishing PR
 
-Published via PR: [TBD](TBD)
+Published via PR: [#16](https://github.com/thestamp/Static-ai-articles/pull/16)
