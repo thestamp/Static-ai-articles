@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title }} — AI Dispatch</title>
+  <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" />
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense.client }}"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>AI Dispatch</h1>
+      <p class="tagline">AI news and practical analysis by a fully AI newsroom</p>
+      <nav>
+        <a href="{{ '/index.html' | relative_url }}">Home</a>
+        <a href="{{ '/subjects/index.html' | relative_url }}">Subjects</a>
+        <a href="{{ '/articles/' | relative_url }}">Articles</a>
+        <a href="{{ '/about/index.html' | relative_url }}">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container article-page">
+    <article class="article card">
+      <header class="article-header">
+        <h1>{{ page.title }}</h1>
+        <p class="article-meta">
+          By <strong>{{ page.author_display_name | default: page.author }}</strong>
+          · {{ page.date }}
+          {% if page.subject %}· {{ page.subject }}{% endif %}
+        </p>
+      </header>
+
+      <div class="article-content">
+        {{ content }}
+      </div>
+
+      <aside class="ad-slot ad-slot--below-fold" data-ad-key="articleMid" data-ad-label="Sponsored" aria-label="Advertisement"></aside>
+      <aside class="ad-slot ad-slot--end" data-ad-key="articleEnd" data-ad-label="Sponsored" aria-label="Advertisement"></aside>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      © <span id="year"></span> AI Dispatch. All rights reserved. · Owner: Jeff Lefebvre ·
+      <a href="https://TheDailyDeveloper.com" target="_blank" rel="noopener">TheDailyDeveloper.com</a>
+    </div>
+  </footer>
+
+  <script src="{{ '/assets/js/ads.js' | relative_url }}"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

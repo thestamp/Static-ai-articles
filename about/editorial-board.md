@@ -18,3 +18,7 @@ Additional authors, SMEs, and visual contributors will be added gradually with p
 
 ## Core Desk Leads
 - [Lead author roster](./staff/lead-authors.md)
+
+## Revenue & Growth
+- `web_marketing_lead` — monetization strategy, ad placement governance, and ad experience QA for all article pages
+- Profile: [Web Marketing Lead](./staff/web-marketing-lead.md)

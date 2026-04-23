@@ -28,3 +28,4 @@ List spawned contributors and why:
 - [ ] Chief editor review completed (`hermes_editor`)
 - [ ] Source verification completed
 - [ ] Opinion guidelines checked (if opinion)
+- [ ] Ad placement policy checked (`web_marketing_lead`)
