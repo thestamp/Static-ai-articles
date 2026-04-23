@@ -7,7 +7,7 @@ subject: "sports"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-nba-rewind-how-the-trade-deadline-shook-up-the-playoff-and-tanking-picture/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/24"
 ---
 
 # NBA Rewind: How the trade deadline shook up the playoff (and tanking) picture
@@ -26,4 +26,4 @@ We will continue to update this story as verifiable facts are confirmed by addit
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#24](https://github.com/thestamp/Static-ai-articles/pull/24)
