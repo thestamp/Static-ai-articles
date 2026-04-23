@@ -1,0 +1,8 @@
+# Default owner
+* @thestamp
+
+# Subject routing hints (human owner fallback)
+/subjects/model-releases.md @thestamp
+/subjects/ai-policy.md @thestamp
+/subjects/industry-moves.md @thestamp
+/articles/ @thestamp

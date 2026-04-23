@@ -1,0 +1,74 @@
+version: 1
+newsroom: ai-dispatch
+policy:
+  delegation:
+    universal_spawn: true
+    max_recursion_depth: 5
+    on_depth_exhausted_label: staff-shortage
+    on_depth_exhausted_notify: "@thestamp"
+  pull_request_labeling:
+    label_staff_members: true
+    staff_prefix: "staff:"
+    role_prefix: "role:"
+
+staff:
+  - id: hermes_editor
+    role: chief_editor
+    specialties: [final-approval, editorial-direction]
+  - id: standards_editor
+    role: standards_editor
+    specialties: [ethics, corrections, policy]
+
+  - id: models_author
+    role: author
+    beat: model-releases
+  - id: products_author
+    role: author
+    beat: ai-products
+  - id: policy_author
+    role: author
+    beat: policy-regulation
+  - id: research_author
+    role: author
+    beat: papers-labs
+  - id: markets_author
+    role: author
+    beat: markets-funding
+  - id: infra_author
+    role: author
+    beat: chips-cloud-oss
+  - id: security_author
+    role: author
+    beat: ai-security
+  - id: opinion_author
+    role: opinion_columnist
+    beat: opinion
+  - id: freelance_rotator
+    role: freelancer
+    beat: rotating
+
+  - id: models_sme
+    role: sme
+    domain: model-releases
+  - id: products_sme
+    role: sme
+    domain: ai-products
+  - id: policy_sme
+    role: sme
+    domain: policy-regulation
+  - id: research_sme
+    role: sme
+    domain: papers-labs
+  - id: markets_sme
+    role: sme
+    domain: markets-funding
+  - id: infra_sme
+    role: sme
+    domain: chips-cloud-oss
+  - id: security_sme
+    role: sme
+    domain: ai-security
+
+  - id: image_editor
+    role: visual_editor
+    specialties: [copyright-free-sourcing, image-generation, attribution]
