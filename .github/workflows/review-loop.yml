@@ -183,16 +183,25 @@ jobs:
             const hasSme = finalLabels.has('approved-sme');
             const hasChief = finalLabels.has('approved-hermes-editor');
             const hasCopilotReviewed = finalLabels.has('copilot-reviewed');
+            const hasCopilotApproved = finalLabels.has('copilot-approved');
             const hasWebdevReviewed = finalLabels.has('webdev-reviewed-copilot');
             const blockedForWebdev = finalLabels.has('waiting-webdev-response') || finalLabels.has('copilot-changes-requested');
             const manualRequired = finalLabels.has('manual-review-required');
 
-            if (hasSme && hasChief && hasCopilotReviewed && hasWebdevReviewed && !blockedForWebdev && !manualRequired) {
+            // owner-approved automation: if Copilot loop is fully satisfied, Hermes can auto-approve
+            if (hasCopilotReviewed && hasCopilotApproved && hasWebdevReviewed && !blockedForWebdev && !manualRequired && !hasChief) {
+              await addLabels(['approved-hermes-editor']);
+              await comment('🤖 Auto-approval: All Copilot issues appear addressed and webdev review is complete. Marking `approved-hermes-editor`.');
+            }
+
+            const postAutoApproveHasChief = hasChief || (hasCopilotReviewed && hasCopilotApproved && hasWebdevReviewed && !blockedForWebdev && !manualRequired);
+
+            if (hasSme && postAutoApproveHasChief && hasCopilotReviewed && hasWebdevReviewed && !blockedForWebdev && !manualRequired) {
               await comment('✅ Merge gate passed: SME + Chief Editor + Copilot review + webdev Copilot-response review are all satisfied.');
             } else {
               const missing = [];
               if (!hasSme) missing.push('SME approval');
-              if (!hasChief) missing.push('Chief Editor approval');
+              if (!postAutoApproveHasChief) missing.push('Chief Editor approval');
               if (!hasCopilotReviewed) missing.push('Copilot review');
               if (!hasWebdevReviewed) missing.push('webdev review of Copilot comments');
               if (blockedForWebdev) missing.push('webdev response to Copilot change requests');

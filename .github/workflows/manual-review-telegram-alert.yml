@@ -1,0 +1,50 @@
+name: Manual review Telegram alert
+
+on:
+  pull_request:
+    types: [labeled]
+
+permissions:
+  issues: write
+
+jobs:
+  notify:
+    if: ${{ github.event.label.name == 'manual-review-required' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build alert message
+        id: msg
+        run: |
+          PR_URL="${{ github.event.pull_request.html_url }}"
+          PR_NUM="${{ github.event.pull_request.number }}"
+          TITLE="${{ github.event.pull_request.title }}"
+          REPO="${{ github.repository }}"
+          MSG="🚨 AI Dispatch manual review required%0ARepo: ${REPO}%0APR #${PR_NUM}: ${TITLE}%0A${PR_URL}%0AReason: Copilot↔webdev loop reached 3 rounds."
+          echo "msg=$MSG" >> "$GITHUB_OUTPUT"
+
+      - name: Send Telegram alert (if secrets configured)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MSG: ${{ steps.msg.outputs.msg }}
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "Telegram secrets missing; skipping telegram send."
+            exit 0
+          fi
+          curl -sS -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d "chat_id=${TELEGRAM_CHAT_ID}" \
+            -d "text=${MSG}" \
+            -d "disable_web_page_preview=true" \
+            -d "parse_mode=HTML" >/dev/null
+
+      - name: Post escalation comment on PR
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+              body: '🚨 Escalation: `manual-review-required` detected. @thestamp please perform manual review. Telegram alert workflow has been triggered.'
+            });
