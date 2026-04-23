@@ -15,48 +15,92 @@ jobs:
     if: ${{ github.event_name == 'pull_request' || github.event.issue.pull_request }}
     runs-on: ubuntu-latest
     steps:
-      - name: Update attempts and approvals
+      - name: Enforce approver gate + auto-merge
         uses: actions/github-script@v7
         with:
           script: |
-            const isPR = context.eventName === 'pull_request';
-            const issue_number = isPR ? context.payload.pull_request.number : context.payload.issue.number;
+            const event = context.eventName;
+            const isPR = event === 'pull_request';
+            const isIssueComment = event === 'issue_comment';
 
-            const labelsRes = await github.rest.issues.listLabelsOnIssue({ owner: context.repo.owner, repo: context.repo.repo, issue_number, per_page: 100 });
-            const labels = new Set(labelsRes.data.map(l => l.name));
+            const issue_number = isPR
+              ? context.payload.pull_request.number
+              : context.payload.issue.number;
+
+            const trustedAssociations = new Set(['OWNER', 'MEMBER', 'COLLABORATOR']);
 
             const ensureLabel = async (name, color='FBCA04') => {
-              try { await github.rest.issues.getLabel({ owner: context.repo.owner, repo: context.repo.repo, name }); }
-              catch { await github.rest.issues.createLabel({ owner: context.repo.owner, repo: context.repo.repo, name, color }); }
+              try {
+                await github.rest.issues.getLabel({ owner: context.repo.owner, repo: context.repo.repo, name });
+              } catch {
+                await github.rest.issues.createLabel({ owner: context.repo.owner, repo: context.repo.repo, name, color });
+              }
             };
 
-            // attempt counter increments on new commits
-            if (isPR && context.payload.action === 'synchronize') {
-              let attempt = 0;
-              for (const l of labels) {
-                const m = l.match(/^attempt-(\d+)$/);
-                if (m) attempt = Math.max(attempt, Number(m[1]));
-              }
-              const next = attempt + 1;
-              if (attempt > 0) await github.rest.issues.removeLabel({ owner: context.repo.owner, repo: context.repo.repo, issue_number, name: `attempt-${attempt}` }).catch(()=>{});
-              await ensureLabel(`attempt-${next}`, 'FBCA04');
-              await github.rest.issues.addLabels({ owner: context.repo.owner, repo: context.repo.repo, issue_number, labels: [`attempt-${next}`] });
+            const addLabels = async (labels) => {
+              if (!labels.length) return;
+              await github.rest.issues.addLabels({ owner: context.repo.owner, repo: context.repo.repo, issue_number, labels }).catch(()=>{});
+            };
 
-              // reset approvals after revision
-              for (const l of ['approved-sme','approved-hermes-editor']) {
-                if (labels.has(l)) await github.rest.issues.removeLabel({ owner: context.repo.owner, repo: context.repo.repo, issue_number, name: l }).catch(()=>{});
+            const removeLabel = async (name) => {
+              await github.rest.issues.removeLabel({ owner: context.repo.owner, repo: context.repo.repo, issue_number, name }).catch(()=>{});
+            };
+
+            const comment = async (body) => {
+              await github.rest.issues.createComment({ owner: context.repo.owner, repo: context.repo.repo, issue_number, body });
+            };
+
+            const listLabels = async () => {
+              const res = await github.rest.issues.listLabelsOnIssue({ owner: context.repo.owner, repo: context.repo.repo, issue_number, per_page: 100 });
+              return new Set(res.data.map(l => l.name));
+            };
+
+            let labels = await listLabels();
+
+            // Temporarily disable Copilot-driven state: clear known Copilot labels whenever this workflow runs.
+            const copilotStateLabels = [
+              'copilot-reviewed',
+              'copilot-approved',
+              'copilot-changes-requested',
+              'copilot-rereview-requested',
+              'waiting-webdev-response',
+              'manual-review-required'
+            ];
+            for (const l of copilotStateLabels) {
+              if (labels.has(l)) await removeLabel(l);
+            }
+            for (const l of labels) {
+              if (/^copilot-cycle-\d+$/.test(l)) await removeLabel(l);
+            }
+
+            labels = await listLabels();
+
+            // On new commits, reset approvals so all regular approvers and webdev reconfirm.
+            if (isPR && context.payload.action === 'synchronize') {
+              const resetLabels = [
+                'approved-sme',
+                'approved-hermes-editor',
+                'approved-webdev',
+                'gate-state-passed',
+                'gate-state-blocked'
+              ];
+              for (const l of resetLabels) {
+                if (labels.has(l)) await removeLabel(l);
               }
             }
 
-            // command parsing from comments
-            if (!isPR) {
+            if (isIssueComment) {
               const body = (context.payload.comment.body || '').trim();
+              const assoc = context.payload.comment.author_association || 'NONE';
+              const trusted = trustedAssociations.has(assoc);
+
               const mApprove = body.match(/^\/(approve|request-changes)\s+as=([a-zA-Z0-9_\-]+)/i);
               if (mApprove) {
                 const action = mApprove[1].toLowerCase();
                 const persona = mApprove[2].toLowerCase();
                 const add = [];
                 const remove = [];
+
                 if (persona.endsWith('_sme')) {
                   if (action === 'approve') add.push('approved-sme');
                   else remove.push('approved-sme');
@@ -65,41 +109,83 @@ jobs:
                   if (action === 'approve') add.push('approved-hermes-editor');
                   else remove.push('approved-hermes-editor');
                 }
-                if (add.length) await github.rest.issues.addLabels({ owner: context.repo.owner, repo: context.repo.repo, issue_number, labels: add });
-                for (const l of remove) {
-                  await github.rest.issues.removeLabel({ owner: context.repo.owner, repo: context.repo.repo, issue_number, name: l }).catch(()=>{});
+
+                if (add.length) await addLabels(add);
+                for (const l of remove) await removeLabel(l);
+                await comment(`Review signal received from ${persona}: ${action}.`);
+              }
+
+              // New primary command
+              if (/^\/webdev-approved\b/i.test(body)) {
+                if (!trusted) {
+                  await comment('⚠️ Ignored `/webdev-approved`: only OWNER/MEMBER/COLLABORATOR can run this command.');
+                } else {
+                  await ensureLabel('approved-webdev', '0E8A16');
+                  await addLabels(['approved-webdev']);
+                  await comment('✅ Web developer approval logged.');
                 }
-                await github.rest.issues.createComment({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  issue_number,
-                  body: `Review signal received from ${persona}: ${action}.`
-                });
+              }
+
+              // Backward compatibility command
+              if (/^\/webdev-reviewed-copilot\b/i.test(body)) {
+                if (!trusted) {
+                  await comment('⚠️ Ignored `/webdev-reviewed-copilot`: only OWNER/MEMBER/COLLABORATOR can run this command.');
+                } else {
+                  await ensureLabel('approved-webdev', '0E8A16');
+                  await addLabels(['approved-webdev']);
+                  await comment('✅ Web developer approval logged (legacy command).');
+                }
               }
             }
 
-            const updated = await github.rest.issues.listLabelsOnIssue({ owner: context.repo.owner, repo: context.repo.repo, issue_number, per_page: 100 });
-            const hasSme = updated.data.some(l => l.name === 'approved-sme');
-            const hasChief = updated.data.some(l => l.name === 'approved-hermes-editor');
-            const attempts = Math.max(0, ...updated.data.map(l => (l.name.match(/^attempt-(\d+)$/)?.[1] || 0)).map(Number));
+            labels = await listLabels();
+            const hasSme = labels.has('approved-sme');
+            const hasChief = labels.has('approved-hermes-editor');
+            const hasWebdev = labels.has('approved-webdev');
+            const passed = hasSme && hasChief && hasWebdev;
 
-            if (hasSme && hasChief) {
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number,
-                body: '✅ SME and Chief Editor approvals detected. PR is eligible for merge.'
-              });
+            const hasPassedState = labels.has('gate-state-passed');
+            const hasBlockedState = labels.has('gate-state-blocked');
+
+            if (passed) {
+              await ensureLabel('gate-state-passed', '0E8A16');
+              await addLabels(['gate-state-passed']);
+              await removeLabel('gate-state-blocked');
+
+              if (!hasPassedState) {
+                await comment('✅ Merge gate passed: SME + Chief Editor + Web Developer approvals are satisfied. Attempting auto-merge.');
+              }
+
+              // Enable auto-merge (preferred on protected branches).
+              const pr = await github.rest.pulls.get({ owner: context.repo.owner, repo: context.repo.repo, pull_number: issue_number });
+              if (pr.data.state !== 'open') return;
+
+              try {
+                await github.graphql(
+                  `mutation EnableAutoMerge($pullRequestId: ID!) {
+                    enablePullRequestAutoMerge(input: { pullRequestId: $pullRequestId, mergeMethod: SQUASH }) {
+                      pullRequest { number autoMergeRequest { enabledAt } }
+                    }
+                  }`,
+                  { pullRequestId: pr.data.node_id }
+                );
+                await comment('🤖 Auto-merge enabled. PR will merge automatically once branch protection checks are green.');
+              } catch (e) {
+                await comment(`⚠️ Could not enable auto-merge automatically: ${e.message}`);
+              }
               return;
             }
 
-            if (attempts >= 3) {
-              await github.rest.issues.addLabels({ owner: context.repo.owner, repo: context.repo.repo, issue_number, labels: ['closed-after-3-attempts'] }).catch(()=>{});
-              await github.rest.pulls.update({ owner: context.repo.owner, repo: context.repo.repo, pull_number: issue_number, state: 'closed' });
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number,
-                body: '❌ Closing after 3 revision attempts without both required approvals (SME + hermes_editor). Author may reopen with a fresh proposal.'
-              });
+            await ensureLabel('gate-state-blocked', 'D1242F');
+            await addLabels(['gate-state-blocked']);
+            await removeLabel('gate-state-passed');
+
+            if (!hasBlockedState) {
+              const missing = [];
+              if (!hasSme) missing.push('SME approval');
+              if (!hasChief) missing.push('Chief Editor approval');
+              if (!hasWebdev) missing.push('Web Developer approval (`/webdev-approved`)');
+              await comment(`⛔ Merge blocked. Pending: ${missing.join(', ')}.`);
             }
+
+            core.setFailed('Merge gate requirements are not satisfied yet.');

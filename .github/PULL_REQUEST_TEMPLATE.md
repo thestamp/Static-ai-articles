@@ -24,6 +24,8 @@ List spawned contributors and why:
 - Attribution text:
 
 ## Review Gates
+- [ ] Copilot gate is temporarily disabled
+- [ ] Web developer approved (`/webdev-approved`)
 - [ ] Domain SME review completed (`*_sme`)
 - [ ] Chief editor review completed (`hermes_editor`)
 - [ ] Source verification completed

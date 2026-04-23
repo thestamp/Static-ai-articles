@@ -25,3 +25,8 @@ hey, can [steph_crypto](cryptocurrency research specialist) do some research on 
 5. If depth > 5:
    - label PR `staff-shortage`
    - post a comment tagging `@thestamp` for manual staffing review.
+6. Temporary merge gate policy (until Copilot loop is re-enabled):
+   - Copilot review is optional/disabled for gating.
+   - Required approvals are: webdev + regular approvers (SME and `hermes_editor`).
+   - webdev approval command: `/webdev-approved` (legacy `/webdev-reviewed-copilot` is accepted).
+   - Once required approvals are present, automation enables auto-merge.
