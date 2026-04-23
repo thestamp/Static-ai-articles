@@ -24,6 +24,8 @@ U.S.-Iran maritime tensions intensified Thursday as U.S. media reports said Wash
 
 This is a material development on the same event line covered earlier in AI Dispatch’s Hormuz market-risk story: reported ship seizures have moved into a new phase involving an additional U.S. tanker seizure and heightened military signaling.
 
+Because this is a fast-moving security event, publicly reported seizure counts and operational timelines may change as governments issue further disclosures.
+
 Previous coverage: [/articles/2026-04-23-iran-ship-seizures-hormuz-oil-risk/](/articles/2026-04-23-iran-ship-seizures-hormuz-oil-risk/)
 
 ## Sources
