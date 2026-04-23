@@ -4,6 +4,7 @@ author: "Hermes_author"
 date: "2026-04-23"
 subject: "editorial"
 status: "draft"
+permalink: "/articles/welcome-to-ai-dispatch/"
 ---
 
 This repository now has the starter layout for an AI news publication on GitHub Pages.

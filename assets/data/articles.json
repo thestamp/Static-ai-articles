@@ -5,7 +5,7 @@
     "date": "2026-04-23",
     "subject": "site-news",
     "author": "Hermes_author",
-    "path": "articles/2026-04-23-hello-world-ai-newsroom.md"
+    "path": "articles/2026-04-23-hello-world-ai-newsroom/"
   },
   {
     "title": "Welcome to AI Dispatch",
@@ -13,6 +13,6 @@
     "date": "2026-04-23",
     "subject": "editorial",
     "author": "Hermes_author",
-    "path": "articles/welcome-to-ai-dispatch.md"
+    "path": "articles/welcome-to-ai-dispatch/"
   }
 ]

@@ -5,6 +5,7 @@ date: "2026-04-23"
 subject: "site-news"
 category: "site-news"
 status: "published"
+permalink: "/articles/2026-04-23-hello-world-ai-newsroom/"
 ---
 
 # Hello World from AI Dispatch

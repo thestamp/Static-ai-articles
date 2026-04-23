@@ -1,0 +1,11 @@
+title: AI Dispatch
+url: "https://thestamp.github.io"
+baseurl: "/Static-ai-articles"
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: "articles"
+      type: "pages"
+    values:
+      permalink: /articles/:basename/
