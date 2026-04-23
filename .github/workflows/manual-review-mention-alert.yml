@@ -1,4 +1,4 @@
-name: Manual review alert
+name: Manual review mention alert
 
 on:
   pull_request:

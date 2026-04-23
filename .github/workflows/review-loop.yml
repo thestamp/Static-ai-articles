@@ -32,6 +32,8 @@ jobs:
                 ? context.payload.issue.number
                 : context.payload.pull_request.number;
 
+            const trustedAssociations = new Set(['OWNER', 'MEMBER', 'COLLABORATOR']);
+
             const ensureLabel = async (name, color='FBCA04') => {
               try {
                 await github.rest.issues.getLabel({ owner: context.repo.owner, repo: context.repo.repo, name });
@@ -68,35 +70,43 @@ jobs:
               });
             };
 
-            const labelsRes = await github.rest.issues.listLabelsOnIssue({ owner: context.repo.owner, repo: context.repo.repo, issue_number, per_page: 100 });
-            const labels = new Set(labelsRes.data.map(l => l.name));
+            const listLabels = async () => {
+              const res = await github.rest.issues.listLabelsOnIssue({ owner: context.repo.owner, repo: context.repo.repo, issue_number, per_page: 100 });
+              return new Set(res.data.map(l => l.name));
+            };
 
-            // attempt counter increments on new commits
+            let labels = await listLabels();
+
+            // On new commits, clear stale review/gate state so Copilot must review latest code.
             if (isPR && context.payload.action === 'synchronize') {
-              let attempt = 0;
-              for (const l of labels) {
-                const m = l.match(/^attempt-(\d+)$/);
-                if (m) attempt = Math.max(attempt, Number(m[1]));
-              }
-              const next = attempt + 1;
-              if (attempt > 0) await removeLabel(`attempt-${attempt}`);
-              await ensureLabel(`attempt-${next}`, 'FBCA04');
-              await addLabels([`attempt-${next}`]);
-
-              // reset publication approvals and copilot-webdev loop markers when code changes
-              for (const l of [
+              const resetLabels = [
                 'approved-sme',
                 'approved-hermes-editor',
                 'webdev-reviewed-copilot',
-                'copilot-approved'
-              ]) {
+                'copilot-approved',
+                'copilot-reviewed',
+                'copilot-changes-requested',
+                'waiting-webdev-response',
+                'copilot-rereview-requested',
+                'gate-state-passed',
+                'gate-state-blocked'
+              ];
+              for (const l of resetLabels) {
                 if (labels.has(l)) await removeLabel(l);
               }
+              for (const l of labels) {
+                if (/^copilot-cycle-\d+$/.test(l) || /^attempt-\d+$/.test(l)) {
+                  await removeLabel(l);
+                }
+              }
+              labels = await listLabels();
             }
 
-            // command parsing from comments
             if (isIssueComment) {
               const body = (context.payload.comment.body || '').trim();
+              const assoc = context.payload.comment.author_association || 'NONE';
+              const trusted = trustedAssociations.has(assoc);
+
               const mApprove = body.match(/^\/(approve|request-changes)\s+as=([a-zA-Z0-9_\-]+)/i);
               if (mApprove) {
                 const action = mApprove[1].toLowerCase();
@@ -120,20 +130,27 @@ jobs:
               }
 
               if (/^\/webdev-reviewed-copilot\b/i.test(body)) {
-                await ensureLabel('webdev-reviewed-copilot', '0E8A16');
-                await addLabels(['webdev-reviewed-copilot']);
-                await removeLabel('waiting-webdev-response');
-                await comment('✅ webdev review of Copilot comments has been logged. If code changed, request Copilot re-review before merge.');
+                if (!trusted) {
+                  await comment('⚠️ Ignored `/webdev-reviewed-copilot`: only OWNER/MEMBER/COLLABORATOR can run this command.');
+                } else {
+                  await ensureLabel('webdev-reviewed-copilot', '0E8A16');
+                  await addLabels(['webdev-reviewed-copilot']);
+                  await removeLabel('waiting-webdev-response');
+                }
               }
 
               if (/^\/(request-)?copilot-rereview\b/i.test(body)) {
-                await ensureLabel('copilot-rereview-requested', '1D76DB');
-                await addLabels(['copilot-rereview-requested']);
-                await comment('🔁 Copilot re-review requested. Merge remains blocked until Copilot feedback loop is complete.');
+                if (!trusted) {
+                  await comment('⚠️ Ignored `/request-copilot-rereview`: only OWNER/MEMBER/COLLABORATOR can run this command.');
+                } else {
+                  await ensureLabel('copilot-rereview-requested', '1D76DB');
+                  await addLabels(['copilot-rereview-requested']);
+                  await removeLabel('copilot-approved');
+                  await removeLabel('copilot-reviewed');
+                }
               }
             }
 
-            // parse Copilot review events
             if (isReview) {
               const reviewer = (context.payload.review.user?.login || '').toLowerCase();
               const state = (context.payload.review.state || '').toLowerCase();
@@ -148,7 +165,9 @@ jobs:
                   await ensureLabel('copilot-changes-requested', 'D1242F');
                   await ensureLabel('waiting-webdev-response', 'D1242F');
                   await addLabels(['copilot-changes-requested', 'waiting-webdev-response']);
+                  await removeLabel('copilot-approved');
 
+                  labels = await listLabels();
                   let cycle = 0;
                   for (const l of labels) {
                     const m = l.match(/^copilot-cycle-(\d+)$/);
@@ -162,9 +181,6 @@ jobs:
                   if (nextCycle >= 3) {
                     await ensureLabel('manual-review-required', 'B60205');
                     await addLabels(['manual-review-required']);
-                    await comment('⚠️ Copilot↔webdev review loop hit 3 rounds. Stopping automation and escalating to @thestamp for manual review.');
-                  } else {
-                    await comment(`🔎 Copilot requested changes (round ${nextCycle}). webdev must address feedback and post \`/webdev-reviewed-copilot\` before any merge.`);
                   }
                 }
 
@@ -173,41 +189,57 @@ jobs:
                   await addLabels(['copilot-approved']);
                   await removeLabel('copilot-changes-requested');
                   await removeLabel('waiting-webdev-response');
-                  await comment('✅ Copilot approved the latest revision.');
                 }
               }
             }
 
-            const updated = await github.rest.issues.listLabelsOnIssue({ owner: context.repo.owner, repo: context.repo.repo, issue_number, per_page: 100 });
-            const finalLabels = new Set(updated.data.map(l => l.name));
-            const hasSme = finalLabels.has('approved-sme');
-            const hasChief = finalLabels.has('approved-hermes-editor');
-            const hasCopilotReviewed = finalLabels.has('copilot-reviewed');
-            const hasCopilotApproved = finalLabels.has('copilot-approved');
-            const hasWebdevReviewed = finalLabels.has('webdev-reviewed-copilot');
-            const blockedForWebdev = finalLabels.has('waiting-webdev-response') || finalLabels.has('copilot-changes-requested');
-            const manualRequired = finalLabels.has('manual-review-required');
+            labels = await listLabels();
+            const hasSme = labels.has('approved-sme');
+            const hasChief = labels.has('approved-hermes-editor');
+            const hasCopilotReviewed = labels.has('copilot-reviewed');
+            const hasCopilotApproved = labels.has('copilot-approved');
+            const hasWebdevReviewed = labels.has('webdev-reviewed-copilot');
+            const waitingWebdev = labels.has('waiting-webdev-response');
+            const waitingCopilotApproval = labels.has('copilot-changes-requested') || labels.has('copilot-rereview-requested');
+            const manualRequired = labels.has('manual-review-required');
 
-            // owner-approved automation: if Copilot loop is fully satisfied, Hermes can auto-approve
-            if (hasCopilotReviewed && hasCopilotApproved && hasWebdevReviewed && !blockedForWebdev && !manualRequired && !hasChief) {
+            // owner-approved automation: if Copilot loop is fully satisfied, Hermes can auto-approve.
+            if (hasCopilotReviewed && hasCopilotApproved && hasWebdevReviewed && !waitingWebdev && !waitingCopilotApproval && !manualRequired && !hasChief) {
               await addLabels(['approved-hermes-editor']);
-              await comment('🤖 Auto-approval: All Copilot issues appear addressed and webdev review is complete. Marking `approved-hermes-editor`.');
             }
 
-            const postAutoApproveHasChief = hasChief || (hasCopilotReviewed && hasCopilotApproved && hasWebdevReviewed && !blockedForWebdev && !manualRequired);
+            const labelsAfterAuto = await listLabels();
+            const chiefSatisfied = labelsAfterAuto.has('approved-hermes-editor');
+            const passed = hasSme && chiefSatisfied && hasCopilotReviewed && hasCopilotApproved && hasWebdevReviewed && !waitingWebdev && !waitingCopilotApproval && !manualRequired;
 
-            if (hasSme && postAutoApproveHasChief && hasCopilotReviewed && hasWebdevReviewed && !blockedForWebdev && !manualRequired) {
-              await comment('✅ Merge gate passed: SME + Chief Editor + Copilot review + webdev Copilot-response review are all satisfied.');
-            } else {
+            // State-transition comments only to avoid PR spam.
+            const hasPassedState = labelsAfterAuto.has('gate-state-passed');
+            const hasBlockedState = labelsAfterAuto.has('gate-state-blocked');
+
+            if (passed) {
+              await ensureLabel('gate-state-passed', '0E8A16');
+              if (!hasPassedState) {
+                await addLabels(['gate-state-passed']);
+                await removeLabel('gate-state-blocked');
+                await comment('✅ Merge gate passed: SME + Chief Editor + Copilot + webdev response loop are satisfied.');
+              }
+              return;
+            }
+
+            await ensureLabel('gate-state-blocked', 'D1242F');
+            if (!hasBlockedState) {
+              await addLabels(['gate-state-blocked']);
+              await removeLabel('gate-state-passed');
               const missing = [];
               if (!hasSme) missing.push('SME approval');
-              if (!postAutoApproveHasChief) missing.push('Chief Editor approval');
+              if (!chiefSatisfied) missing.push('Chief Editor approval');
               if (!hasCopilotReviewed) missing.push('Copilot review');
-              if (!hasWebdevReviewed) missing.push('webdev review of Copilot comments');
-              if (blockedForWebdev) missing.push('webdev response to Copilot change requests');
+              if (!hasCopilotApproved) missing.push('Copilot approval');
+              if (!hasWebdevReviewed) missing.push('webdev `/webdev-reviewed-copilot` confirmation');
+              if (waitingWebdev) missing.push('webdev response to Copilot change request');
+              if (waitingCopilotApproval) missing.push('Copilot re-review/approval on latest changes');
               if (manualRequired) missing.push('manual owner review (@thestamp)');
-
-              if (missing.length > 0) {
-                await comment(`⛔ Merge blocked. Pending: ${missing.join(', ')}.`);
-              }
+              await comment(`⛔ Merge blocked. Pending: ${missing.join(', ')}.`);
             }
+
+            core.setFailed('Merge gate requirements are not satisfied yet.');
