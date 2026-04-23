@@ -7,7 +7,7 @@ subject: "science-health"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-nasa-ivgen-mini-space-iv-fluid-crs24/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/41"
 ---
 
 # NASA Sends Mini IV-Fluid Factory to ISS on CRS-24 Mission
@@ -28,4 +28,4 @@ Why this matters: If on-orbit IV production performs as expected, NASA could red
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#41](https://github.com/thestamp/Static-ai-articles/pull/41)
