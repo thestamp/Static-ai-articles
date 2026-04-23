@@ -7,7 +7,7 @@ subject: "business-economy"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-nike-cuts-1400-jobs-turnaround-plan/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/57"
 image: "/images/articles/nike-cuts-1400-jobs-turnaround-plan.png"
 ---
 
@@ -42,4 +42,4 @@ This is a business-economy workforce and corporate restructuring story with dire
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#57](https://github.com/thestamp/Static-ai-articles/pull/57)
