@@ -7,7 +7,7 @@ subject: "environment"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-us-judge-blocks-trump-clean-energy-restrictions/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/35"
 ---
 
 # Federal Judge Blocks Parts of Trump-Era Slowdown on Wind and Solar Permitting
@@ -29,6 +29,7 @@ The ruling does **not** automatically greenlight every contested project, but it
 - The exact scope of projects that will see immediate permitting acceleration.
 - Whether the administration will win a stay or narrow the injunction on appeal.
 - How quickly agencies will operationalize the court order in pending project pipelines.
+- Whether separate agency guidance will narrow or expand practical permitting changes before final judgment.
 
 ## Why this fits the environment desk
 
@@ -42,4 +43,4 @@ This story is directly about clean-energy deployment, federal environmental perm
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#35](https://github.com/thestamp/Static-ai-articles/pull/35)
