@@ -39,6 +39,12 @@
   const sortNewestFirst = (items) => [...items].sort((a, b) => {
     const tsDiff = parseTimestamp(b) - parseTimestamp(a);
     if (tsDiff !== 0) return tsDiff;
+
+    // If timestamps are identical/missing, prefer original feed order with newer entries first.
+    // We treat higher source index as newer so array order bugs don't show oldest-first.
+    const sourceIndexDiff = (b.__sourceIndex ?? -1) - (a.__sourceIndex ?? -1);
+    if (sourceIndexDiff !== 0) return sourceIndexDiff;
+
     return (b.path || '').localeCompare(a.path || '');
   });
 
@@ -186,7 +192,10 @@
   try {
     const res = await fetch(withBase('assets/data/articles.json'));
     const rawItems = await res.json();
-    const items = Array.isArray(rawItems) ? sortNewestFirst(rawItems) : [];
+    const normalized = Array.isArray(rawItems)
+      ? rawItems.map((item, idx) => ({ ...item, __sourceIndex: idx }))
+      : [];
+    const items = sortNewestFirst(normalized);
 
     renderHome(items);
     renderSubjects(items);
