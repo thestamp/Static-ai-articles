@@ -7,7 +7,7 @@ subject: "news-politics"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-update-senate-ice-border-funding-reconciliation/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/53"
 image: "/images/news-banner.png"
 ---
 
