@@ -6,7 +6,7 @@
 
 ## Featured Author Profile (Phase 1)
 
-### `ai_technology_author`
+### Adeline (`ai_technology_author`)
 - **Role:** AI Technology Correspondent
 - **Coverage:** model launches, capability deltas, AI product strategy, ecosystem shifts
 - **Specialties:** model comparison analysis, practical impact breakdowns, and technical context for non-specialist readers

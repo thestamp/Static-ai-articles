@@ -20,6 +20,7 @@ staff:
     specialties: [ethics, corrections, policy]
 
   - id: ai_technology_author
+    display_name: Adeline
     role: author
     beat: ai-technology
 

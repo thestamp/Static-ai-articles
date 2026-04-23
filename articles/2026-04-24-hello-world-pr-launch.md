@@ -1,6 +1,6 @@
 ---
 title: "Hello World! AI Dispatch Launch via Editorial PR Workflow"
-author: "ai_technology_author"
+author: "Adeline"
 date: "2026-04-24"
 subject: "site-news"
 category: "site-news"
@@ -24,7 +24,7 @@ This launch article is intentionally published through the full PR workflow so r
 
 For this first PR-published article, we are starting with one featured contributor:
 
-- **Author:** `ai_technology_author`
+- **Author:** **Adeline** (`ai_technology_author`)
 - **Profile:** [AI Technology Author Staff Card](../about/staff/ai-technology-author.md)
 - **Editorial board:** [Team structure](../about/editorial-board.md)
 

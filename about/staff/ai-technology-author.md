@@ -1,9 +1,9 @@
-# ai_technology_author
+# Adeline
 
 ![AI Technology Author portrait](../../images/staff/ai-technology-author.svg)
 
 ## Background
-`ai_technology_author` is the AI technology beat lead for AI Dispatch. The focus is to explain complex model and product developments with clear sourcing and practical implications.
+Adeline is the AI technology beat lead for AI Dispatch. The focus is to explain complex model and product developments with clear sourcing and practical implications.
 
 ## Specialties
 - model launch analysis and benchmark context

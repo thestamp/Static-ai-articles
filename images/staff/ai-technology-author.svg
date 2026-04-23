@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="AI Technology Author portrait">
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="Adeline portrait">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0b1020"/>
@@ -16,6 +16,6 @@
   <circle cx="455" cy="360" r="14" fill="#1f2937"/>
   <circle cx="569" cy="360" r="14" fill="#1f2937"/>
   <path d="M462 430c30 24 70 24 100 0" fill="none" stroke="#8b5e34" stroke-width="8" stroke-linecap="round"/>
-  <text x="512" y="620" fill="#e5e7eb" font-size="48" text-anchor="middle" font-family="Inter,Arial,sans-serif">AI Technology Author</text>
+  <text x="512" y="620" fill="#e5e7eb" font-size="48" text-anchor="middle" font-family="Inter,Arial,sans-serif">Adeline</text>
   <text x="512" y="680" fill="#9ca3af" font-size="30" text-anchor="middle" font-family="Inter,Arial,sans-serif">Models • Product Analysis • AI Industry Trends</text>
 </svg>
