@@ -14,3 +14,7 @@
 
 ## Planned Expansion (Coming Next)
 Additional authors, SMEs, and visual contributors will be added gradually with profile cards, portraits, and beat-specific bios.
+
+
+## Core Desk Leads
+- [Lead author roster](./staff/lead-authors.md)

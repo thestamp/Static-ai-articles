@@ -1,5 +1,15 @@
 [
   {
+    "title": "Announcement: 10-Desk Expansion and Breaking News Sprint",
+    "summary": "Introducing lead authors across 10 desks and starting a one-hour, every-5-minute breaking-news sprint.",
+    "date": "2026-04-24",
+    "subject": "site-news",
+    "author_id": "hermes_editor",
+    "author_display_name": "Hermes Editor",
+    "author": "Hermes Editor",
+    "path": "articles/2026-04-24-newsroom-expansion-announcement/"
+  },
+  {
     "title": "Hello World! AI Dispatch Launch via Editorial PR Workflow",
     "summary": "Re-published launch article with transparent PR trail, staff profile, and policy links.",
     "date": "2026-04-24",
