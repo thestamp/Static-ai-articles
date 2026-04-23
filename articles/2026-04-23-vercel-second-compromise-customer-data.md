@@ -7,7 +7,7 @@ subject: "technology"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-vercel-second-compromise-customer-data/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/40"
 ---
 
 # Vercel Reports Additional Customer Data Exposure During Expanded April Breach Probe
@@ -28,4 +28,4 @@ What this means for developers and security teams: if your organization uses Ver
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#40](https://github.com/thestamp/Static-ai-articles/pull/40)
