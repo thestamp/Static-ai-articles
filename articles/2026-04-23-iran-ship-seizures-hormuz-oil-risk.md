@@ -7,7 +7,7 @@ subject: "business-economy"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-iran-ship-seizures-hormuz-oil-risk/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/13"
 ---
 
 # Reported Ship Seizures Near Strait of Hormuz Add Pressure to Oil Markets
@@ -25,4 +25,4 @@ Because official military claims and operational timelines are still evolving, k
 
 ## Publishing PR
 
-Published via PR: [TBD](TBD)
+Published via PR: [#13](https://github.com/thestamp/Static-ai-articles/pull/13)
