@@ -1,0 +1,50 @@
+name: PR label bootstrap
+
+on:
+  pull_request:
+    types: [opened, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ensure base labels exist
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const labels = [
+              ['needs-sme-review', 'BFD4F2'],
+              ['needs-chief-editor-review', 'BFD4F2'],
+              ['approved-sme', '0E8A16'],
+              ['approved-hermes-editor', '0E8A16'],
+              ['staff-shortage', 'D73A4A'],
+              ['needs-source-verification', 'FBCA04'],
+              ['opinion', '5319E7'],
+              ['delegation-depth-0', 'FBCA04'],
+              ['assignment-window', '1D76DB'],
+              ['closed-after-3-attempts', 'D73A4A']
+            ];
+            for (const [name, color] of labels) {
+              try {
+                await github.rest.issues.getLabel({owner: context.repo.owner, repo: context.repo.repo, name});
+              } catch {
+                await github.rest.issues.createLabel({owner: context.repo.owner, repo: context.repo.repo, name, color});
+              }
+            }
+
+      - name: Apply initial labels
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue_number = context.payload.pull_request.number;
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number,
+              labels: ['needs-sme-review', 'needs-chief-editor-review', 'needs-source-verification', 'delegation-depth-0']
+            });

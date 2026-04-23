@@ -1,0 +1,105 @@
+name: Review loop governor
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+  issue_comment:
+    types: [created]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  govern:
+    if: ${{ github.event_name == 'pull_request' || github.event.issue.pull_request }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update attempts and approvals
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const isPR = context.eventName === 'pull_request';
+            const issue_number = isPR ? context.payload.pull_request.number : context.payload.issue.number;
+
+            const labelsRes = await github.rest.issues.listLabelsOnIssue({ owner: context.repo.owner, repo: context.repo.repo, issue_number, per_page: 100 });
+            const labels = new Set(labelsRes.data.map(l => l.name));
+
+            const ensureLabel = async (name, color='FBCA04') => {
+              try { await github.rest.issues.getLabel({ owner: context.repo.owner, repo: context.repo.repo, name }); }
+              catch { await github.rest.issues.createLabel({ owner: context.repo.owner, repo: context.repo.repo, name, color }); }
+            };
+
+            // attempt counter increments on new commits
+            if (isPR && context.payload.action === 'synchronize') {
+              let attempt = 0;
+              for (const l of labels) {
+                const m = l.match(/^attempt-(\d+)$/);
+                if (m) attempt = Math.max(attempt, Number(m[1]));
+              }
+              const next = attempt + 1;
+              if (attempt > 0) await github.rest.issues.removeLabel({ owner: context.repo.owner, repo: context.repo.repo, issue_number, name: `attempt-${attempt}` }).catch(()=>{});
+              await ensureLabel(`attempt-${next}`, 'FBCA04');
+              await github.rest.issues.addLabels({ owner: context.repo.owner, repo: context.repo.repo, issue_number, labels: [`attempt-${next}`] });
+
+              // reset approvals after revision
+              for (const l of ['approved-sme','approved-hermes-editor']) {
+                if (labels.has(l)) await github.rest.issues.removeLabel({ owner: context.repo.owner, repo: context.repo.repo, issue_number, name: l }).catch(()=>{});
+              }
+            }
+
+            // command parsing from comments
+            if (!isPR) {
+              const body = (context.payload.comment.body || '').trim();
+              const mApprove = body.match(/^\/(approve|request-changes)\s+as=([a-zA-Z0-9_\-]+)/i);
+              if (mApprove) {
+                const action = mApprove[1].toLowerCase();
+                const persona = mApprove[2].toLowerCase();
+                const add = [];
+                const remove = [];
+                if (persona.endsWith('_sme')) {
+                  if (action === 'approve') add.push('approved-sme');
+                  else remove.push('approved-sme');
+                }
+                if (persona === 'hermes_editor') {
+                  if (action === 'approve') add.push('approved-hermes-editor');
+                  else remove.push('approved-hermes-editor');
+                }
+                if (add.length) await github.rest.issues.addLabels({ owner: context.repo.owner, repo: context.repo.repo, issue_number, labels: add });
+                for (const l of remove) {
+                  await github.rest.issues.removeLabel({ owner: context.repo.owner, repo: context.repo.repo, issue_number, name: l }).catch(()=>{});
+                }
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number,
+                  body: `Review signal received from ${persona}: ${action}.`
+                });
+              }
+            }
+
+            const updated = await github.rest.issues.listLabelsOnIssue({ owner: context.repo.owner, repo: context.repo.repo, issue_number, per_page: 100 });
+            const hasSme = updated.data.some(l => l.name === 'approved-sme');
+            const hasChief = updated.data.some(l => l.name === 'approved-hermes-editor');
+            const attempts = Math.max(0, ...updated.data.map(l => (l.name.match(/^attempt-(\d+)$/)?.[1] || 0)).map(Number));
+
+            if (hasSme && hasChief) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number,
+                body: '✅ SME and Chief Editor approvals detected. PR is eligible for merge.'
+              });
+              return;
+            }
+
+            if (attempts >= 3) {
+              await github.rest.issues.addLabels({ owner: context.repo.owner, repo: context.repo.repo, issue_number, labels: ['closed-after-3-attempts'] }).catch(()=>{});
+              await github.rest.pulls.update({ owner: context.repo.owner, repo: context.repo.repo, pull_number: issue_number, state: 'closed' });
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number,
+                body: '❌ Closing after 3 revision attempts without both required approvals (SME + hermes_editor). Author may reopen with a fresh proposal.'
+              });
+            }

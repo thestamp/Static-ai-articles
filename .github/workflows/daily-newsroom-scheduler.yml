@@ -1,0 +1,51 @@
+name: Daily newsroom scheduler
+
+on:
+  schedule:
+    - cron: '30 7 * * *'
+    - cron: '0 9 * * *'
+    - cron: '30 12 * * *'
+    - cron: '0 16 * * *'
+    - cron: '0 20 * * *'
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  assign:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Open staffing assignment issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const now = new Date();
+            const stamp = now.toISOString().replace('T', ' ').slice(0, 16) + ' UTC';
+            const title = `Newsroom assignment ${stamp}`;
+            const bodyLines = [
+              'Automated assignment window.',
+              '',
+              'Suggested beats:',
+              '- model releases',
+              '- products',
+              '- policy',
+              '- research',
+              '- markets',
+              '- infra',
+              '- security',
+              '- opinion',
+              '',
+              'For delegation, use:',
+              '`hey, can [agent_id](role) do some research on ...`',
+              '',
+              'Track participants through `staff:*` labels in PRs.'
+            ];
+            const body = bodyLines.join('\n');
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body,
+              labels: ['assignment-window']
+            });

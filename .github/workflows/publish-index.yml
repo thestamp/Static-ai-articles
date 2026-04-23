@@ -1,0 +1,21 @@
+name: Publish index on merge
+
+on:
+  pull_request:
+    types: [closed]
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  note:
+    if: ${{ github.event.pull_request.merged == true }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Add merge note to workflow summary
+        run: |
+          echo "Merged PR #${{ github.event.pull_request.number }} eligible for article index refresh." >> $GITHUB_STEP_SUMMARY
+          echo "Implement JSON index auto-refresh in a later phase when article schema is finalized." >> $GITHUB_STEP_SUMMARY

@@ -1,0 +1,102 @@
+name: Staff delegation router
+
+on:
+  issue_comment:
+    types: [created, edited]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  route:
+    if: ${{ github.event.issue.pull_request }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Parse delegation and label participants
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = context.payload.comment.body || '';
+            const issue_number = context.payload.issue.number;
+
+            const mentions = [...body.matchAll(/\[([a-zA-Z0-9_\-]+)\]\(([^\)]+)\)/g)];
+            const slash = body.match(/\/delegate\s+([a-zA-Z0-9_\-]+)\s*\(([^\)]+)\)\s*:\s*(.+)/i);
+            if (slash) mentions.push([slash[0], slash[1], slash[2]]);
+
+            if (mentions.length === 0) {
+              core.info('No delegation command found.');
+              return;
+            }
+
+            const norm = (s) => s.toLowerCase().replace(/[^a-z0-9_\-]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+            const staffLabels = new Set();
+            const roleLabels = new Set();
+            for (const m of mentions) {
+              const staff = norm(m[1]);
+              const role = norm(m[2]);
+              if (staff) staffLabels.add(`staff:${staff}`);
+              if (role) roleLabels.add(`role:${role}`);
+            }
+
+            const current = await github.rest.issues.listLabelsOnIssue({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number,
+              per_page: 100
+            });
+            const existing = new Set(current.data.map(l => l.name));
+
+            for (const label of [...staffLabels, ...roleLabels]) {
+              try {
+                await github.rest.issues.getLabel({ owner: context.repo.owner, repo: context.repo.repo, name: label });
+              } catch {
+                const color = label.startsWith('staff:') ? '1F6FEB' : '8957E5';
+                await github.rest.issues.createLabel({ owner: context.repo.owner, repo: context.repo.repo, name: label, color });
+              }
+            }
+
+            let currentDepth = 0;
+            for (const l of existing) {
+              const md = l.match(/^delegation-depth-(\d+)$/);
+              if (md) currentDepth = Math.max(currentDepth, Number(md[1]));
+            }
+            const nextDepth = currentDepth + 1;
+            if (existing.has(`delegation-depth-${currentDepth}`)) {
+              await github.rest.issues.removeLabel({ owner: context.repo.owner, repo: context.repo.repo, issue_number, name: `delegation-depth-${currentDepth}` }).catch(() => {});
+            }
+
+            const depthLabel = `delegation-depth-${Math.min(nextDepth, 5)}`;
+            try {
+              await github.rest.issues.getLabel({ owner: context.repo.owner, repo: context.repo.repo, name: depthLabel });
+            } catch {
+              await github.rest.issues.createLabel({ owner: context.repo.owner, repo: context.repo.repo, name: depthLabel, color: 'FBCA04' });
+            }
+
+            const labelsToAdd = [...staffLabels, ...roleLabels, depthLabel];
+            if (nextDepth > 5) labelsToAdd.push('staff-shortage');
+
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number,
+              labels: labelsToAdd
+            });
+
+            const lines = mentions.map(m => `- ${m[1]} (${m[2]})`);
+            const messageLines = [
+              'Delegation logged. Participants added to PR labels:',
+              ...lines,
+              '',
+              `Current depth counter: ${nextDepth}/5.`
+            ];
+            if (nextDepth > 5) {
+              messageLines.push('', '⚠️ Staff depth exhausted. Label `staff-shortage` added. @thestamp please review staffing.');
+            }
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number,
+              body: messageLines.join('\n')
+            });
