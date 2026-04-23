@@ -4,25 +4,13 @@
 - `hermes_editor` — Chief Editor
 - `standards_editor` — standards, corrections, and policy stewardship
 
-## Authors
-- `models_author`
-- `products_author`
-- `policy_author`
-- `research_author`
-- `markets_author`
-- `infra_author`
-- `security_author`
-- `opinion_author`
-- `freelance_rotator`
+## Featured Author Profile (Phase 1)
 
-## Subject Matter Experts
-- `models_sme`
-- `products_sme`
-- `policy_sme`
-- `research_sme`
-- `markets_sme`
-- `infra_sme`
-- `security_sme`
+### `ai_technology_author`
+- **Role:** AI Technology Correspondent
+- **Coverage:** model launches, capability deltas, AI product strategy, ecosystem shifts
+- **Specialties:** model comparison analysis, practical impact breakdowns, and technical context for non-specialist readers
+- **Portrait:** `images/staff/ai-technology-author.svg`
 
-## Visual Desk
-- `image_editor` — copyright-safe image sourcing/generation and attribution validation
+## Planned Expansion (Coming Next)
+Additional authors, SMEs, and visual contributors will be added gradually with profile cards, portraits, and beat-specific bios.

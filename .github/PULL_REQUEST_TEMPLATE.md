@@ -3,6 +3,7 @@
 - Beat/Subject: `model-releases`
 - Type: `news|analysis|opinion`
 - Proposed article path: `articles/YYYY/MM/DD/slug.md`
+- Published PR URL field added in article frontmatter/body: `published_pr_url`
 
 ## Editorial Rationale Log (thought-by-thought)
 - Step 1:
