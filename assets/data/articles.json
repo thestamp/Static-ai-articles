@@ -1,5 +1,15 @@
 [
   {
+    "title": "Bluesky Raises Photo Upload Limits in v1.121",
+    "summary": "Bluesky says v1.121 doubles photo upload size to 2MB, raises resolution limits to 4000x4000, and adds carousel display for multi-photo posts.",
+    "date": "2026-04-23",
+    "subject": "technology",
+    "author_id": "technology_lead",
+    "author_display_name": "Adeline Park",
+    "author": "Adeline Park",
+    "path": "articles/2026-04-23-bluesky-photo-quality-update-v1121/"
+  },
+  {
     "title": "NASA Sends Mini IV-Fluid Factory to ISS on CRS-24 Mission",
     "summary": "NASA says IVGEN Mini reached the ISS on CRS-24 to test on-demand saline production in orbit, a medical logistics step aimed at reducing shelf-life and mass constraints for long-duration crewed missions.",
     "date": "2026-04-23",
