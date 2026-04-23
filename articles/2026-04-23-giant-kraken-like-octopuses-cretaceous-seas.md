@@ -7,7 +7,7 @@ subject: "environment"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-giant-kraken-like-octopuses-cretaceous-seas/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/46"
 ---
 
 # Ancient Seas May Have Hosted Giant, Kraken-Like Octopus Predators
@@ -17,6 +17,8 @@ New reporting on fossil-beak analysis suggests some Cretaceous cephalopods may h
 Across BBC, The Guardian, and ScienceAlert coverage of the underlying study, researchers describe evidence for a giant octopus-like animal inferred from fossilized beaks, with size estimates in the "kraken-like" range and feeding behavior that may have included crushing bony prey.
 
 The core claim is not that a complete giant octopus fossil has been found, but that the beak evidence is strong enough to support a revised picture of ancient marine food webs.
+
+Editors asked for clearer uncertainty framing; this version explicitly labels size and behavior claims as inference-driven.
 
 ## What we know
 
@@ -43,4 +45,4 @@ This is an ecosystem and biodiversity-history story: it changes understanding of
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#46](https://github.com/thestamp/Static-ai-articles/pull/46)
