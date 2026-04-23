@@ -103,7 +103,7 @@
 
       tiles.push(`
         <article class="card category-tile">
-          <a class="category-tile__hero" href="${subjectLink}">
+          <a class="category-tile__hero" href="${articleHref(newest)}">
             <img src="${articleImage(newest)}" alt="${subjectLabel(subject)} coverage image" loading="lazy" />
             <div>
               <p class="eyebrow">${subjectLabel(subject)}</p>
@@ -111,6 +111,7 @@
               <p class="meta">${newest.date || ''} · ${displayAuthor(newest)}</p>
             </div>
           </a>
+          <p class="category-tile__subject-link"><a href="${subjectLink}">More from ${subjectLabel(subject)} →</a></p>
           ${older.length ? `
             <ul class="category-tile__list">
               ${older.map(s => `
