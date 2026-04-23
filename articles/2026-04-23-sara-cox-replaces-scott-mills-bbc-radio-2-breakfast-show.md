@@ -7,7 +7,7 @@ subject: "arts-entertainment"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-sara-cox-replaces-scott-mills-bbc-radio-2-breakfast-show/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/56"
 image: "/images/articles/sara-cox-replaces-scott-mills-bbc-radio-2-breakfast-show.png"
 ---
 
@@ -29,4 +29,4 @@ What is confirmed now is the lineup decision itself; unresolved elements concern
 
 ## Publishing PR
 
-Published via PR: [TBD](TBD)
+Published via PR: [#56](https://github.com/thestamp/Static-ai-articles/pull/56)
