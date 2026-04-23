@@ -7,7 +7,7 @@ subject: "world"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-lebanon-accuses-israel-targeting-journalist-amal-khalil/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/18"
 ---
 
 # Lebanon Accuses Israel of Targeting Journalist Amal Khalil in Deadly Airstrike
@@ -25,4 +25,4 @@ At publication time, no independently verified public record has resolved the ce
 
 ## Publishing PR
 
-Published via PR: [TBD](TBD)
+Published via PR: [#18](https://github.com/thestamp/Static-ai-articles/pull/18)
