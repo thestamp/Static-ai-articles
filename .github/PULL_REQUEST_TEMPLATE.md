@@ -24,6 +24,9 @@ List spawned contributors and why:
 - Attribution text:
 
 ## Review Gates
+- [ ] Copilot has reviewed this PR
+- [ ] Web developer reviewed Copilot comments and applied changes (`/webdev-reviewed-copilot`)
+- [ ] If Copilot requested changes again, rerun review loop (max 3 rounds before manual owner review)
 - [ ] Domain SME review completed (`*_sme`)
 - [ ] Chief editor review completed (`hermes_editor`)
 - [ ] Source verification completed

@@ -5,6 +5,8 @@ on:
     types: [opened, reopened, synchronize]
   issue_comment:
     types: [created]
+  pull_request_review:
+    types: [submitted]
 
 permissions:
   issues: write
@@ -12,23 +14,62 @@ permissions:
 
 jobs:
   govern:
-    if: ${{ github.event_name == 'pull_request' || github.event.issue.pull_request }}
+    if: ${{ github.event_name == 'pull_request' || github.event.issue.pull_request || github.event_name == 'pull_request_review' }}
     runs-on: ubuntu-latest
     steps:
-      - name: Update attempts and approvals
+      - name: Enforce review loop + merge gating
         uses: actions/github-script@v7
         with:
           script: |
-            const isPR = context.eventName === 'pull_request';
-            const issue_number = isPR ? context.payload.pull_request.number : context.payload.issue.number;
+            const event = context.eventName;
+            const isPR = event === 'pull_request';
+            const isIssueComment = event === 'issue_comment';
+            const isReview = event === 'pull_request_review';
+
+            const issue_number = isPR
+              ? context.payload.pull_request.number
+              : isIssueComment
+                ? context.payload.issue.number
+                : context.payload.pull_request.number;
+
+            const ensureLabel = async (name, color='FBCA04') => {
+              try {
+                await github.rest.issues.getLabel({ owner: context.repo.owner, repo: context.repo.repo, name });
+              } catch {
+                await github.rest.issues.createLabel({ owner: context.repo.owner, repo: context.repo.repo, name, color });
+              }
+            };
+
+            const addLabels = async (labels) => {
+              if (!labels.length) return;
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number,
+                labels
+              }).catch(()=>{});
+            };
+
+            const removeLabel = async (name) => {
+              await github.rest.issues.removeLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number,
+                name
+              }).catch(()=>{});
+            };
+
+            const comment = async (body) => {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number,
+                body
+              });
+            };
 
             const labelsRes = await github.rest.issues.listLabelsOnIssue({ owner: context.repo.owner, repo: context.repo.repo, issue_number, per_page: 100 });
             const labels = new Set(labelsRes.data.map(l => l.name));
-
-            const ensureLabel = async (name, color='FBCA04') => {
-              try { await github.rest.issues.getLabel({ owner: context.repo.owner, repo: context.repo.repo, name }); }
-              catch { await github.rest.issues.createLabel({ owner: context.repo.owner, repo: context.repo.repo, name, color }); }
-            };
 
             // attempt counter increments on new commits
             if (isPR && context.payload.action === 'synchronize') {
@@ -38,18 +79,23 @@ jobs:
                 if (m) attempt = Math.max(attempt, Number(m[1]));
               }
               const next = attempt + 1;
-              if (attempt > 0) await github.rest.issues.removeLabel({ owner: context.repo.owner, repo: context.repo.repo, issue_number, name: `attempt-${attempt}` }).catch(()=>{});
+              if (attempt > 0) await removeLabel(`attempt-${attempt}`);
               await ensureLabel(`attempt-${next}`, 'FBCA04');
-              await github.rest.issues.addLabels({ owner: context.repo.owner, repo: context.repo.repo, issue_number, labels: [`attempt-${next}`] });
+              await addLabels([`attempt-${next}`]);
 
-              // reset approvals after revision
-              for (const l of ['approved-sme','approved-hermes-editor']) {
-                if (labels.has(l)) await github.rest.issues.removeLabel({ owner: context.repo.owner, repo: context.repo.repo, issue_number, name: l }).catch(()=>{});
+              // reset publication approvals and copilot-webdev loop markers when code changes
+              for (const l of [
+                'approved-sme',
+                'approved-hermes-editor',
+                'webdev-reviewed-copilot',
+                'copilot-approved'
+              ]) {
+                if (labels.has(l)) await removeLabel(l);
               }
             }
 
             // command parsing from comments
-            if (!isPR) {
+            if (isIssueComment) {
               const body = (context.payload.comment.body || '').trim();
               const mApprove = body.match(/^\/(approve|request-changes)\s+as=([a-zA-Z0-9_\-]+)/i);
               if (mApprove) {
@@ -57,6 +103,7 @@ jobs:
                 const persona = mApprove[2].toLowerCase();
                 const add = [];
                 const remove = [];
+
                 if (persona.endsWith('_sme')) {
                   if (action === 'approve') add.push('approved-sme');
                   else remove.push('approved-sme');
@@ -65,41 +112,93 @@ jobs:
                   if (action === 'approve') add.push('approved-hermes-editor');
                   else remove.push('approved-hermes-editor');
                 }
-                if (add.length) await github.rest.issues.addLabels({ owner: context.repo.owner, repo: context.repo.repo, issue_number, labels: add });
-                for (const l of remove) {
-                  await github.rest.issues.removeLabel({ owner: context.repo.owner, repo: context.repo.repo, issue_number, name: l }).catch(()=>{});
+
+                if (add.length) await addLabels(add);
+                for (const l of remove) await removeLabel(l);
+
+                await comment(`Review signal received from ${persona}: ${action}.`);
+              }
+
+              if (/^\/webdev-reviewed-copilot\b/i.test(body)) {
+                await ensureLabel('webdev-reviewed-copilot', '0E8A16');
+                await addLabels(['webdev-reviewed-copilot']);
+                await removeLabel('waiting-webdev-response');
+                await comment('✅ webdev review of Copilot comments has been logged. If code changed, request Copilot re-review before merge.');
+              }
+
+              if (/^\/(request-)?copilot-rereview\b/i.test(body)) {
+                await ensureLabel('copilot-rereview-requested', '1D76DB');
+                await addLabels(['copilot-rereview-requested']);
+                await comment('🔁 Copilot re-review requested. Merge remains blocked until Copilot feedback loop is complete.');
+              }
+            }
+
+            // parse Copilot review events
+            if (isReview) {
+              const reviewer = (context.payload.review.user?.login || '').toLowerCase();
+              const state = (context.payload.review.state || '').toLowerCase();
+              const isCopilot = reviewer.includes('copilot');
+
+              if (isCopilot) {
+                await ensureLabel('copilot-reviewed', '1D76DB');
+                await addLabels(['copilot-reviewed']);
+                await removeLabel('copilot-rereview-requested');
+
+                if (state === 'changes_requested') {
+                  await ensureLabel('copilot-changes-requested', 'D1242F');
+                  await ensureLabel('waiting-webdev-response', 'D1242F');
+                  await addLabels(['copilot-changes-requested', 'waiting-webdev-response']);
+
+                  let cycle = 0;
+                  for (const l of labels) {
+                    const m = l.match(/^copilot-cycle-(\d+)$/);
+                    if (m) cycle = Math.max(cycle, Number(m[1]));
+                  }
+                  const nextCycle = cycle + 1;
+                  if (cycle > 0) await removeLabel(`copilot-cycle-${cycle}`);
+                  await ensureLabel(`copilot-cycle-${nextCycle}`, 'FBCA04');
+                  await addLabels([`copilot-cycle-${nextCycle}`]);
+
+                  if (nextCycle >= 3) {
+                    await ensureLabel('manual-review-required', 'B60205');
+                    await addLabels(['manual-review-required']);
+                    await comment('⚠️ Copilot↔webdev review loop hit 3 rounds. Stopping automation and escalating to @thestamp for manual review.');
+                  } else {
+                    await comment(`🔎 Copilot requested changes (round ${nextCycle}). webdev must address feedback and post \`/webdev-reviewed-copilot\` before any merge.`);
+                  }
                 }
-                await github.rest.issues.createComment({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  issue_number,
-                  body: `Review signal received from ${persona}: ${action}.`
-                });
+
+                if (state === 'approved') {
+                  await ensureLabel('copilot-approved', '0E8A16');
+                  await addLabels(['copilot-approved']);
+                  await removeLabel('copilot-changes-requested');
+                  await removeLabel('waiting-webdev-response');
+                  await comment('✅ Copilot approved the latest revision.');
+                }
               }
             }
 
             const updated = await github.rest.issues.listLabelsOnIssue({ owner: context.repo.owner, repo: context.repo.repo, issue_number, per_page: 100 });
-            const hasSme = updated.data.some(l => l.name === 'approved-sme');
-            const hasChief = updated.data.some(l => l.name === 'approved-hermes-editor');
-            const attempts = Math.max(0, ...updated.data.map(l => (l.name.match(/^attempt-(\d+)$/)?.[1] || 0)).map(Number));
+            const finalLabels = new Set(updated.data.map(l => l.name));
+            const hasSme = finalLabels.has('approved-sme');
+            const hasChief = finalLabels.has('approved-hermes-editor');
+            const hasCopilotReviewed = finalLabels.has('copilot-reviewed');
+            const hasWebdevReviewed = finalLabels.has('webdev-reviewed-copilot');
+            const blockedForWebdev = finalLabels.has('waiting-webdev-response') || finalLabels.has('copilot-changes-requested');
+            const manualRequired = finalLabels.has('manual-review-required');
 
-            if (hasSme && hasChief) {
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number,
-                body: '✅ SME and Chief Editor approvals detected. PR is eligible for merge.'
-              });
-              return;
-            }
+            if (hasSme && hasChief && hasCopilotReviewed && hasWebdevReviewed && !blockedForWebdev && !manualRequired) {
+              await comment('✅ Merge gate passed: SME + Chief Editor + Copilot review + webdev Copilot-response review are all satisfied.');
+            } else {
+              const missing = [];
+              if (!hasSme) missing.push('SME approval');
+              if (!hasChief) missing.push('Chief Editor approval');
+              if (!hasCopilotReviewed) missing.push('Copilot review');
+              if (!hasWebdevReviewed) missing.push('webdev review of Copilot comments');
+              if (blockedForWebdev) missing.push('webdev response to Copilot change requests');
+              if (manualRequired) missing.push('manual owner review (@thestamp)');
 
-            if (attempts >= 3) {
-              await github.rest.issues.addLabels({ owner: context.repo.owner, repo: context.repo.repo, issue_number, labels: ['closed-after-3-attempts'] }).catch(()=>{});
-              await github.rest.pulls.update({ owner: context.repo.owner, repo: context.repo.repo, pull_number: issue_number, state: 'closed' });
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number,
-                body: '❌ Closing after 3 revision attempts without both required approvals (SME + hermes_editor). Author may reopen with a fresh proposal.'
-              });
+              if (missing.length > 0) {
+                await comment(`⛔ Merge blocked. Pending: ${missing.join(', ')}.`);
+              }
             }

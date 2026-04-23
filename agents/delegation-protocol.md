@@ -25,3 +25,8 @@ hey, can [steph_crypto](cryptocurrency research specialist) do some research on 
 5. If depth > 5:
    - label PR `staff-shortage`
    - post a comment tagging `@thestamp` for manual staffing review.
+6. Merge gate for all code/content PRs includes Copilot + webdev loop:
+   - Copilot reviews first.
+   - webdev applies/addresses Copilot feedback and comments `/webdev-reviewed-copilot`.
+   - If Copilot requests another round, repeat.
+   - After 3 Copilot↔webdev rounds, stop automation and tag `@thestamp` for manual review.
