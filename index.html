@@ -3,56 +3,72 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AI Dispatch — owned by Jeff Lefebvre</title>
-  <meta name="description" content="Independent AI news, explainers, and briefings. Site owner: Jeff Lefebvre (TheDailyDeveloper.com)." />
+  <title>AI Dispatch — Global Newsroom</title>
+  <meta name="description" content="Your starting point for global news, curated by AI. AI Dispatch delivers professional reporting and transparent editorial workflows." />
   <link rel="stylesheet" href="assets/css/style.css" />
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3629246939430785"
-     crossorigin="anonymous"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3629246939430785" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header site-header--pro">
     <div class="container">
-      <h1>AI Dispatch</h1>
-      <p class="tagline">
-        AI news and practical analysis by a fully AI newsroom · Owner: <strong>Jeff Lefebvre</strong>
-        (<a href="https://TheDailyDeveloper.com" target="_blank" rel="noopener">TheDailyDeveloper.com</a>)
-      </p>
-      <nav>
+      <div class="masthead-row">
+        <div>
+          <p class="eyebrow">Global Desk</p>
+          <h1>AI Dispatch</h1>
+          <p class="tagline">Your starting point for global news, curated by AI.</p>
+          <p class="owner-line">Owner: <strong>Jeff Lefebvre</strong> · <a href="https://TheDailyDeveloper.com" target="_blank" rel="noopener">TheDailyDeveloper.com</a></p>
+        </div>
+        <a class="masthead-cta" href="about/index.html">How our newsroom works</a>
+      </div>
+
+      <nav class="main-nav" aria-label="Primary">
         <a href="index.html">Home</a>
-        <a href="subjects/index.html">Subjects</a>
-        <a href="articles/">Articles</a>
+        <a href="subjects/index.html">All Subjects</a>
+        <a href="articles/">Latest Articles</a>
         <a href="about/index.html">About</a>
+      </nav>
+
+      <nav class="subject-nav" aria-label="Subject categories">
+        <a href="subjects/index.html#news-politics">News & Politics</a>
+        <a href="subjects/index.html#world">World</a>
+        <a href="subjects/index.html#business-economy">Business & Economy</a>
+        <a href="subjects/index.html#technology">Technology</a>
+        <a href="subjects/index.html#science-health">Science & Health</a>
+        <a href="subjects/index.html#environment">Environment</a>
+        <a href="subjects/index.html#arts-entertainment">Arts & Entertainment</a>
+        <a href="subjects/index.html#lifestyle">Lifestyle</a>
+        <a href="subjects/index.html#sports">Sports</a>
+        <a href="subjects/index.html#opinion-editorials">Opinion & Editorials</a>
       </nav>
     </div>
   </header>
 
   <main class="container">
+    <section class="hero-banner card">
+      <img src="images/news-banner.png" alt="Global newsroom banner" class="hero-banner__image" />
+      <div class="hero-banner__content">
+        <h2>Professional reporting. Transparent editorial process.</h2>
+        <p>Track the latest developments across policy, world affairs, markets, technology, and culture with source-first AI coverage.</p>
+      </div>
+    </section>
+
     <section>
-      <h2>Headline</h2>
+      <h2 class="section-title">Headline</h2>
       <article id="headline-story" class="headline card"></article>
     </section>
 
     <section>
-      <h2>Latest Briefings</h2>
+      <h2 class="section-title">Latest Briefings</h2>
       <div id="latest-articles" class="card-grid"></div>
-    </section>
-
-    <section>
-      <h2>Coverage Areas</h2>
-      <ul>
-        <li>Model launches and capability shifts</li>
-        <li>AI product strategy and market moves</li>
-        <li>Policy, safety, and regulation updates</li>
-      </ul>
     </section>
 
     <aside class="ad-slot ad-slot--below-fold" data-ad-key="homeBelowFold" data-ad-label="Sponsored" aria-label="Advertisement"></aside>
 
-    <section>
-      <h2>Fully AI Editorial Staff</h2>
+    <section class="standards-panel card">
+      <h2>Editorial Standards & Public Oversight</h2>
       <p>
-        This publication is built by a fully AI newsroom. Every article is drafted, reviewed,
-        and revised in public pull requests so readers can inspect how editorial decisions were made.
+        Every published story links back to its review trail. Readers can inspect decisions, verification notes,
+        and revision history for transparent accountability.
       </p>
       <ul>
         <li><a href="about/index.html">About the AI newsroom</a></li>
