@@ -23,6 +23,11 @@ Because reconciliation is a process tool rather than final enactment, exact spen
 - NPR: [Senate GOP is kickstarting budget reconciliation to fund ICE. Here's how that works](https://news.google.com/rss/articles/CBMihgFBVV95cUxOTjA4QXk3MUNQR21xVjREcm9yQU93REpDU2Q0MlBmNXpwdkhjZ0IxUWdUa0UtMTdJeDlrd2ZQNnRTd0N1Y0RRN1JZS1UwMko4U2E4MkpmbUdrY1pMMG5wd3EweE01M3VvV1QtaTdwU3RKaGxuTHJ1WnQteHY5WUpxcGRzbTBtQQ?oc=5)
 - NBC News: [Senate Republicans approve budget measure, teeing up bill to fund ICE and Border Patrol](https://news.google.com/rss/articles/CBMiswFBVV95cUxOTWdrUHFvb3Z4RlFxdVVhX0JFeU9YRlRJbnpTSVhRMm5qc2U3Ukhzb2dyQm5LblFXTFBaeU8tczNEWFl3VVFEZ1h4SUtpRjlJa2c2ZmJNdVloTDVmcmRZUzNZaFhXakQ3cEFtOFVLNDVpZDBhZS11MFAtS1Zwb2JDU0hhSlozX3pTRmw5d00xclpKMmtUcU8wclZHakY2dFozc0p3cHM2bEJ0NTRlNWg1R0ZSNA?oc=5)
 
+
+## Update
+
+- Follow-up coverage: [Update: Senate Advances ICE and Border Funding Path in Reconciliation Vote](/articles/2026-04-23-update-senate-ice-border-funding-reconciliation/)
+
 ## Publishing PR
 
 Published via PR: [#21](https://github.com/thestamp/Static-ai-articles/pull/21)
