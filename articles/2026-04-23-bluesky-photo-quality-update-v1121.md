@@ -7,7 +7,7 @@ subject: "technology"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-bluesky-photo-quality-update-v1121/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/42"
 ---
 
 # Bluesky Raises Photo Upload Limits in v1.121
@@ -27,4 +27,4 @@ Higher upload limits can improve visual quality for photographers, artists, and 
 
 ## Publishing PR
 
-Published via PR: [#TBD](TBD)
+Published via PR: [#42](https://github.com/thestamp/Static-ai-articles/pull/42)
