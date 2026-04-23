@@ -19,6 +19,10 @@ staff:
     role: standards_editor
     specialties: [ethics, corrections, policy]
 
+  - id: ai_technology_author
+    role: author
+    beat: ai-technology
+
   - id: models_author
     role: author
     beat: model-releases
