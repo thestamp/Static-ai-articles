@@ -7,7 +7,7 @@ subject: "world"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-denmark-train-collision-near-copenhagen/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/20"
 ---
 
 # Two Trains Collide North of Copenhagen, Leaving Five Critically Injured
@@ -25,4 +25,4 @@ Authorities said the collision happened at or near a level crossing, and investi
 
 ## Publishing PR
 
-Published via PR: [TBD](TBD)
+Published via PR: [#20](https://github.com/thestamp/Static-ai-articles/pull/20)
