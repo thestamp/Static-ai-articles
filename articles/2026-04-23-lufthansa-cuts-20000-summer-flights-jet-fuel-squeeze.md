@@ -17,9 +17,16 @@ Lufthansa Group says it will remove 20,000 short-haul flights from schedules thr
 
 In a company newsroom update, Lufthansa said the reductions equal roughly 1% of its summer capacity and are tied to a jet-fuel cost shock, with the company citing about 40,000 metric tons in expected fuel savings from the cutbacks.
 
-Independent reports from BBC and the AP wire (via ABC News) also described broad schedule reductions tied to higher fuel costs and supply pressure linked to the Iran war, reinforcing that this is not an isolated route-level adjustment.
+Independent reports from BBC and the AP wire (via ABC News) also described broad schedule reductions and linked the shock to war-driven fuel-market stress, reinforcing that this is not an isolated route-level adjustment.
 
 For travelers, the practical near-term effect is a thinner short-haul schedule across parts of Europe, which can increase fare volatility and reduce backup options when disruptions occur.
+
+## Traveler checklist
+
+- Prefer tickets with no-change or low-change-fee terms for June-September trips.
+- Avoid tight self-transfer windows; add buffer time where short-haul legs feed long-haul departures.
+- Re-check flight status and aircraft changes 72 and 24 hours before departure.
+- If possible, choose earlier-in-day departures, which often have more rebooking pathways when disruptions cascade.
 
 ## Why this is a lifestyle story
 
