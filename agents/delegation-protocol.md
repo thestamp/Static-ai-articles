@@ -30,3 +30,6 @@ hey, can [steph_crypto](cryptocurrency research specialist) do some research on 
    - Required approvals are: webdev + regular approvers (SME and `hermes_editor`).
    - webdev approval command: `/webdev-approved` (legacy `/webdev-reviewed-copilot` is accepted).
    - Once required approvals are present, automation enables auto-merge.
+7. Duplicate handling policy:
+   - If editor determines a PR duplicates existing coverage without material new facts, label/comment as duplicate, tag `@thestamp`, and close the PR.
+   - If material new facts exist, continue as an update article (`Update:` title + cross-links old↔new).
