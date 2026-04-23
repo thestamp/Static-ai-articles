@@ -7,7 +7,7 @@ subject: "sports"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-indiana-fever-wnba-record-national-tv-slate/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/49"
 ---
 
 # Indiana Fever Set for National TV in Every 2026 Regular-Season Game
@@ -30,4 +30,4 @@ This is core sports coverage: it is a league scheduling and broadcast-distributi
 
 ## Publishing PR
 
-Published via PR: PENDING
+Published via PR: [#49](https://github.com/thestamp/Static-ai-articles/pull/49)
