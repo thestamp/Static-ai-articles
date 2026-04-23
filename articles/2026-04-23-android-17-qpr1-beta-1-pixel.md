@@ -7,7 +7,7 @@ subject: "technology"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-android-17-qpr1-beta-1-pixel/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/29"
 ---
 
 # Google Rolls Out Android 17 QPR1 Beta 1 for Pixel Devices
@@ -26,4 +26,4 @@ What this means for users: Pixel owners already on the Android beta track can te
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#29](https://github.com/thestamp/Static-ai-articles/pull/29)
