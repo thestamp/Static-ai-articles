@@ -1,0 +1,122 @@
+name: WebDev 404 monitor
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run 404 audit
+        id: audit
+        run: |
+          python - <<'PY'
+          import json, re
+          from urllib.parse import urljoin
+          from urllib.request import urlopen, Request
+          from urllib.error import HTTPError, URLError
+
+          base = 'https://thestamp.github.io/Static-ai-articles/'
+          pages = [
+            'index.html',
+            'about/index.html',
+            'subjects/index.html',
+          ]
+
+          # include article paths from index data
+          with open('assets/data/articles.json', 'r', encoding='utf-8') as f:
+            items = json.load(f)
+          for it in items:
+            p = it.get('path')
+            if p:
+              pages.append(p)
+
+          # collect hrefs from key HTML pages
+          hrefs = set()
+          for page in ['index.html', 'about/index.html', 'subjects/index.html']:
+            url = urljoin(base, page)
+            req = Request(url, headers={'User-Agent':'AI-Dispatch-LinkAudit/1.0'})
+            html = urlopen(req, timeout=20).read().decode('utf-8', errors='ignore')
+            for m in re.findall(r'href=["']([^"']+)["']', html):
+              if m.startswith('#') or m.startswith('mailto:') or m.startswith('javascript:'):
+                continue
+              hrefs.add(m)
+
+          candidates = set(pages) | hrefs
+          # normalize to absolute urls within site only
+          urls = []
+          for c in sorted(candidates):
+            u = urljoin(base, c)
+            if u.startswith(base):
+              urls.append(u)
+
+          bad = []
+          for u in urls:
+            req = Request(u, headers={'User-Agent':'AI-Dispatch-LinkAudit/1.0'})
+            try:
+              with urlopen(req, timeout=20) as resp:
+                code = getattr(resp, 'status', 200)
+                if code >= 400:
+                  bad.append((u, code))
+            except HTTPError as e:
+              bad.append((u, e.code))
+            except URLError:
+              bad.append((u, 'URLERR'))
+            except Exception:
+              bad.append((u, 'ERR'))
+
+          if bad:
+            with open('broken-links.txt', 'w', encoding='utf-8') as f:
+              for u, code in bad:
+                f.write(f'{code} {u}\n')
+            print('Broken links found:')
+            for u, code in bad:
+              print(code, u)
+            raise SystemExit(1)
+          else:
+            print('No broken links found.')
+          PY
+
+      - name: Create issue if audit fails
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let report = 'No report file found.';
+            try { report = fs.readFileSync('broken-links.txt', 'utf8'); } catch {}
+
+            const title = `WebDev 404 audit failed: ${new Date().toISOString()}`;
+            const body = [
+              'Automated 404 monitor found broken links.',
+              '',
+              '```',
+              report,
+              '```',
+              '',
+              'Suggested delegation kickoff:',
+              '`hey, can [webdev_lead](web developer lead) do triage and delegate to frontend/ops as needed?`'
+            ].join('\n');
+
+            try {
+              await github.rest.issues.getLabel({owner: context.repo.owner, repo: context.repo.repo, name: 'webdev-404'});
+            } catch {
+              await github.rest.issues.createLabel({owner: context.repo.owner, repo: context.repo.repo, name: 'webdev-404', color: 'D73A4A'});
+            }
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body,
+              labels: ['webdev-404', 'assignment-window']
+            });

@@ -72,3 +72,19 @@ staff:
   - id: image_editor
     role: visual_editor
     specialties: [copyright-free-sourcing, image-generation, attribution]
+
+  - id: webdev_lead
+    role: web_developer_lead
+    specialties: [triage, delegation, release-management]
+  - id: frontend_dev
+    role: frontend_engineer
+    specialties: [ui, html-css-js, accessibility]
+  - id: it_ops
+    role: it_operations
+    specialties: [uptime, deployment, diagnostics]
+  - id: scripting_dev
+    role: automation_engineer
+    specialties: [scripting, workflows, maintenance]
+  - id: qa_link_auditor
+    role: qa_engineer
+    specialties: [link-checking, regression-testing]
