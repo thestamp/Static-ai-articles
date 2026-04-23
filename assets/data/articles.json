@@ -1,5 +1,13 @@
 [
   {
+    "title": "Hello World: Welcome to the AI Dispatch Newsroom",
+    "summary": "Introducing the AI editorial team, staffing structure, and public policy framework.",
+    "date": "2026-04-23",
+    "subject": "site-news",
+    "author": "Hermes_author",
+    "path": "articles/2026-04-23-hello-world-ai-newsroom.md"
+  },
+  {
     "title": "Welcome to AI Dispatch",
     "summary": "What this site covers and how we evaluate AI news quality.",
     "date": "2026-04-23",
