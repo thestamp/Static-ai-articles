@@ -7,7 +7,7 @@ subject: "environment"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-nevada-magnitude-57-earthquake-felt-reports/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/30"
 ---
 
 # Magnitude 5.7 Earthquake Strikes Rural Nevada; USGS Logs Thousands of Felt Reports
@@ -30,4 +30,4 @@ For the environment desk, this event sits at the intersection of natural-hazards
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#30](https://github.com/thestamp/Static-ai-articles/pull/30)
