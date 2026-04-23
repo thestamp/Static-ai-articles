@@ -1,75 +1,202 @@
 (async function () {
-  document.getElementById('year').textContent = new Date().getFullYear();
+  const yearEl = document.getElementById('year');
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-  const headlineEl = document.getElementById('headline-story');
-  const container = document.getElementById('latest-articles');
-  if (!container) return;
+  const isSubjectsPage = window.location.pathname.includes('/subjects/');
+  const basePrefix = isSubjectsPage ? '..' : '.';
 
-  try {
-    const res = await fetch('assets/data/articles.json');
-    const items = await res.json();
+  const withBase = (path) => {
+    if (!path) return path;
+    if (/^(https?:)?\/\//.test(path) || path.startsWith('/')) return path;
+    return `${basePrefix}/${path}`.replace('././', './').replace('.././', '../');
+  };
 
-    if (!Array.isArray(items) || items.length === 0) {
-      if (headlineEl) headlineEl.innerHTML = '<p>No headline available yet.</p>';
-      container.innerHTML = '<p>Articles index is not available yet.</p>';
+  const articleHref = (item) => withBase(item.path || 'articles/');
+  const articleImage = (item) => withBase(item.image || item.image_url || 'images/news-banner.png');
+  const displayAuthor = (item) => item.author_display_name || item.author || item.author_id || 'Unknown';
+
+  const parseTimestamp = (item) => {
+    const explicit = item.published_at || item.datetime || item.timestamp;
+    if (explicit) {
+      const t = Date.parse(explicit);
+      if (!Number.isNaN(t)) return t;
+    }
+
+    if (item.date) {
+      const t = Date.parse(item.date);
+      if (!Number.isNaN(t)) return t;
+    }
+
+    const pathDateMatch = (item.path || '').match(/(\d{4}-\d{2}-\d{2})/);
+    if (pathDateMatch) {
+      const t = Date.parse(pathDateMatch[1]);
+      if (!Number.isNaN(t)) return t;
+    }
+
+    return 0;
+  };
+
+  const sortNewestFirst = (items) => [...items].sort((a, b) => {
+    const tsDiff = parseTimestamp(b) - parseTimestamp(a);
+    if (tsDiff !== 0) return tsDiff;
+    return (b.path || '').localeCompare(a.path || '');
+  });
+
+  const subjectLabel = (slug) => ({
+    'news-politics': 'News & Politics',
+    world: 'World',
+    'business-economy': 'Business & Economy',
+    technology: 'Technology',
+    'science-health': 'Science & Health',
+    environment: 'Environment',
+    'arts-entertainment': 'Arts & Entertainment',
+    lifestyle: 'Lifestyle',
+    sports: 'Sports',
+    'opinion-editorials': 'Opinion & Editorials',
+    'site-news': 'Site News',
+    editorial: 'Editorial'
+  }[slug] || slug);
+
+  const renderHome = (items) => {
+    const headlineEl = document.getElementById('headline-story');
+    const categoryTilesEl = document.getElementById('category-tiles');
+
+    if (!headlineEl || !categoryTilesEl) return;
+
+    if (!items.length) {
+      headlineEl.innerHTML = '<p>No headline available yet.</p>';
+      categoryTilesEl.innerHTML = '<p>No category briefings available yet.</p>';
       return;
     }
 
-    const displayAuthor = (item) => item.author_display_name || item.author || item.author_id || 'Unknown';
+    const headline = items[0];
+    headlineEl.innerHTML = `
+      <a class="headline-media" href="${articleHref(headline)}">
+        <img src="${articleImage(headline)}" alt="Headline image for ${headline.title}" loading="lazy" />
+      </a>
+      <div class="headline-copy">
+        <p class="eyebrow">Latest headline</p>
+        <h3><a href="${articleHref(headline)}">${headline.title}</a></h3>
+        <p>${headline.summary || ''}</p>
+        <p class="meta">${headline.date || ''} · ${subjectLabel(headline.subject)} · ${displayAuthor(headline)}</p>
+      </div>
+    `;
 
-    const parseTimestamp = (item) => {
-      const explicit = item.published_at || item.datetime || item.timestamp;
-      if (explicit) {
-        const t = Date.parse(explicit);
-        if (!Number.isNaN(t)) return t;
-      }
+    const grouped = new Map();
+    for (const item of items) {
+      const key = item.subject || 'general';
+      if (!grouped.has(key)) grouped.set(key, []);
+      grouped.get(key).push(item);
+    }
 
-      if (item.date) {
-        const t = Date.parse(item.date);
-        if (!Number.isNaN(t)) return t;
-      }
+    const tiles = [];
+    for (const [subject, stories] of grouped.entries()) {
+      const newest = stories[0];
+      const older = stories.slice(1, 4);
+      const subjectLink = withBase(`subjects/index.html#${subject}`);
 
-      const pathDateMatch = (item.path || '').match(/(\d{4}-\d{2}-\d{2})/);
-      if (pathDateMatch) {
-        const t = Date.parse(pathDateMatch[1]);
-        if (!Number.isNaN(t)) return t;
-      }
+      tiles.push(`
+        <article class="card category-tile">
+          <a class="category-tile__hero" href="${subjectLink}">
+            <img src="${articleImage(newest)}" alt="${subjectLabel(subject)} coverage image" loading="lazy" />
+            <div>
+              <p class="eyebrow">${subjectLabel(subject)}</p>
+              <h3>${newest.title}</h3>
+              <p class="meta">${newest.date || ''} · ${displayAuthor(newest)}</p>
+            </div>
+          </a>
+          ${older.length ? `
+            <ul class="category-tile__list">
+              ${older.map(s => `
+                <li>
+                  <a href="${articleHref(s)}">${s.title}</a>
+                  <small>${s.date || ''}</small>
+                </li>
+              `).join('')}
+            </ul>
+          ` : '<p class="muted">No older stories in this category yet.</p>'}
+        </article>
+      `);
+    }
 
-      return 0;
+    categoryTilesEl.innerHTML = tiles.join('');
+  };
+
+  const renderSubjects = (items) => {
+    const feedTitleEl = document.getElementById('subject-feed-title');
+    const feedEl = document.getElementById('subject-feed');
+    const buttonEls = Array.from(document.querySelectorAll('[data-subject]'));
+    if (!feedTitleEl || !feedEl || !buttonEls.length) return;
+
+    const subjectsInData = new Set(items.map((i) => i.subject).filter(Boolean));
+
+    const getSelectedSubject = () => {
+      const fromHash = decodeURIComponent((window.location.hash || '').replace('#', '').trim());
+      if (fromHash && subjectsInData.has(fromHash)) return fromHash;
+      return buttonEls.find((b) => subjectsInData.has(b.dataset.subject))?.dataset.subject || buttonEls[0].dataset.subject;
     };
 
-    const sortedItems = [...items].sort((a, b) => {
-      const tsDiff = parseTimestamp(b) - parseTimestamp(a);
-      if (tsDiff !== 0) return tsDiff;
-      return (b.path || '').localeCompare(a.path || '');
+    const renderSubjectFeed = (subject) => {
+      const filtered = items.filter((i) => i.subject === subject);
+      feedTitleEl.textContent = `${subjectLabel(subject)} — Latest stories`;
+
+      buttonEls.forEach((btn) => {
+        btn.classList.toggle('is-active', btn.dataset.subject === subject);
+      });
+
+      if (!filtered.length) {
+        feedEl.innerHTML = '<p>No stories in this category yet.</p>';
+        return;
+      }
+
+      feedEl.innerHTML = filtered.map((a) => `
+        <article class="card feed-card">
+          <a class="feed-card__media" href="${articleHref(a)}">
+            <img src="${articleImage(a)}" alt="${a.title}" loading="lazy" />
+          </a>
+          <div>
+            <h3><a href="${articleHref(a)}">${a.title}</a></h3>
+            <p>${a.summary || ''}</p>
+            <small>${a.date || ''} · ${subjectLabel(a.subject)} · ${displayAuthor(a)}</small>
+          </div>
+        </article>
+      `).join('');
+    };
+
+    const applySubject = (subject) => {
+      if (!subject) return;
+      history.replaceState(null, '', `#${subject}`);
+      renderSubjectFeed(subject);
+    };
+
+    buttonEls.forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        applySubject(btn.dataset.subject);
+      });
     });
 
-    const headline = sortedItems[0];
+    window.addEventListener('hashchange', () => {
+      renderSubjectFeed(getSelectedSubject());
+    });
 
-    if (headlineEl) {
-      headlineEl.innerHTML = `
-        <p class="eyebrow">Headline story</p>
-        <h3><a href="${headline.path}">${headline.title}</a></h3>
-        <p>${headline.summary}</p>
-        <p class="meta">${headline.date} · ${headline.subject} · ${displayAuthor(headline)}</p>
-      `;
-    }
+    renderSubjectFeed(getSelectedSubject());
+  };
 
-    const latest = sortedItems.slice(1);
-    if (latest.length === 0) {
-      container.innerHTML = '<p>No additional briefings yet.</p>';
-      return;
-    }
+  try {
+    const res = await fetch(withBase('assets/data/articles.json'));
+    const rawItems = await res.json();
+    const items = Array.isArray(rawItems) ? sortNewestFirst(rawItems) : [];
 
-    container.innerHTML = latest.map(a => `
-      <article class="card">
-        <h3><a href="${a.path}">${a.title}</a></h3>
-        <p>${a.summary}</p>
-        <small>${a.date} · ${a.subject} · ${displayAuthor(a)}</small>
-      </article>
-    `).join('');
-  } catch {
+    renderHome(items);
+    renderSubjects(items);
+  } catch (err) {
+    const headlineEl = document.getElementById('headline-story');
+    const categoryTilesEl = document.getElementById('category-tiles');
+    const feedEl = document.getElementById('subject-feed');
+
     if (headlineEl) headlineEl.innerHTML = '<p>No headline available yet.</p>';
-    container.innerHTML = '<p>Articles index is not available yet.</p>';
+    if (categoryTilesEl) categoryTilesEl.innerHTML = '<p>Category briefings are not available yet.</p>';
+    if (feedEl) feedEl.innerHTML = '<p>Subject feed is not available yet.</p>';
   }
 })();
