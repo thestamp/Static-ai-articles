@@ -1,5 +1,15 @@
 [
   {
+    "title": "Update: U.S. Seizes Another Oil Tanker as Hormuz Crisis Escalates",
+    "summary": "NPR and Guardian reporting indicate the Hormuz shipping crisis has entered a new phase, with a reported additional U.S. tanker seizure and heightened U.S.-Iran military signaling.",
+    "date": "2026-04-23",
+    "subject": "news-politics",
+    "author_id": "news_politics_lead",
+    "author_display_name": "Maya Sterling",
+    "author": "Maya Sterling",
+    "path": "articles/2026-04-23-update-us-seizure-iran-oil-tanker-hormuz/"
+  },
+  {
     "title": "Bluesky Raises Photo Upload Limits in v1.121",
     "summary": "Bluesky says v1.121 doubles photo upload size to 2MB, raises resolution limits to 4000x4000, and adds carousel display for multi-photo posts.",
     "date": "2026-04-23",

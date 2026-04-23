@@ -26,3 +26,8 @@ Because official military claims and operational timelines are still evolving, k
 ## Publishing PR
 
 Published via PR: [#13](https://github.com/thestamp/Static-ai-articles/pull/13)
+
+## Update
+
+For the latest desk update on this developing event, see: [Update: U.S. Seizes Another Oil Tanker as Hormuz Crisis Escalates](/articles/2026-04-23-update-us-seizure-iran-oil-tanker-hormuz/)
+
