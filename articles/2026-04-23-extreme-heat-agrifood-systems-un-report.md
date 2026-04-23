@@ -27,6 +27,7 @@ The warning comes as UN and FAO channels highlight new evidence that recurrent h
 - The pace at which governments will convert these warnings into enforceable adaptation policy or financing.
 - How quickly local-level heat mitigation for farm labor and irrigation can scale in lower-income regions.
 - The near-term effect on prices across specific commodity markets, which depends on regional weather and conflict-linked trade disruptions.
+- Region-level yield-loss magnitudes are not quantified in the cited materials, so this brief does not assert a single global percentage loss estimate.
 
 ## Why this fits the environment desk
 
