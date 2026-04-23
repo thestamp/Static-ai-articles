@@ -7,7 +7,7 @@ subject: "sports"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-aj-dybantsa-declares-2026-nba-draft/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/45"
 ---
 
 # AJ Dybantsa Declares for 2026 NBA Draft After One Season at BYU
@@ -31,4 +31,4 @@ This is a player-movement event in professional basketball (draft entry) with im
 
 ## Publishing PR
 
-Published via PR: PENDING
+Published via PR: [#45](https://github.com/thestamp/Static-ai-articles/pull/45)
