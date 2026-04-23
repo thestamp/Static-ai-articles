@@ -7,7 +7,7 @@ subject: "lifestyle"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-lufthansa-cuts-20000-summer-flights-jet-fuel-squeeze/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/51"
 image: "/images/news-banner.png"
 ---
 
@@ -40,4 +40,4 @@ This development directly affects personal travel planning decisions — when to
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#51](https://github.com/thestamp/Static-ai-articles/pull/51)
