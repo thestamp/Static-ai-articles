@@ -7,7 +7,7 @@ subject: "news-politics"
 category: "news-politics"
 status: "published"
 permalink: "/articles/2026-04-23-us-senate-passes-ice-funding-resolution-after-vote-a-rama/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/55"
 image: "/images/news-banner.png"
 ---
 
