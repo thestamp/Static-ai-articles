@@ -7,7 +7,7 @@ subject: "environment"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-extreme-heat-agrifood-systems-un-report/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/36"
 ---
 
 # UN Agencies Warn Extreme Heat Is Pushing Global Agrifood Systems to the Brink
@@ -41,4 +41,4 @@ This is an environment story because it centers on climate-linked heat stress, e
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#36](https://github.com/thestamp/Static-ai-articles/pull/36)
