@@ -7,7 +7,7 @@ subject: "news-politics"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-uk-mandelson-vetting-dispute-cat-little-testimony/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/59"
 image: "/images/articles/uk-mandelson-vetting-dispute-cat-little-testimony.png"
 ---
 
@@ -26,4 +26,4 @@ The row has become a broader governance story about who controls sensitive appoi
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#59](https://github.com/thestamp/Static-ai-articles/pull/59)
