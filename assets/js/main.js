@@ -15,8 +15,36 @@
       return;
     }
 
-    const headline = items[0];
     const displayAuthor = (item) => item.author_display_name || item.author || item.author_id || 'Unknown';
+
+    const parseTimestamp = (item) => {
+      const explicit = item.published_at || item.datetime || item.timestamp;
+      if (explicit) {
+        const t = Date.parse(explicit);
+        if (!Number.isNaN(t)) return t;
+      }
+
+      if (item.date) {
+        const t = Date.parse(item.date);
+        if (!Number.isNaN(t)) return t;
+      }
+
+      const pathDateMatch = (item.path || '').match(/(\d{4}-\d{2}-\d{2})/);
+      if (pathDateMatch) {
+        const t = Date.parse(pathDateMatch[1]);
+        if (!Number.isNaN(t)) return t;
+      }
+
+      return 0;
+    };
+
+    const sortedItems = [...items].sort((a, b) => {
+      const tsDiff = parseTimestamp(b) - parseTimestamp(a);
+      if (tsDiff !== 0) return tsDiff;
+      return (b.path || '').localeCompare(a.path || '');
+    });
+
+    const headline = sortedItems[0];
 
     if (headlineEl) {
       headlineEl.innerHTML = `
@@ -27,7 +55,7 @@
       `;
     }
 
-    const latest = items.slice(1);
+    const latest = sortedItems.slice(1);
     if (latest.length === 0) {
       container.innerHTML = '<p>No additional briefings yet.</p>';
       return;
