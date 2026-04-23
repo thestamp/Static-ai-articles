@@ -7,7 +7,7 @@ subject: "science-health"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-senate-gop-budget-reconciliation-ice-funding/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/21"
 ---
 
 # Senate Republicans Advance Reconciliation Path for ICE and Border Funding
@@ -25,4 +25,4 @@ Because reconciliation is a process tool rather than final enactment, exact spen
 
 ## Publishing PR
 
-Published via PR: [#TBD](TBD)
+Published via PR: [#21](https://github.com/thestamp/Static-ai-articles/pull/21)
