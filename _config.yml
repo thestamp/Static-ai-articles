@@ -9,3 +9,7 @@ defaults:
       type: "pages"
     values:
       permalink: /articles/:basename/
+      layout: article
+
+adsense:
+  client: "ca-pub-3629246939430785"

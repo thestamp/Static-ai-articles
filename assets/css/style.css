@@ -13,3 +13,41 @@ nav a { color:var(--accent); margin-right:1rem; text-decoration:none; }
 .headline .eyebrow { color:var(--accent); font-size:0.85rem; text-transform:uppercase; letter-spacing:0.06em; }
 .headline .meta { color:var(--muted); }
 a { color:var(--accent); }
+
+.article-page .article {
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.article-header h1 {
+  margin-bottom: 0.25rem;
+}
+
+.article-meta {
+  color: var(--muted);
+  margin-top: 0;
+}
+
+.article-content {
+  margin-top: 1rem;
+}
+
+.ad-slot {
+  background: #0b1220;
+  border: 1px dashed #334155;
+  border-radius: 10px;
+  padding: 0.75rem;
+  margin: 1.25rem 0;
+}
+
+.ad-slot--below-fold {
+  margin-top: 2rem;
+}
+
+.ad-label {
+  margin: 0 0 0.5rem 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}

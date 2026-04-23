@@ -145,3 +145,7 @@ staff:
   - id: qa_link_auditor
     role: qa_engineer
     specialties: [link-checking, regression-testing]
+
+  - id: web_marketing_lead
+    role: web_marketing_manager
+    specialties: [adsense-strategy, ad-placement-optimization, monetization-governance]
