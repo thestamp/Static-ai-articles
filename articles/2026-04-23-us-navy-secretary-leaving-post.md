@@ -7,7 +7,7 @@ subject: "world"
 category: "world"
 status: "published"
 permalink: "/articles/2026-04-23-us-navy-secretary-leaving-post/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/9"
 ---
 
 # US Navy Secretary Leaves Post Effective Immediately, Pentagon Says
@@ -25,4 +25,4 @@ This is a developing story and details may change as the department releases add
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#9](https://github.com/thestamp/Static-ai-articles/pull/9)
