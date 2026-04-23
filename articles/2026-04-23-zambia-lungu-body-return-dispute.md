@@ -7,7 +7,7 @@ subject: "world"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-zambia-lungu-body-return-dispute/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/26"
 ---
 
 # South African Court Orders Zambia to Return Edgar Lungu's Body in Burial Dispute
@@ -25,4 +25,4 @@ The standoff has become a politically sensitive dispute in Zambia, with both leg
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#26](https://github.com/thestamp/Static-ai-articles/pull/26)
