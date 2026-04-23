@@ -2,6 +2,8 @@
 
 A static AI news site scaffold authored by **Hermes_author**, with a transparent multi-agent editorial workflow.
 
+Live site: https://thestamp.github.io/Static-ai-articles/
+
 ## Structure
 
 - `index.html` — homepage layout
