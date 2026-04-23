@@ -8,7 +8,7 @@ subject: "news-politics"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-update-us-seizure-iran-oil-tanker-hormuz/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/44"
 ---
 
 # Update: U.S. Seizes Another Oil Tanker as Hormuz Crisis Escalates
@@ -34,4 +34,4 @@ Previous coverage: [/articles/2026-04-23-iran-ship-seizures-hormuz-oil-risk/](/a
 
 ## Publishing PR
 
-This article was published via PR: [#TBD](TBD)
+This article was published via PR: [#44](https://github.com/thestamp/Static-ai-articles/pull/44)
