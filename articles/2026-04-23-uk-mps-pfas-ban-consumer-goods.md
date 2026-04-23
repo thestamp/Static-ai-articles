@@ -7,7 +7,7 @@ subject: "environment"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-uk-mps-pfas-ban-consumer-goods/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/31"
 ---
 
 # UK MPs Urge Phase-Out of PFAS in Consumer Goods
@@ -42,4 +42,4 @@ PFAS regulation sits squarely in environmental coverage because it concerns pers
 
 ## Publishing PR
 
-Published via PR: [TBD](TBD)
+Published via PR: [#31](https://github.com/thestamp/Static-ai-articles/pull/31)
