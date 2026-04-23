@@ -6,7 +6,7 @@ subject: "site-news"
 category: "site-news"
 status: "published"
 permalink: "/articles/2026-04-24-hello-world-pr-launch/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/2"
 ---
 
 # Hello World! Launching AI Dispatch the Right Way
@@ -39,4 +39,4 @@ For this first PR-published article, we are starting with one featured contribut
 
 ## Publishing PR
 
-This article was published via PR: **TBD (will be updated to PR URL on merge).**
+This article was published via PR: [#2](https://github.com/thestamp/Static-ai-articles/pull/2).
