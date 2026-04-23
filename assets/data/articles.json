@@ -1,5 +1,15 @@
 [
   {
+    "title": "NASA Sends Mini IV-Fluid Factory to ISS on CRS-24 Mission",
+    "summary": "NASA says IVGEN Mini reached the ISS on CRS-24 to test on-demand saline production in orbit, a medical logistics step aimed at reducing shelf-life and mass constraints for long-duration crewed missions.",
+    "date": "2026-04-23",
+    "subject": "science-health",
+    "author_id": "science_health_lead",
+    "author_display_name": "Dr. Lena Okafor",
+    "author": "Dr. Lena Okafor",
+    "path": "articles/2026-04-23-nasa-ivgen-mini-space-iv-fluid-crs24/"
+  },
+  {
     "title": "Vercel Reports Additional Customer Data Exposure During Expanded April Breach Probe",
     "summary": "Vercel says expanded April incident investigation uncovered additional customer data exposure, with Context and third-party reporting providing updated scope details.",
     "date": "2026-04-23",
