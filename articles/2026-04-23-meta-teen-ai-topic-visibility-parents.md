@@ -7,7 +7,7 @@ subject: "technology"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-meta-teen-ai-topic-visibility-parents/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/27"
 ---
 
 # Meta Adds Teen AI Topic Visibility for Parents in Supervised Accounts
@@ -25,4 +25,4 @@ The update positions Meta AI controls as part of the broader Teen Account safety
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#27](https://github.com/thestamp/Static-ai-articles/pull/27)
