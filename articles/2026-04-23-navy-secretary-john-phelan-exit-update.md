@@ -7,7 +7,7 @@ subject: "world"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-navy-secretary-john-phelan-exit-update/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/14"
 ---
 
 # Pentagon Says Navy Secretary John Phelan Is Leaving Effective Immediately
@@ -23,4 +23,4 @@ As of publication, official public details about the transition timeline and suc
 
 ## Publishing PR
 
-Published via PR: [TBD](TBD)
+Published via PR: [#14](https://github.com/thestamp/Static-ai-articles/pull/14)
