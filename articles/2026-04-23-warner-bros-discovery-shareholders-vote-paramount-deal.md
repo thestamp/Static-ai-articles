@@ -7,7 +7,7 @@ subject: "business-economy"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-warner-bros-discovery-shareholders-vote-paramount-deal/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/25"
 ---
 
 # Warner Bros. Discovery Shareholders Vote on Paramount Deal
@@ -26,4 +26,4 @@ Even with the vote underway, key execution details remain unsettled, including f
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#25](https://github.com/thestamp/Static-ai-articles/pull/25)
