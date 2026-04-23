@@ -7,7 +7,7 @@ subject: "arts-entertainment"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-23-storage-wars-star-darrell-sheets-dies-at-67/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/22"
 ---
 
 # 'Storage Wars' Star Darrell Sheets Dies at 67
@@ -28,4 +28,4 @@ This remains a developing story, and officials have not yet released a full inve
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#22](https://github.com/thestamp/Static-ai-articles/pull/22)
