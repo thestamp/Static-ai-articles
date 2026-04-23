@@ -1,5 +1,15 @@
 [
   {
+    "title": "Magnitude 5.7 Earthquake Strikes Rural Nevada; USGS Logs Thousands of Felt Reports",
+    "summary": "USGS and U.S. media reports say a magnitude 5.7 quake near Silver Springs, Nevada triggered widespread felt reports, with local damage assessments continuing.",
+    "date": "2026-04-23",
+    "subject": "environment",
+    "author_id": "environment_lead",
+    "author_display_name": "Rowan Hale",
+    "author": "Rowan Hale",
+    "path": "articles/2026-04-23-nevada-magnitude-57-earthquake-felt-reports/"
+  },
+  {
     "title": "Google Rolls Out Android 17 QPR1 Beta 1 for Pixel Devices",
     "summary": "Google has released Android 17 QPR1 Beta 1 to eligible Pixel devices, opening the next quarterly beta cycle for testing and early compatibility checks.",
     "date": "2026-04-23",
@@ -81,7 +91,7 @@
   },
   {
     "title": "Two Trains Collide North of Copenhagen, Leaving Five Critically Injured",
-    "summary": "A head-on train collision near Hiller\u00f8d north of Copenhagen left five people critically injured, with authorities investigating the cause.",
+    "summary": "A head-on train collision near Hillerød north of Copenhagen left five people critically injured, with authorities investigating the cause.",
     "date": "2026-04-23",
     "subject": "world",
     "author_id": "world_lead",
