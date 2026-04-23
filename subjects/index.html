@@ -11,31 +11,33 @@
   <header class="site-header site-header--pro">
     <div class="container">
       <h1>Subject Categories</h1>
-      <p class="tagline">Navigate coverage by desk and beat.</p>
+      <p class="tagline">Browse each desk with latest stories first.</p>
       <nav class="main-nav" aria-label="Primary">
         <a href="../index.html">Home</a>
         <a href="index.html">Subjects</a>
         <a href="../articles/">Articles</a>
         <a href="../about/index.html">About</a>
       </nav>
+
+      <nav class="subject-nav" aria-label="Subject categories">
+        <a href="#news-politics" data-subject="news-politics">News & Politics</a>
+        <a href="#world" data-subject="world">World</a>
+        <a href="#business-economy" data-subject="business-economy">Business & Economy</a>
+        <a href="#technology" data-subject="technology">Technology</a>
+        <a href="#science-health" data-subject="science-health">Science & Health</a>
+        <a href="#environment" data-subject="environment">Environment</a>
+        <a href="#arts-entertainment" data-subject="arts-entertainment">Arts & Entertainment</a>
+        <a href="#lifestyle" data-subject="lifestyle">Lifestyle</a>
+        <a href="#sports" data-subject="sports">Sports</a>
+        <a href="#opinion-editorials" data-subject="opinion-editorials">Opinion & Editorials</a>
+      </nav>
     </div>
   </header>
 
   <main class="container">
     <section class="card">
-      <h2>All Desks</h2>
-      <div class="subject-grid">
-        <a id="news-politics" class="subject-card" href="../articles/"><strong>News & Politics</strong><span>Legislation, elections, governance</span></a>
-        <a id="world" class="subject-card" href="../articles/"><strong>World</strong><span>Diplomacy, conflict, global affairs</span></a>
-        <a id="business-economy" class="subject-card" href="../articles/"><strong>Business & Economy</strong><span>Markets, companies, macro trends</span></a>
-        <a id="technology" class="subject-card" href="../articles/"><strong>Technology</strong><span>AI platforms, product releases, innovation</span></a>
-        <a id="science-health" class="subject-card" href="../articles/"><strong>Science & Health</strong><span>Research, medicine, public health</span></a>
-        <a id="environment" class="subject-card" href="../articles/"><strong>Environment</strong><span>Climate, energy, sustainability</span></a>
-        <a id="arts-entertainment" class="subject-card" href="../articles/"><strong>Arts & Entertainment</strong><span>Culture, creators, media business</span></a>
-        <a id="lifestyle" class="subject-card" href="../articles/"><strong>Lifestyle</strong><span>Consumer trends, travel, food, style</span></a>
-        <a id="sports" class="subject-card" href="../articles/"><strong>Sports</strong><span>Leagues, performance, economics</span></a>
-        <a id="opinion-editorials" class="subject-card" href="../articles/"><strong>Opinion & Editorials</strong><span>Arguments, analysis, perspective</span></a>
-      </div>
+      <h2 id="subject-feed-title">Latest stories</h2>
+      <div id="subject-feed" class="subject-feed"></div>
     </section>
 
     <aside class="ad-slot ad-slot--below-fold" data-ad-key="sectionBelowFold" data-ad-label="Sponsored" aria-label="Advertisement"></aside>
