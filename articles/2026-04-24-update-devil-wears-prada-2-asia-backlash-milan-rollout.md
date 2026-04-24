@@ -7,7 +7,7 @@ subject: "arts-entertainment"
 category: "arts-entertainment"
 status: "published"
 permalink: "/articles/2026-04-24-update-devil-wears-prada-2-asia-backlash-milan-rollout/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/99"
 image: "/images/articles/update-devil-wears-prada-2-asia-backlash-milan-rollout.png"
 ---
 
