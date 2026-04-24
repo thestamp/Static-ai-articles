@@ -7,7 +7,7 @@ subject: "technology"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-meta-aws-graviton-deployment-agentic-ai-workloads/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/93"
 image: "/images/articles/meta-aws-graviton-deployment-agentic-ai-workloads.png"
 ---
 
@@ -41,4 +41,4 @@ CNBC and TechCrunch both report that Meta's AWS agreement is tied to **agentic A
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#93](https://github.com/thestamp/Static-ai-articles/pull/93)
