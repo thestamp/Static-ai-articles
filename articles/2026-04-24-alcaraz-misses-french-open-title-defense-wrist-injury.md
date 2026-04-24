@@ -7,7 +7,7 @@ subject: "sports"
 category: "sports"
 status: "published"
 permalink: "/articles/2026-04-24-alcaraz-misses-french-open-title-defense-wrist-injury/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/111"
 image: "/images/articles/alcaraz-misses-french-open-title-defense-wrist-injury.png"
 ---
 
@@ -42,4 +42,4 @@ When a defending champion exits before a Grand Slam begins, title probabilities,
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#111](https://github.com/thestamp/Static-ai-articles/pull/111)
