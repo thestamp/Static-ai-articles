@@ -15,11 +15,15 @@ image: "/images/news-banner.png"
 
 Early Friday tracking from entertainment trade outlets indicates **"Michael"** is posting a strong theatrical launch. The Hollywood Reporter and Deadline both place U.S. preview earnings around the low- to mid-$12 million range, while Variety reports **$18.5 million** from the film's international kickoff.
 
-Taken together, those figures point to meaningful opening-weekend momentum for a high-profile music biopic that has been closely watched by exhibitors and studios.
+Taken together, those figures indicate early opening-weekend momentum for a high-profile music biopic that has been closely watched by exhibitors and studios, while stopping short of a final weekend conclusion.
 
 ## Why this matters
 
 For studios and theater operators, preview strength can signal audience urgency and help set opening-weekend expectations. For the broader film market, a robust start for a music biopic may reinforce demand for event-style releases tied to globally recognized artists.
+
+## Uncertainty note
+
+Preview grosses are preliminary estimates reported before final studio weekend tallies. Reported figures can move as actuals are reconciled across markets and late-reporting theaters.
 
 ## What to watch next
 
