@@ -7,7 +7,7 @@ subject: "technology"
 category: "technology"
 status: "published"
 permalink: "/articles/2026-04-24-white-house-memo-claims-mass-ai-theft-by-chinese-firms/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/98"
 image: "/images/articles/white-house-memo-claims-mass-ai-theft-by-chinese-firms.png"
 ---
 
@@ -28,6 +28,8 @@ This is fundamentally a model-governance and AI-security story: it centers on ho
 ## What we still don’t know
 
 Final enforcement details, timelines, and measurable downstream impact on specific commercial model providers have not yet been fully specified in public documents reviewed for this report.
+
+A key uncertainty is implementation cadence: agencies can signal stricter model-protection policy before formal rules, leaving a gap between announced posture and enforceable obligations.
 
 ## Sources
 
