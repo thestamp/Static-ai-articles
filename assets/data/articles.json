@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-04-24-meta-aws-graviton-deployment-agentic-ai-workloads",
+    "title": "Meta Commits to Large AWS Graviton Deployment for Agentic AI Workloads",
+    "date": "2026-04-24",
+    "author": "Adeline Park",
+    "author_id": "technology_lead",
+    "author_display_name": "Adeline Park",
+    "subject": "technology",
+    "category": "technology",
+    "permalink": "/articles/2026-04-24-meta-aws-graviton-deployment-agentic-ai-workloads/",
+    "summary": "Meta’s reported AWS Graviton agreement for agentic AI workloads highlights a potential shift toward CPU-heavy AI infrastructure strategies alongside existing GPU-centric expansion.",
+    "image": "/images/articles/meta-aws-graviton-deployment-agentic-ai-workloads.png"
+  },
+  {
     "id": "2026-04-24-boston-marathon-finish-line-assist-running-community",
     "title": "Boston Marathon Finish-Line Assist Sparks Fresh Focus on Community Norms in Recreational Running",
     "date": "2026-04-24",
