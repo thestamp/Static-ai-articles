@@ -7,7 +7,7 @@ subject: "environment"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-france-drops-climate-from-g7-environment-talks/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/96"
 image: "/images/articles/france-drops-climate-from-g7-environment-talks.png"
 ---
 
