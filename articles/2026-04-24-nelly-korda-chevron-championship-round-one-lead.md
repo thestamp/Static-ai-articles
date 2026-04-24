@@ -7,7 +7,7 @@ subject: "sports"
 category: "sports"
 status: "published"
 permalink: "/articles/2026-04-24-nelly-korda-chevron-championship-round-one-lead/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/80"
 image: "/images/articles/nelly-korda-chevron-championship-round-one-lead.png"
 ---
 
@@ -27,7 +27,13 @@ This is straight competition coverage from a women’s golf major: leaderboard m
 
 ## Why it matters
 
-Early major-round separation can materially reshape strategy for contenders and broadcast focus over the weekend. Korda’s fast start increases pressure on the chasing group and sets up a high-leverage second round.
+Early major-round separation can materially reshape strategy for contenders and broadcast focus over the weekend. At this stage, the significance is **round-two positioning**, not a forecast of final tournament outcome.
+
+## Uncertainties after Round 1
+
+- One round does not establish weekend scoring conditions or cut-line dynamics.
+- Leaderboard compression is still plausible if afternoon conditions diverge on Friday.
+- Contention status can shift quickly with one high-variance stretch on the back nine.
 
 ## What to watch next
 
@@ -43,4 +49,4 @@ Early major-round separation can materially reshape strategy for contenders and 
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#80](https://github.com/thestamp/Static-ai-articles/pull/80)
