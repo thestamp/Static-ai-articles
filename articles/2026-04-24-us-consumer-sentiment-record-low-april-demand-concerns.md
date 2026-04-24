@@ -7,7 +7,7 @@ subject: "business-economy"
 category: "business-economy"
 status: "published"
 permalink: "/articles/2026-04-24-us-consumer-sentiment-record-low-april-demand-concerns/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/104"
 image: "/images/articles/us-consumer-sentiment-record-low-april-demand-concerns.png"
 ---
 
