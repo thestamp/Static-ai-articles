@@ -29,6 +29,13 @@ This report updates our earlier piece on the same event: [Warner Bros. Discovery
 
 Although the transaction has major financial dimensions, the direct impact is on Hollywood studio ownership, content pipelines, and distribution control—core arts-and-entertainment industry terrain.
 
+
+## Confirmed vs. Unconfirmed
+
+**Confirmed:** Shareholder approval occurred; multiple outlets overlap on that point, and CNBC reports the separate rejection of the CEO payout proposal.
+
+**Unconfirmed / unresolved:** Final regulatory clearances, definitive closing date, and full post-merger integration structure remain unsettled in currently reachable reporting.
+
 ## Sources
 
 - CNBC: [Warner Bros. Discovery shareholders approve Paramount acquisition](https://www.cnbc.com/2026/04/23/warner-bros-discovery-shareholder-vote-paramount-deal.html)
