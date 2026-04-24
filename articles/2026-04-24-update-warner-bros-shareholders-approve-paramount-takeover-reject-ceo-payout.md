@@ -7,7 +7,7 @@ subject: "arts-entertainment"
 category: "arts-entertainment"
 status: "published"
 permalink: "/articles/2026-04-24-update-warner-bros-shareholders-approve-paramount-takeover-reject-ceo-payout/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/105"
 image: "/images/articles/update-warner-bros-shareholders-approve-paramount-takeover-reject-ceo-payout.png"
 ---
 
@@ -37,4 +37,4 @@ Although the transaction has major financial dimensions, the direct impact is on
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#105](https://github.com/thestamp/Static-ai-articles/pull/105)
