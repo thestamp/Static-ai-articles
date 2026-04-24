@@ -8,7 +8,7 @@ subject: "news-politics"
 category: "news-politics"
 status: "published"
 permalink: "/articles/2026-04-24-the-international-right-has-cpac-has-the-left-finally-found-its-answer.html"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/71"
 image: "/images/articles/the-international-right-has-cpac-has-the-left-finally-found-its-answer.png"
 ---
 
