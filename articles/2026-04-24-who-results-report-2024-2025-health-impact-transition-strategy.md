@@ -7,7 +7,7 @@ subject: "science-health"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-who-results-report-2024-2025-health-impact-transition-strategy/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/74"
 image: "/images/articles/who-results-report-2024-2025-health-impact-transition-strategy.png"
 ---
 
@@ -29,4 +29,4 @@ Why this matters: this release is one of WHO's most consequential annual account
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#74](https://github.com/thestamp/Static-ai-articles/pull/74)
