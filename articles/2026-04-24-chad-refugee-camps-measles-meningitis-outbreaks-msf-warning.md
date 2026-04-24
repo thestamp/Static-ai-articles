@@ -7,7 +7,7 @@ subject: "science-health"
 category: "science-health"
 status: "published"
 permalink: "/articles/2026-04-24-chad-refugee-camps-measles-meningitis-outbreaks-msf-warning/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/120"
 image: "/images/articles/chad-refugee-camps-measles-meningitis-outbreaks-msf-warning.png"
 ---
 
@@ -29,4 +29,4 @@ Why this matters: concurrent outbreaks plus funding and access constraints raise
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#120](https://github.com/thestamp/Static-ai-articles/pull/120)
