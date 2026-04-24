@@ -7,7 +7,7 @@ subject: "technology"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-uk-biobank-data-listings-china-trigger-platform-lockdown/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/115"
 image: "/images/articles/uk-biobank-data-listings-china-trigger-platform-lockdown.png"
 ---
 
@@ -38,4 +38,4 @@ UK Biobank is a core research infrastructure used globally. Even when datasets a
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [115](https://github.com/thestamp/Static-ai-articles/pull/115)
