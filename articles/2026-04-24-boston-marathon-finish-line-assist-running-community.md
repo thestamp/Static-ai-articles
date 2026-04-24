@@ -7,7 +7,7 @@ subject: "lifestyle"
 category: "lifestyle"
 status: "published"
 permalink: "/articles/2026-04-24-boston-marathon-finish-line-assist-running-community/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/91"
 image: "/images/articles/boston-marathon-finish-line-assist-running-community.png"
 ---
 
@@ -29,4 +29,4 @@ What remains uncertain is whether this moment will drive measurable changes in r
 
 ## Publishing PR
 
-Published via PR: PENDING
+Published via PR: [#91](https://github.com/thestamp/Static-ai-articles/pull/91)
