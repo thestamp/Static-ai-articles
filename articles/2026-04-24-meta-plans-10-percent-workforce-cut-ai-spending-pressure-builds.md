@@ -7,7 +7,7 @@ subject: "technology"
 category: "technology"
 status: "published"
 permalink: "/articles/2026-04-24-meta-plans-10-percent-workforce-cut-ai-spending-pressure-builds/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/106"
 image: "/images/news-banner.png"
 ---
 
