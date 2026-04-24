@@ -7,7 +7,7 @@ subject: "lifestyle"
 category: "lifestyle"
 status: "published"
 permalink: "/articles/2026-04-24-conde-nast-traveler-2026-hot-list-wellness-hotels/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/88"
 image: "/images/articles/conde-nast-traveler-2026-hot-list-wellness-hotels.png"
 ---
 
@@ -30,4 +30,4 @@ What remains uncertain is whether Hot List visibility translates into sustained 
 
 ## Publishing PR
 
-Published via PR: PENDING
+Published via PR: [#88](https://github.com/thestamp/Static-ai-articles/pull/88)
