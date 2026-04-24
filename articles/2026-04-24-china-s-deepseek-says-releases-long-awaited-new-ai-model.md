@@ -13,7 +13,7 @@ image: "/images/news-banner.png"
 
 # China’s DeepSeek says releases long-awaited new AI model
 
-DeepSeek has released a preview of its long-anticipated V4 model, according to cross-outlet reporting tracked in this run. Coverage from Gulf News and CNBC characterizes the release as part of an intensifying U.S.–China AI competition and highlights a cost-efficiency narrative around the new model generation.
+DeepSeek has released a preview of its long-anticipated V4 model, according to cross-outlet reporting tracked in this run. Coverage from Gulf News and CNBC characterizes the release as part of an intensifying U.S.–China AI competition and reports a cost-efficiency narrative around the new model generation, rather than publishing audited performance economics.
 
 Independent reporting from France 24 similarly frames the launch in the context of broader geopolitical and commercial pressure in frontier-model development. Across the overlapping coverage, the common verified signal is that V4 has moved from expectation into an announced preview stage, with positioning centered on performance-per-cost.
 
