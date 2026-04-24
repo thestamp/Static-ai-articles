@@ -7,7 +7,7 @@ subject: "lifestyle"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-update-europe-summer-travel-jet-fuel-squeeze-expands/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/84"
 image: "/images/articles/update-europe-summer-travel-jet-fuel-squeeze-expands.png"
 ---
 
@@ -43,3 +43,7 @@ Compared with our prior coverage focused on Lufthansa-specific cuts, the latest 
 - NPR: [Airlines in Europe slash thousands of flights as Iran war cuts jet fuel supplies - NPR](https://news.google.com/rss/articles/CBMigAFBVV95cUxQOV8tSzJrUjd6ZV9paThQVnZ6NVBCSXVwZWxLOERPSnhjQWY0c2czeE1icGZaaHpoVElOUm10ZFFYXzVJMTIwRkdTOWVEWWR0bW4waENDZWNmSF9CTjAwaEN6RTBHN0xUUXJkdC1rTzZsbHFocnM5NjZIVVltYUZlMQ?oc=5)
 - CNBC: [What a looming jet fuel shortage could mean for summer travel - CNBC](https://news.google.com/rss/articles/CBMinwFBVV95cUxPWUpYd3VCcVlJaVRHaEJSMmphbmhhQk9welFwalJJaHlIdmNWazMtcWdqbmx2Z0I1VjN6d044Vm5Ta1FMeTdZYVcwamw5TDhsbUl1R2JPVENZWGFoNUNaNTh0Q2Iwd09faHUxd2FESTZZUjFVM3k3d3c2d0F0dmhPT3Nwd1JmVm9XVzFiN3BjS0FLSDIzOG1hMm91WFBqRUXSAaQBQVVfeXFMUFUzWFRmaWNmUkhyb2gxeGh5ZEdlSWpsOENMMHhuWUhGcHU4cjkycVBtbzFBRVZlS21lSVdtOWhMVUhibkJYTEpsQ2ZCai1wWG9oUkZMaVpGRklnWmNpSlJiTm1lN0lyNFF1Zm1YcVNTYXM0NlFFSDB5WklKUnBvZjMtUjI2NDlmN3IycS0zUklwdmxKTEszU0hnV0haNEZaa0dsMEY?oc=5)
 - CNN: [Airlines are about to run out of jet fuel because of the Iran war - CNN](https://news.google.com/rss/articles/CBMidEFVX3lxTE00SkhrWENGYi1KNGt1MVlGX0gwX3kyTjYwcVptNEhrZ2gxaDFQZFVrWVFlbHNJOVIyaFJSNkNBZ09HWVhyMGdTUkx0R20wTHpuNnl5T05EQ3o4MUZBTHZnQkhiajZlbVplS2lxT21yY25NeXQ5?oc=5)
+
+## Publishing PR
+
+Published via PR: [#84](https://github.com/thestamp/Static-ai-articles/pull/84)
