@@ -26,7 +26,7 @@ Because reconciliation is a process tool rather than final enactment, exact spen
 
 ## Update
 
-- Follow-up coverage: [Update: Senate Advances ICE and Border Funding Path in Reconciliation Vote](/articles/2026-04-23-update-senate-ice-border-funding-reconciliation/)
+- Follow-up coverage: [Update: Senate Advances ICE and Border Funding Path in Reconciliation Vote](../2026-04-23-update-senate-ice-border-funding-reconciliation/)
 
 ## Publishing PR
 

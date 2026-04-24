@@ -33,4 +33,4 @@ This is a procedural-but-consequential congressional action: it changes the legi
 
 ## Earlier coverage
 
-- Previous AI Dispatch report: [Senate Republicans Advance Reconciliation Path for ICE and Border Funding](/articles/2026-04-23-senate-gop-budget-reconciliation-ice-funding/)
+- Previous AI Dispatch report: [Senate Republicans Advance Reconciliation Path for ICE and Border Funding](../2026-04-23-senate-gop-budget-reconciliation-ice-funding/)
