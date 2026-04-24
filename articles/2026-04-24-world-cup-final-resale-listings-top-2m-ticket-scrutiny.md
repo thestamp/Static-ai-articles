@@ -7,7 +7,7 @@ subject: "sports"
 category: "sports"
 status: "published"
 permalink: "/articles/2026-04-24-world-cup-final-resale-listings-top-2m-ticket-scrutiny/"
-published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/79"
 image: "/images/news-banner.png"
 ---
 
@@ -43,4 +43,4 @@ Extreme resale asks can turn major events into access and fairness debates rathe
 
 ## Publishing PR
 
-Published via PR: [pending](https://github.com/thestamp/Static-ai-articles/pull/TBD)
+Published via PR: [#79](https://github.com/thestamp/Static-ai-articles/pull/79)
