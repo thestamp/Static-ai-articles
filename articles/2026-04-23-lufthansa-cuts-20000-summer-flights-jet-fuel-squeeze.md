@@ -38,6 +38,11 @@ This development directly affects personal travel planning decisions — when to
 - BBC: [Lufthansa cuts 20,000 summer flights as fuel prices surge](https://www.bbc.com/news/articles/cre1r4n5j5wo)
 - ABC News (AP wire): [Airline company Lufthansa cuts 20,000 flights as war squeezes fuel prices and supplies](https://abcnews.com/US/wireStory/airline-company-lufthansa-cuts-20000-flights-war-squeezes-132287521)
 
+
+## Update
+
+For the latest regional-angle follow-up, see: [Update: Europe Summer Travel Plans Face Wider Risk as Jet-Fuel Squeeze Spreads Across Airlines](/articles/2026-04-24-update-europe-summer-travel-jet-fuel-squeeze-expands/).
+
 ## Publishing PR
 
 Published via PR: [#51](https://github.com/thestamp/Static-ai-articles/pull/51)
