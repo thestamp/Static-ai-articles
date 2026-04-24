@@ -7,7 +7,7 @@ subject: "technology"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-china-s-deepseek-says-releases-long-awaited-new-ai-model/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/90"
 image: "/images/news-banner.png"
 ---
 
@@ -35,4 +35,4 @@ For enterprise buyers and developers, model-release timing and cost-positioning 
 
 ## Publishing PR
 
-Published via PR: [#TBD](TBD)
+Published via PR: [#90](https://github.com/thestamp/Static-ai-articles/pull/90)
