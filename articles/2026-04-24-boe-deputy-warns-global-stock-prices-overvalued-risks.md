@@ -7,7 +7,7 @@ subject: "business-economy"
 category: "business-economy"
 status: "published"
 permalink: "/articles/2026-04-24-boe-deputy-warns-global-stock-prices-overvalued-risks/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/87"
 image: "/images/articles/boe-deputy-warns-global-stock-prices-overvalued-risks.png"
 ---
 
