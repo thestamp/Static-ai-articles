@@ -7,7 +7,7 @@ subject: "world"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-eu-approves-90bn-ukraine-loan-russia-sanctions/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/60"
 image: "/images/articles/eu-approves-90bn-ukraine-loan-russia-sanctions.png"
 ---
 
@@ -27,4 +27,4 @@ For global diplomacy, the move is significant as a bloc-level signal of sustaine
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#60](https://github.com/thestamp/Static-ai-articles/pull/60)
