@@ -7,7 +7,7 @@ subject: "lifestyle"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-update-uk-flight-cancellations-passenger-rights-jet-fuel-crunch/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/97"
 image: "/images/articles/update-uk-flight-cancellations-passenger-rights-jet-fuel-crunch.png"
 ---
 
@@ -49,4 +49,4 @@ Compared with our earlier update, current reporting adds two material facts:
 
 ## Publishing PR
 
-Published via PR: PENDING
+Published via PR: [https://github.com/thestamp/Static-ai-articles/pull/97](https://github.com/thestamp/Static-ai-articles/pull/97)
