@@ -15,7 +15,7 @@ image: "/images/news-banner.png"
 
 Canada's property and casualty insurers are urging stronger climate-resilience measures as the 2026 wildfire season begins, with coverage highlighting home-hardening steps and pressure on policymakers to prioritize adaptation planning.
 
-Syndicated coverage of Reuters reporting says insurers are pushing practical mitigation actions — including fire- and flood-proofing homes — as climate-driven risk and claims pressure remain elevated. Separate Canadian reporting on the seasonal outlook says early conditions may be comparatively moderate in some regions, but drought carryover and summer heat could still raise late-season risk.
+Syndicated coverage of Reuters reporting says insurers are pushing practical mitigation actions — including fire- and flood-proofing homes — as climate-driven risk and claims pressure remain elevated. Separate Canadian reporting on the seasonal outlook says early conditions may be comparatively moderate in some regions, but drought carryover and summer heat could still raise late-season risk. This piece distinguishes reported policy pressure from forward-looking risk projections to avoid overstating certainty.
 
 
 Why this matters: the story underscores a shift from post-disaster response toward pre-disaster resilience, where insurers, provincial wildfire agencies, and households are all part of climate adaptation execution.
