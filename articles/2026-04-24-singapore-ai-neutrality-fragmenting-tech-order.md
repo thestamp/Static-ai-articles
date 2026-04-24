@@ -7,7 +7,7 @@ subject: "opinion-editorials"
 category: "opinion-editorials"
 status: "published"
 permalink: "/articles/2026-04-24-singapore-ai-neutrality-fragmenting-tech-order/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/81"
 image: "/images/news-banner.png"
 ---
 
@@ -48,4 +48,4 @@ But the practical test is not whether Singapore can permanently reconcile Washin
 
 ## Publishing PR
 
-Published via PR: PENDING
+Published via PR: [https://github.com/thestamp/Static-ai-articles/pull/81](https://github.com/thestamp/Static-ai-articles/pull/81)
