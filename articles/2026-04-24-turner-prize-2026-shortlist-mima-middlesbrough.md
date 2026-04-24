@@ -7,7 +7,7 @@ subject: "arts-entertainment"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-turner-prize-2026-shortlist-mima-middlesbrough/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/69"
 image: "/images/articles/turner-prize-2026-shortlist-mima-middlesbrough.png"
 ---
 
@@ -29,4 +29,4 @@ At filing time, the confirmed facts are the named shortlist and the announced ex
 
 ## Publishing PR
 
-Published via PR: pending
+Published via PR: [#69](https://github.com/thestamp/Static-ai-articles/pull/69)
