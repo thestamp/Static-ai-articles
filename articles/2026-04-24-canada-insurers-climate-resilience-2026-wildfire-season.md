@@ -7,7 +7,7 @@ subject: "environment"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-canada-insurers-climate-resilience-2026-wildfire-season/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/76"
 image: "/images/news-banner.png"
 ---
 
@@ -35,4 +35,4 @@ Why this matters: the story underscores a shift from post-disaster response towa
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#76](https://github.com/thestamp/Static-ai-articles/pull/76)
