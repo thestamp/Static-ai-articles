@@ -8,7 +8,7 @@ subject: "business-economy"
 category: "business-economy"
 status: "published"
 permalink: "/articles/2026-04-24-update-oil-prices-end-volatile-week-amid-iran-talk-signals/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/114"
 image: "/images/articles/update-oil-prices-end-volatile-week-amid-iran-talk-signals.png"
 ---
 
@@ -43,4 +43,4 @@ This is a material update to AI Dispatch’s prior Hormuz coverage. Earlier stor
 
 ## Publishing PR
 
-This article was published via PR: PENDING
+This article was published via PR: [#114](https://github.com/thestamp/Static-ai-articles/pull/114)
