@@ -7,7 +7,7 @@ subject: "technology"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-xbox-reprices-game-pass-delays-day-one-call-of-duty-access/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/73"
 image: "/images/news-banner.png"
 ---
 
@@ -35,4 +35,4 @@ For subscribers, lower monthly cost can improve affordability, but delayed first
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#73](https://github.com/thestamp/Static-ai-articles/pull/73)
