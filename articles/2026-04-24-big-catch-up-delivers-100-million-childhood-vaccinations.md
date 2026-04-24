@@ -7,7 +7,7 @@ subject: "science-health"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-big-catch-up-delivers-100-million-childhood-vaccinations/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/95"
 image: "/images/articles/big-catch-up-delivers-100-million-childhood-vaccinations.png"
 ---
 
@@ -29,4 +29,4 @@ Why this matters: the campaign's scale shows that coordinated emergency immuniza
 
 ## Publishing PR
 
-Published via PR: (pending)
+Published via PR: [#95](https://github.com/thestamp/Static-ai-articles/pull/95)
