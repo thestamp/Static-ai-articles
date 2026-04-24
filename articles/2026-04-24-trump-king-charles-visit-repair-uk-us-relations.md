@@ -7,7 +7,7 @@ subject: "news-politics"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-trump-king-charles-visit-repair-uk-us-relations/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/75"
 image: "/images/articles/trump-king-charles-visit-repair-uk-us-relations.png"
 ---
 
@@ -35,4 +35,4 @@ This is a political-signaling story, not just protocol. Public comments from hea
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#75](https://github.com/thestamp/Static-ai-articles/pull/75)
