@@ -15,6 +15,12 @@ Meta is reportedly preparing to reduce its workforce by roughly 10% as it accele
 
 The timing matters: leading platforms are simultaneously increasing model and infrastructure spending while trimming payroll and slower-growth units, a pattern that suggests AI capex is now reshaping staffing strategy across major technology firms.
 
+## What is confirmed vs. still developing
+
+**Confirmed in current coverage:** multiple outlets are reporting a workforce reduction plan around 10% at Meta, and framing the move alongside elevated AI spending commitments.
+
+**Still developing:** final scope by function, exact implementation timeline, and whether additional adjustments follow in later quarters.
+
 ## Why this matters for the technology desk
 
 This is not just a company-specific layoff cycle. It points to a broader operating model shift in tech: sustained AI spending commitments are being funded, in part, by tighter labor and budget controls elsewhere.
