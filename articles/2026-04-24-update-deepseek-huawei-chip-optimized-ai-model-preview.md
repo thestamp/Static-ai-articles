@@ -7,7 +7,7 @@ subject: "technology"
 category: "technology"
 status: "published"
 permalink: "/articles/2026-04-24-update-deepseek-huawei-chip-optimized-ai-model-preview/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/100"
 image: "/images/articles/update-deepseek-huawei-chip-optimized-ai-model-preview.png"
 ---
 
