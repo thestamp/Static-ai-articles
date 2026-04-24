@@ -7,7 +7,7 @@ subject: "sports"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-nfl-draft-day-1-first-round-recap-2026/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/70"
 image: "/images/news-banner.png"
 ---
 
@@ -41,4 +41,4 @@ This is a live pro-sports roster-construction event with immediate competitive c
 
 ## Publishing PR
 
-Published via PR: Pending
+Published via PR: [#70](https://github.com/thestamp/Static-ai-articles/pull/70)
