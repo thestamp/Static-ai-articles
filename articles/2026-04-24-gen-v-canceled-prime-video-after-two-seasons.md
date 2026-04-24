@@ -7,7 +7,7 @@ subject: "arts-entertainment"
 category: "arts-entertainment"
 status: "published"
 permalink: "/articles/2026-04-24-gen-v-canceled-prime-video-after-two-seasons/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/112"
 image: "/images/articles/gen-v-canceled-prime-video-after-two-seasons.png"
 ---
 
