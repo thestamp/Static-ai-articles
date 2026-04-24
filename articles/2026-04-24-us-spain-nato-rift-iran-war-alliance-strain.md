@@ -27,6 +27,12 @@ This is less about a single bilateral disagreement and more about wartime coalit
 - **Madrid-Washington diplomacy:** whether Spain and the U.S. move from public sparring to closed-door de-escalation.
 - **Spillover risk:** whether the dispute affects other coordination tracks, including maritime security and sanctions alignment.
 
+## Verification notes (confirmed vs unconfirmed)
+
+- **Confirmed across multiple sources:** a reported internal U.S. defense email discussed punitive options toward specific allies; Spain publicly rejected escalation; NATO officials said formal expulsion procedures are not available.
+- **Not independently confirmed in this run:** any finalized U.S. policy decision to suspend Spain from NATO bodies.
+- **Method constraint:** Reuters canonical story URL was blocked (HTTP 401) in-run, so Reuters-attributed details are cited only through clearly labeled syndication plus independent AP/BBC overlap.
+
 ## Sources
 
 - BBC: *Nato says 'no provision' to expel members after report US could seek to suspend Spain* (Apr 24, 2026) — https://www.bbc.com/news/articles/cz78x703lrvo
