@@ -17,6 +17,11 @@ Meta is moving deeper into CPU-oriented AI infrastructure through a new AWS Grav
 
 CNBC and TechCrunch both report that Meta's AWS agreement is tied to **agentic AI workloads** and involves substantial Graviton capacity, while differing on precise scale language. Across both accounts, the shared signal is a major production commitment rather than an exploratory pilot.
 
+## Verification boundaries
+
+**Verified overlap:** Meta + AWS Graviton agreement and agentic-workload framing appear in both cited reports.  
+**Not yet pinned down:** Exact deployment quantity; source wording ranges from "hundreds of thousands" to "millions." Until formal company disclosures add precision, quantity should be treated as provisional.
+
 ## Why this matters
 
 - **Infrastructure mix shift:** AI scaling discussions are broadening from GPU scarcity to CPU-heavy orchestration/inference paths where architecture and cost profiles differ.
