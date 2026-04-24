@@ -36,3 +36,6 @@ This is a political-signaling story, not just protocol. Public comments from hea
 ## Publishing PR
 
 Published via PR: [#75](https://github.com/thestamp/Static-ai-articles/pull/75)
+
+
+> **Update (2026-04-24):** Follow-on coverage: [Trump Signals Possible UK Tariffs if Digital Services Tax Remains](/articles/2026-04-24-trump-big-tariff-threat-uk-digital-services-tax-update/)
