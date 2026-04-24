@@ -7,7 +7,7 @@ subject: "news-politics"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-uk-assisted-dying-bill-fails-after-lords-delays/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/121"
 image: "/images/articles/uk-assisted-dying-bill-fails-after-lords-delays.png"
 ---
 
@@ -38,4 +38,4 @@ This is a core institutional-politics story about parliamentary procedure, unele
 
 ## Publishing PR
 
-Published via PR: PENDING
+Published via PR: [#121](https://github.com/thestamp/Static-ai-articles/pull/121)
