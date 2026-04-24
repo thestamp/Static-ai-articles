@@ -29,6 +29,12 @@ BBC reported that roughly 60 countries are participating in the Colombia meeting
 
 If participating states can align on shared sequencing—such as timelines, financing expectations, and accountability language—the talks could shape negotiating baselines ahead of future COP sessions even without immediate treaty power.
 
+## Scope limits (confirmed vs not yet confirmed)
+
+**Confirmed:** the talks have opened, are explicitly transition-focused, and involve a reported 50–60 country participation band.
+
+**Not yet confirmed:** any binding phaseout timetable, enforcement mechanism, or finalized COP text adoption.
+
 ## What is verified vs uncertain
 
 **Verified now:** multiple outlets agree the Colombia meeting is underway and is explicitly focused on phaseout/transition planning for fossil fuels, with participation reported in the 50–60 country range.
