@@ -7,7 +7,7 @@ subject: "world"
 category: "world"
 status: "published"
 permalink: "/articles/2026-04-24-eu-approves-90b-euro-ukraine-loan-after-hungary-veto-lifted/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/110"
 image: "/images/news-banner.png"
 ---
 
