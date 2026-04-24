@@ -1,5 +1,18 @@
 [
   {
+    "id": "2026-04-24-chad-refugee-camps-measles-meningitis-outbreaks-msf-warning",
+    "title": "MSF Warns Measles and Meningitis Outbreaks Are Accelerating in Eastern Chad Refugee Hubs",
+    "summary": "Doctors Without Borders says measles and meningitis outbreaks are accelerating in eastern Chad as refugee arrivals from Sudan continue, with emergency vaccination campaigns underway but routine coverage and health-system capacity still under strain.",
+    "author": "Dr. Lena Okafor",
+    "author_id": "science_health_lead",
+    "author_display_name": "Dr. Lena Okafor",
+    "date": "2026-04-24",
+    "subject": "science-health",
+    "category": "science-health",
+    "permalink": "/articles/2026-04-24-chad-refugee-camps-measles-meningitis-outbreaks-msf-warning/",
+    "image": "/images/articles/chad-refugee-camps-measles-meningitis-outbreaks-msf-warning.png"
+  },
+  {
     "id": "2026-04-24-opinion-federal-execution-methods-transparency-oversight",
     "title": "Opinion: Expanding Federal Execution Methods Raises a Transparency Test for U.S. Justice",
     "summary": "As DOJ expands federal execution methods to include firing squads, electrocution, and gassing, the stronger policy test is whether transparency, review safeguards, and public accountability expand in parallel.",
@@ -15,7 +28,7 @@
   {
     "id": "2026-04-24-opinion-powell-probe-fed-independence-guardrails",
     "title": "Opinion: Ending the Powell Probe Should Trigger Harder Guardrails for Fed Independence",
-    "summary": "The DOJ\u2019s reported decision to end its Powell probe may close a headline cycle, but it underscores a deeper institutional question: how to preserve scrutiny without normalizing political pressure on monetary authorities.",
+    "summary": "The DOJ’s reported decision to end its Powell probe may close a headline cycle, but it underscores a deeper institutional question: how to preserve scrutiny without normalizing political pressure on monetary authorities.",
     "author": "Simone Hart",
     "author_id": "opinion_editorials_lead",
     "author_display_name": "Simone Hart",
@@ -67,7 +80,7 @@
   {
     "id": "2026-04-24-alcaraz-misses-french-open-title-defense-wrist-injury",
     "title": "Carlos Alcaraz to Miss French Open, Ending Bid for Third Straight Title",
-    "summary": "Carlos Alcaraz said he will miss the French Open because of a wrist injury, removing the two-time defending champion from the men\u2019s draw and reshaping the tournament outlook.",
+    "summary": "Carlos Alcaraz said he will miss the French Open because of a wrist injury, removing the two-time defending champion from the men’s draw and reshaping the tournament outlook.",
     "author": "Jordan Reeves",
     "author_id": "sports_lead",
     "author_display_name": "Jordan Reeves",
@@ -79,7 +92,7 @@
   },
   {
     "id": "2026-04-24-eu-approves-90b-euro-ukraine-loan-after-hungary-veto-lifted",
-    "title": "EU Approves \u20ac90B ($106B) Ukraine Loan Package After Hungary Veto Standoff Ends",
+    "title": "EU Approves €90B ($106B) Ukraine Loan Package After Hungary Veto Standoff Ends",
     "summary": "The EU approved a 90-billion-euro ($106B) two-year Ukraine package after a Hungary-linked standoff eased, re-opening a key wartime financing channel for Kyiv.",
     "author": "Elias Navarro",
     "author_id": "world_lead",
@@ -191,7 +204,7 @@
     "subject": "technology",
     "category": "technology",
     "permalink": "/articles/2026-04-24-update-deepseek-huawei-chip-optimized-ai-model-preview/",
-    "summary": "Update coverage adds Reuters-reported detail that DeepSeek\u2019s latest model preview is adapted for Huawei chips, sharpening the story\u2019s infrastructure and ecosystem implications.",
+    "summary": "Update coverage adds Reuters-reported detail that DeepSeek’s latest model preview is adapted for Huawei chips, sharpening the story’s infrastructure and ecosystem implications.",
     "image": "/images/articles/update-deepseek-huawei-chip-optimized-ai-model-preview.png"
   },
   {
@@ -204,7 +217,7 @@
     "subject": "arts-entertainment",
     "category": "arts-entertainment",
     "permalink": "/articles/2026-04-24-update-devil-wears-prada-2-asia-backlash-milan-rollout/",
-    "summary": "New coverage links the sequel\u2019s Milan-centered launch narrative with Asia-facing backlash over character portrayal, highlighting global-release sensitivity for entertainment franchises.",
+    "summary": "New coverage links the sequel’s Milan-centered launch narrative with Asia-facing backlash over character portrayal, highlighting global-release sensitivity for entertainment franchises.",
     "image": "/images/articles/update-devil-wears-prada-2-asia-backlash-milan-rollout.png"
   },
   {
@@ -243,7 +256,7 @@
     "subject": "environment",
     "category": "environment",
     "permalink": "/articles/2026-04-24-france-drops-climate-from-g7-environment-talks/",
-    "summary": "France removed explicit climate language from a G7 environment-track agenda to avoid a direct clash with the U.S., raising uncertainty over how strongly climate commitments will appear in final communiqu\u00e9s.",
+    "summary": "France removed explicit climate language from a G7 environment-track agenda to avoid a direct clash with the U.S., raising uncertainty over how strongly climate commitments will appear in final communiqués.",
     "image": "/images/articles/france-drops-climate-from-g7-environment-talks.png"
   },
   {
@@ -269,7 +282,7 @@
     "subject": "technology",
     "category": "technology",
     "permalink": "/articles/2026-04-24-meta-aws-graviton-deployment-agentic-ai-workloads/",
-    "summary": "Meta\u2019s reported AWS Graviton agreement for agentic AI workloads highlights a potential shift toward CPU-heavy AI infrastructure strategies alongside existing GPU-centric expansion.",
+    "summary": "Meta’s reported AWS Graviton agreement for agentic AI workloads highlights a potential shift toward CPU-heavy AI infrastructure strategies alongside existing GPU-centric expansion.",
     "image": "/images/articles/meta-aws-graviton-deployment-agentic-ai-workloads.png"
   },
   {
@@ -287,7 +300,7 @@
   },
   {
     "id": "2026-04-24-china-s-deepseek-says-releases-long-awaited-new-ai-model",
-    "title": "China\u2019s DeepSeek says releases long-awaited new AI model",
+    "title": "China’s DeepSeek says releases long-awaited new AI model",
     "date": "2026-04-24",
     "author": "Adeline Park",
     "author_id": "technology_lead",
@@ -295,7 +308,7 @@
     "subject": "technology",
     "category": "technology",
     "permalink": "/articles/2026-04-24-china-s-deepseek-says-releases-long-awaited-new-ai-model/",
-    "summary": "China\u2019s DeepSeek has released a preview of its long-awaited V4 AI model, with multiple outlets describing the launch as a potentially lower-cost step-up in China\u2019s fast-moving model race.",
+    "summary": "China’s DeepSeek has released a preview of its long-awaited V4 AI model, with multiple outlets describing the launch as a potentially lower-cost step-up in China’s fast-moving model race.",
     "image": "/images/news-banner.png"
   },
   {
@@ -313,7 +326,7 @@
   },
   {
     "id": "2026-04-24-conde-nast-traveler-2026-hot-list-wellness-hotels",
-    "title": "Cond\u00e9 Nast Traveler\u2019s 2026 Hot List Spotlights Wellness Hotels as Global Travel Spending Climbs",
+    "title": "Condé Nast Traveler’s 2026 Hot List Spotlights Wellness Hotels as Global Travel Spending Climbs",
     "date": "2026-04-24",
     "author": "Nico Laurent",
     "author_id": "lifestyle_lead",
@@ -321,7 +334,7 @@
     "subject": "lifestyle",
     "category": "lifestyle",
     "permalink": "/articles/2026-04-24-conde-nast-traveler-2026-hot-list-wellness-hotels/",
-    "summary": "Cond\u00e9 Nast Traveler\u2019s 2026 Hot List package puts wellness hotels in a lead editorial lane, as broader travel and wellness spending data point to continued demand for experience-led trips.",
+    "summary": "Condé Nast Traveler’s 2026 Hot List package puts wellness hotels in a lead editorial lane, as broader travel and wellness spending data point to continued demand for experience-led trips.",
     "image": "/images/articles/conde-nast-traveler-2026-hot-list-wellness-hotels.png"
   },
   {
@@ -412,7 +425,7 @@
     "subject": "sports",
     "category": "sports",
     "permalink": "/articles/2026-04-24-world-cup-final-resale-listings-top-2m-ticket-scrutiny/",
-    "summary": "Resale listings for the 2026 FIFA World Cup final reached about $2.3 million per ticket on FIFA\u2019s platform, as broader pricing and access scrutiny intensifies.",
+    "summary": "Resale listings for the 2026 FIFA World Cup final reached about $2.3 million per ticket on FIFA’s platform, as broader pricing and access scrutiny intensifies.",
     "image": "/images/news-banner.png"
   },
   {
@@ -491,7 +504,7 @@
     "permalink": "/articles/2026-04-24-the-international-right-has-cpac-has-the-left-finally-found-its-answer/",
     "path": "/articles/2026-04-24-the-international-right-has-cpac-has-the-left-finally-found-its-answer/",
     "image": "/images/articles/the-international-right-has-cpac-has-the-left-finally-found-its-answer.png",
-    "excerpt": "Spain\u2019s PM, Pedro S\u00e1nchez, hosted the inaugural meeting of the Global Progressive Mobilisation. Keir Starmer and other social democrats were notable by their absenceCan progressives push back the rising tide of author..."
+    "excerpt": "Spain’s PM, Pedro Sánchez, hosted the inaugural meeting of the Global Progressive Mobilisation. Keir Starmer and other social democrats were notable by their absenceCan progressives push back the rising tide of author..."
   },
   {
     "id": "2026-04-24-nfl-draft-day-1-first-round-recap-2026",
@@ -534,7 +547,7 @@
   },
   {
     "id": "2026-04-24-summer-house-season-10-reunion-no-separate-interviews",
-    "title": "Bravo\u2019s Summer House Reunion Keeps Single-Stage Format, Skips Separate Andy Cohen Interviews",
+    "title": "Bravo’s Summer House Reunion Keeps Single-Stage Format, Skips Separate Andy Cohen Interviews",
     "date": "2026-04-24",
     "author": "Camille Vega",
     "author_id": "arts_entertainment_lead",
@@ -573,7 +586,7 @@
   },
   {
     "id": "2026-04-24-eu-approves-90bn-ukraine-loan-russia-sanctions",
-    "title": "EU Formally Approves \u20ac90 Billion Ukraine Loan and New Russia Sanctions",
+    "title": "EU Formally Approves €90 Billion Ukraine Loan and New Russia Sanctions",
     "date": "2026-04-24",
     "author": "Elias Navarro",
     "author_id": "world_lead",
@@ -581,7 +594,7 @@
     "subject": "world",
     "category": "world",
     "permalink": "/articles/2026-04-24-eu-approves-90bn-ukraine-loan-russia-sanctions/",
-    "summary": "EU institutions finalized a \u20ac90 billion support-loan framework for Ukraine and advanced a fresh sanctions package against Russia, according to cross-outlet reporting.",
+    "summary": "EU institutions finalized a €90 billion support-loan framework for Ukraine and advanced a fresh sanctions package against Russia, according to cross-outlet reporting.",
     "image": "/images/articles/eu-approves-90bn-ukraine-loan-russia-sanctions.png"
   },
   {
@@ -625,7 +638,7 @@
   },
   {
     "id": "2026-04-23-us-senate-passes-ice-funding-resolution-after-vote-a-rama",
-    "title": "US Senate passes ICE funding resolution after \u2018vote-a-rama\u2019: What\u2019s next?",
+    "title": "US Senate passes ICE funding resolution after ‘vote-a-rama’: What’s next?",
     "date": "2026-04-23",
     "author": "Maya Sterling",
     "author_id": "news_politics_lead",
@@ -633,7 +646,7 @@
     "subject": "news-politics",
     "category": "news-politics",
     "permalink": "/articles/2026-04-23-us-senate-passes-ice-funding-resolution-after-vote-a-rama/",
-    "summary": "US Senate passes ICE funding resolution after \u2018vote-a-rama\u2019: What\u2019s next?&nbsp;&nbsp;Al Jazeera",
+    "summary": "US Senate passes ICE funding resolution after ‘vote-a-rama’: What’s next?&nbsp;&nbsp;Al Jazeera",
     "image": "/images/news-banner.png"
   },
   {
@@ -870,7 +883,7 @@
   },
   {
     "title": "Two Trains Collide North of Copenhagen, Leaving Five Critically Injured",
-    "summary": "A head-on train collision near Hiller\u00f8d north of Copenhagen left five people critically injured, with authorities investigating the cause.",
+    "summary": "A head-on train collision near Hillerød north of Copenhagen left five people critically injured, with authorities investigating the cause.",
     "date": "2026-04-23",
     "subject": "world",
     "author_id": "world_lead",
