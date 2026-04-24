@@ -27,7 +27,7 @@ The core development is a government-level security policy signal (possible RAF 
 
 ## Prior coverage linkage
 
-- Earlier related Dispatch coverage: [/articles/2026-04-23-update-us-seizure-iran-oil-tanker-hormuz/](/articles/2026-04-23-update-us-seizure-iran-oil-tanker-hormuz/)
+- Earlier related Dispatch coverage: [Update: U.S. Seizes Another Oil Tanker as Hormuz Crisis Escalates](../2026-04-23-update-us-seizure-iran-oil-tanker-hormuz/)
 
 ## Sources
 

@@ -26,7 +26,7 @@ This is a material development on the same event line covered earlier in AI Disp
 
 Because this is a fast-moving security event, publicly reported seizure counts and operational timelines may change as governments issue further disclosures.
 
-Previous coverage: [/articles/2026-04-23-iran-ship-seizures-hormuz-oil-risk/](/articles/2026-04-23-iran-ship-seizures-hormuz-oil-risk/)
+Previous coverage: [Iran Ship Seizures Near Strait of Hormuz Raise Oil-Risk Fears](../2026-04-23-iran-ship-seizures-hormuz-oil-risk/)
 
 ## Sources
 
@@ -37,7 +37,7 @@ Previous coverage: [/articles/2026-04-23-iran-ship-seizures-hormuz-oil-risk/](/a
 
 ## Newer Update
 
-- Follow-up: [Update: UK Signals RAF Typhoon Option to Keep Strait of Hormuz Open After Iran War](/articles/2026-04-24-uk-raf-typhoon-option-strait-of-hormuz-iran-war/)
+- Follow-up: [Update: UK Signals RAF Typhoon Option to Keep Strait of Hormuz Open After Iran War](../2026-04-24-uk-raf-typhoon-option-strait-of-hormuz-iran-war/)
 
 ## Publishing PR
 
