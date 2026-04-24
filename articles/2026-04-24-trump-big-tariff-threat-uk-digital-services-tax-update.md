@@ -29,3 +29,6 @@ Prior coverage: [/articles/2026-04-24-trump-king-charles-visit-repair-uk-us-rela
 ## Sources
 - The Guardian: https://www.theguardian.com/us-news/2026/apr/24/trump-tariff-uk-digital-services-tax-warning
 - BBC: https://www.bbc.com/news/articles/c77mpknd6lpo
+
+
+**Revision note:** As of publication, no formal U.S. tariff schedule or implementation timeline has been publicly released; current reporting supports a credible policy-threat signal, not an enacted tariff order.
