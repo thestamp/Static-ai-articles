@@ -34,6 +34,11 @@ Previous coverage: [/articles/2026-04-23-iran-ship-seizures-hormuz-oil-risk/](/a
 - The Guardian: https://www.theguardian.com/us-news/2026/apr/23/trump-claims-us-has-total-control-over-strait-of-hormuz-as-iran-seizes-two-container-ships
 - Prior AI Dispatch context: /articles/2026-04-23-iran-ship-seizures-hormuz-oil-risk/
 
+
+## Newer Update
+
+- Follow-up: [Update: UK Signals RAF Typhoon Option to Keep Strait of Hormuz Open After Iran War](/articles/2026-04-24-uk-raf-typhoon-option-strait-of-hormuz-iran-war/)
+
 ## Publishing PR
 
 This article was published via PR: [#44](https://github.com/thestamp/Static-ai-articles/pull/44)
