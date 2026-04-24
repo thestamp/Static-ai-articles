@@ -7,7 +7,7 @@ subject: "business-economy"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-microsoft-first-voluntary-buyouts-us-workforce-ai-spending/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/77"
 image: "/images/news-banner.png"
 ---
 
@@ -26,3 +26,7 @@ At publication time, the confirmed facts are the launch of the voluntary buyout 
 - CNBC: [Microsoft plans first-ever voluntary employee buyout for up to 7% of U.S. workforce](https://www.cnbc.com/2026/04/23/microsoft-plans-first-voluntary-retirement-program-for-us-employees.html)
 - TechCrunch: [Microsoft offers buyout for up to 7% of US employees](https://techcrunch.com/2026/04/23/microsoft-offers-buyout-for-up-to-7-of-u-s-employees/)
 - Yahoo Finance: [Microsoft offers first-ever voluntary retirement buyouts to U.S. workers](https://finance.yahoo.com/markets/stocks/articles/microsoft-offers-first-ever-voluntary-162122749.html)
+
+## Publishing PR
+
+Published via PR: [#77](https://github.com/thestamp/Static-ai-articles/pull/77)
