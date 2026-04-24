@@ -7,7 +7,7 @@ subject: "world"
 category: "world"
 status: "published"
 permalink: "/articles/2026-04-24-us-spain-nato-rift-iran-war-alliance-strain/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/103"
 image: "/images/articles/us-spain-nato-rift-iran-war-alliance-strain.png"
 ---
 
