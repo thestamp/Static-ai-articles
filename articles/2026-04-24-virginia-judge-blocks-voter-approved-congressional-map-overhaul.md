@@ -7,7 +7,7 @@ subject: "news-politics"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-virginia-judge-blocks-voter-approved-congressional-map-overhaul/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/67"
 image: "/images/articles/virginia-judge-blocks-voter-approved-congressional-map-overhaul.png"
 ---
 
@@ -39,4 +39,4 @@ This is a direct governance-and-elections process story centered on redistrictin
 
 ## Publishing PR
 
-Published via PR: PENDING
+Published via PR: [#67](https://github.com/thestamp/Static-ai-articles/pull/67)
