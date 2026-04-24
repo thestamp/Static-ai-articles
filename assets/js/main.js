@@ -22,7 +22,8 @@
     return `${basePrefix}/${path}`.replace('././', './').replace('.././', '../');
   };
 
-  const articleHref = (item) => withBase(item.path || 'articles/');
+  const articlePath = (item) => item.path || item.url || item.href || item.link || item.permalink || '';
+  const articleHref = (item) => withBase(articlePath(item) || 'articles/');
   const articleImage = (item) => withBase(item.image || item.image_url || 'images/news-banner.png');
   const displayAuthor = (item) => item.author_display_name || item.author || item.author_id || 'Unknown';
 
@@ -38,7 +39,8 @@
       if (!Number.isNaN(t)) return t;
     }
 
-    const pathDateMatch = (item.path || '').match(/(\d{4}-\d{2}-\d{2})/);
+    const datedPath = articlePath(item);
+    const pathDateMatch = (datedPath || '').match(/(\d{4}-\d{2}-\d{2})/);
     if (pathDateMatch) {
       const t = Date.parse(pathDateMatch[1]);
       if (!Number.isNaN(t)) return t;
@@ -56,7 +58,7 @@
     const sourceIndexDiff = (b.__sourceIndex ?? -1) - (a.__sourceIndex ?? -1);
     if (sourceIndexDiff !== 0) return sourceIndexDiff;
 
-    return (b.path || '').localeCompare(a.path || '');
+    return articlePath(b).localeCompare(articlePath(a));
   });
 
   const subjectLabel = (slug) => ({
