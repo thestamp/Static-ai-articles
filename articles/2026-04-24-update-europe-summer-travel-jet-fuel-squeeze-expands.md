@@ -32,6 +32,13 @@ Compared with our prior coverage focused on Lufthansa-specific cuts, the latest 
 - Coverage ties disruption risk to both fuel availability and elevated input costs, not just standard seasonal schedule optimization.
 - Consumer-facing framing has shifted toward planning uncertainty (itinerary resilience, timing, and rebooking friction).
 
+
+## Verified now vs still uncertain
+
+**Verified now:** cross-outlet reporting indicates broader regional disruption risk and active schedule pressure heading into peak summer weeks.
+
+**Still uncertain:** exact route-level cancellation depth, duration of fuel constraints, and carrier-by-carrier refund/rebooking friction remain unresolved and may change quickly.
+
 ## What to watch next
 
 1. Whether additional carriers announce reductions or route-level revisions.
