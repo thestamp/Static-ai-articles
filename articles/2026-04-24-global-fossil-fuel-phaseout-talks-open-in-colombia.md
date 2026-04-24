@@ -7,13 +7,15 @@ subject: "environment"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-global-fossil-fuel-phaseout-talks-open-in-colombia/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/109"
 image: "/images/articles/global-fossil-fuel-phaseout-talks-open-in-colombia.png"
 ---
 
 # First Global Fossil-Fuel Phaseout Talks Open in Colombia as COP Frustration Mounts
 
 Delegations from more than 50 countries convened in Colombia on Friday for what multiple outlets described as the first coordinated international talks focused specifically on phasing out fossil fuels, as frustration grows over repeated deadlock in formal UN climate rounds.
+
+_Tracking PR: https://github.com/thestamp/Static-ai-articles/pull/109_
 
 ## Why this is a desk fit (environment)
 
