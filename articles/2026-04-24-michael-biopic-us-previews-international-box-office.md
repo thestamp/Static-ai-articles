@@ -7,7 +7,7 @@ subject: "arts-entertainment"
 category: "arts-entertainment"
 status: "published"
 permalink: "/articles/2026-04-24-michael-biopic-us-previews-international-box-office/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/85"
 image: "/images/news-banner.png"
 ---
 
@@ -35,4 +35,4 @@ For studios and theater operators, preview strength can signal audience urgency 
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#85](https://github.com/thestamp/Static-ai-articles/pull/85)
