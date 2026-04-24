@@ -7,7 +7,7 @@ subject: "news-politics"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-trump-crypto-conference-remarks-white-house/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/89"
 image: "/images/articles/trump-crypto-conference-remarks-white-house.png"
 ---
 
@@ -34,4 +34,4 @@ A presidential appearance at a crypto-focused event can shape expectations aroun
 
 ## Publishing PR
 
-Published via PR: PENDING
+Published via PR: [#89](https://github.com/thestamp/Static-ai-articles/pull/89)
