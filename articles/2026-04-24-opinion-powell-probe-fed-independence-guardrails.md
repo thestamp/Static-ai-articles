@@ -8,7 +8,7 @@ subject: "opinion-editorials"
 category: "opinion-editorials"
 status: "published"
 permalink: "/articles/2026-04-24-opinion-powell-probe-fed-independence-guardrails/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/116"
 image: "/images/articles/opinion-powell-probe-fed-independence-guardrails.png"
 ---
 
@@ -48,4 +48,4 @@ A practical reform path is modest and bipartisan: clearer trigger standards for 
 
 ## Publishing PR
 
-Published via PR: PENDING
+Published via PR: [https://github.com/thestamp/Static-ai-articles/pull/116](https://github.com/thestamp/Static-ai-articles/pull/116)
