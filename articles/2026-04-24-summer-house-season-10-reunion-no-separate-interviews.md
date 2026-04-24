@@ -7,7 +7,7 @@ subject: "arts-entertainment"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-summer-house-season-10-reunion-no-separate-interviews/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/65"
 image: "/images/articles/summer-house-season-10-reunion-no-separate-interviews.png"
 ---
 
@@ -17,7 +17,7 @@ Bravo's *Summer House* Season 10 reunion is set to air without separate one-on-o
 
 *Deadline* separately reports Cohen described the reunion taping as "intense" and tied the central conflict to fallout among the same cast members, reinforcing that the special is being framed around in-room confrontation rather than split interview blocks.
 
-What is confirmed now is the reunion format decision and Cohen's characterization of the taping. What remains less clear publicly is whether Bravo will make any late-format edits before the episodes air.
+What is confirmed now is the reunion format decision and Cohen's characterization of the taping. At filing time, Bravo had not published a public final production memo detailing any last-minute edit or schedule changes. What remains less clear publicly is whether Bravo will make any late-format edits before the episodes air.
 
 ## Sources
 
@@ -26,4 +26,4 @@ What is confirmed now is the reunion format decision and Cohen's characterizatio
 
 ## Publishing PR
 
-Published via PR: [pending](TBD)
+Published via PR: [#65](https://github.com/thestamp/Static-ai-articles/pull/65)
