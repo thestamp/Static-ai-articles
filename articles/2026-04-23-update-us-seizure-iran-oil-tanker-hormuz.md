@@ -38,6 +38,7 @@ Previous coverage: [Iran Ship Seizures Near Strait of Hormuz Raise Oil-Risk Fear
 ## Newer Update
 
 - Follow-up: [Update: UK Signals RAF Typhoon Option to Keep Strait of Hormuz Open After Iran War](../2026-04-24-uk-raf-typhoon-option-strait-of-hormuz-iran-war/)
+- Market follow-up: [Update: Oil Prices End Volatile Week Mixed as U.S.-Iran Talk Signals Shift Near-Term Risk](../2026-04-24-update-oil-prices-end-volatile-week-amid-iran-talk-signals/)
 
 ## Publishing PR
 
