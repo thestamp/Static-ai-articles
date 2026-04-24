@@ -7,7 +7,7 @@ subject: "news-politics"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-uk-raf-typhoon-option-strait-of-hormuz-iran-war/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/62"
 image: "/images/news-banner.png"
 ---
 
@@ -37,4 +37,4 @@ The core development is a government-level security policy signal (possible RAF 
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#62](https://github.com/thestamp/Static-ai-articles/pull/62)
