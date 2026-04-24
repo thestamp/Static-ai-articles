@@ -31,3 +31,8 @@ This story is desk-aligned for **news-politics** because the primary development
 
 - [www.theguardian.com](https://www.theguardian.com/commentisfree/2026/apr/23/cpac-pedro-sanchez-international-left-global-progressive-mobilisation)
 - [The Guardian](https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWnZhNWFXZjhfZ2c3UWs4NmEtc1NjYlhEejl6TGRpemZ4bUl5RHJaT1pCWFFzOFNNMnlSZ2V1bUdPWE8tdDg0WHlOYkVmQ2IwUFFVaGIzSGhoVkZBb3d4RTExOE5RdUFlUE1QS2tZcTZEZnFyQjd0MktaY1FPbk1kOGFWaVVNckhYc0V4VjB3RDVhZEpmMjY2YjJUSXpFbFo3ZmJEV2tJbUtTdDJfeDdESHVpREVMdURwODVFa09zRi0?oc=5)
+
+
+## Verification note
+
+This draft separates directly attributed facts from pending confirmations to reduce over-claim risk in a fast-moving story.
