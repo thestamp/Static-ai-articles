@@ -8,7 +8,7 @@ subject: "opinion-editorials"
 category: "opinion-editorials"
 status: "published"
 permalink: "/articles/2026-04-24-opinion-federal-execution-methods-transparency-oversight/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/119"
 image: "/images/articles/opinion-federal-execution-methods-transparency-oversight.png"
 ---
 
@@ -48,4 +48,4 @@ Whatever one's position on capital punishment itself, governance quality can sti
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [https://github.com/thestamp/Static-ai-articles/pull/119](https://github.com/thestamp/Static-ai-articles/pull/119)
