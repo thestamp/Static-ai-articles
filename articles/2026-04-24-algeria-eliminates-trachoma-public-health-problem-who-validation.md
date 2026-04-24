@@ -7,7 +7,7 @@ subject: "science-health"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-algeria-eliminates-trachoma-public-health-problem-who-validation/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/107"
 image: "/images/news-banner.png"
 ---
 
@@ -29,4 +29,4 @@ Why this matters: elimination validation is not the same as eradication, but it 
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#107](https://github.com/thestamp/Static-ai-articles/pull/107)
