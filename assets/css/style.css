@@ -274,7 +274,16 @@ a:hover { text-decoration: underline; }
 .article-page .article { max-width: 820px; margin: 0 auto; }
 .article-header h1 { margin-bottom: 0.25rem; }
 .article-meta { color: var(--muted); margin-top: 0; }
+.article-hero { margin: 1rem 0 0.75rem; }
+.article-hero img {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
 .article-content { margin-top: 1rem; }
+.article-content > h1:first-child { display: none; }
 
 .ad-slot {
   background: #0b1220;
