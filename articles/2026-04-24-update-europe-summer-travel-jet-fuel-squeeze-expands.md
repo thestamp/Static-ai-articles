@@ -28,6 +28,9 @@ Compared with our prior coverage focused on Lufthansa-specific cuts, the latest 
 
 ## What changed in the reporting
 
+
+- Newer update: [/articles/2026-04-24-update-uk-flight-cancellations-passenger-rights-jet-fuel-crunch/](/articles/2026-04-24-update-uk-flight-cancellations-passenger-rights-jet-fuel-crunch/)
+
 - Outlets now describe Europe-wide summer travel exposure rather than only one carrier’s operational adjustment.
 - Coverage ties disruption risk to both fuel availability and elevated input costs, not just standard seasonal schedule optimization.
 - Consumer-facing framing has shifted toward planning uncertainty (itinerary resilience, timing, and rebooking friction).
