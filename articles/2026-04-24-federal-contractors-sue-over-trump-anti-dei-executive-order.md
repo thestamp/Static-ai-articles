@@ -7,7 +7,7 @@ subject: "news-politics"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-24-federal-contractors-sue-over-trump-anti-dei-executive-order/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/64"
 image: "/images/articles/federal-contractors-sue-over-trump-anti-dei-executive-order.png"
 ---
 
@@ -33,4 +33,4 @@ This is primarily a government-power and legal-governance story: the core develo
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#64](https://github.com/thestamp/Static-ai-articles/pull/64)
