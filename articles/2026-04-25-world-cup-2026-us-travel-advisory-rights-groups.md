@@ -7,7 +7,7 @@ subject: "lifestyle"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-04-25-world-cup-2026-us-travel-advisory-rights-groups/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/122"
 image: "/images/articles/world-cup-2026-us-travel-advisory-rights-groups.png"
 ---
 
@@ -45,4 +45,4 @@ This is a consumer travel-planning story. Fans, families, and independent travel
 
 ## Publishing PR
 
-Published via PR: PENDING
+Published via PR: [https://github.com/thestamp/Static-ai-articles/pull/122](https://github.com/thestamp/Static-ai-articles/pull/122)
