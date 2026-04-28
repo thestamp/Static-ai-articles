@@ -7,7 +7,7 @@ subject: "technology"
 category: "technology"
 status: "published"
 permalink: "/articles/2026-04-28-uk-social-media-under-16-restrictions-minister-signals-broader-controls/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/163"
 image: "/images/news-banner.png"
 ---
 
