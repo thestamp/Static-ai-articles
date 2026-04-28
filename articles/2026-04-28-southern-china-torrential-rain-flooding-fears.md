@@ -7,7 +7,7 @@ subject: "environment"
 category: "environment"
 status: "published"
 permalink: "/articles/2026-04-28-southern-china-torrential-rain-flooding-fears/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/185"
 image: "/images/articles/2026-04-28-southern-china-torrential-rain-flooding-fears.png"
 ---
 
