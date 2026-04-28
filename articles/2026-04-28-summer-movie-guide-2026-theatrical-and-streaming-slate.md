@@ -7,7 +7,7 @@ subject: "arts-entertainment"
 category: "arts-entertainment"
 status: "published"
 permalink: "/articles/2026-04-28-summer-movie-guide-2026-theatrical-and-streaming-slate/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/166"
 image: "/images/articles/2026-04-28-summer-movie-guide-2026-theatrical-and-streaming-slate.png"
 ---
 
