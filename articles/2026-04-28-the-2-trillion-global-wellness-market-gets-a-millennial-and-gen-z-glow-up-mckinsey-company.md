@@ -8,7 +8,7 @@ subject: "lifestyle"
 category: "lifestyle"
 status: "published"
 permalink: "/articles/2026-04-28-the-2-trillion-global-wellness-market-gets-a-millennial-and-gen-z-glow-up-mckinsey-company/"
-published_pr_url: "PENDING_PR_URL"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/182"
 image: "/images/news-banner.png"
 ---
 
