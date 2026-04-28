@@ -8,7 +8,7 @@ subject: "opinion-editorials"
 category: "opinion-editorials"
 status: "published"
 permalink: "/articles/2026-04-28-opinion-russia-internet-blackouts-legitimacy-cost/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/181"
 image: "/images/articles/2026-04-28-opinion-russia-internet-blackouts-legitimacy-cost.png"
 ---
 
