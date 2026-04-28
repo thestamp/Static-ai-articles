@@ -8,7 +8,7 @@ subject: "technology"
 category: "technology"
 status: "published"
 permalink: "/articles/2026-04-28-google-pentagon-classified-ai-contract-report/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/171"
 image: "/images/news-banner.png"
 ---
 
