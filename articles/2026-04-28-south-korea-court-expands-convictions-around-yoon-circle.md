@@ -7,7 +7,7 @@ subject: "world"
 category: "world"
 status: "published"
 permalink: "/articles/2026-04-28-south-korea-court-expands-convictions-around-yoon-circle/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/164"
 image: "/images/articles/2026-04-28-south-korea-court-expands-convictions-around-yoon-circle.png"
 ---
 
