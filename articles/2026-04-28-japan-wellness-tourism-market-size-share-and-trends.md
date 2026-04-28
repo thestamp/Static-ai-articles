@@ -8,7 +8,7 @@ subject: "lifestyle"
 category: "lifestyle"
 status: "published"
 permalink: "/articles/japan-wellness-tourism-market-size-share-and-trends/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/180"
 image: "/images/news-banner.png"
 ---
 
