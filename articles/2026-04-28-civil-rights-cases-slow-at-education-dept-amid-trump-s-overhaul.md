@@ -7,7 +7,7 @@ subject: "news-politics"
 category: "news-politics"
 status: "published"
 permalink: "/articles/2026-04-28-civil-rights-cases-slow-at-education-dept-amid-trump-s-overhaul/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/162"
 image: "/images/articles/2026-04-28-civil-rights-cases-slow-at-education-dept-amid-trump-s-overhaul.png"
 ---
 
