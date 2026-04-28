@@ -7,7 +7,7 @@ subject: "world"
 category: "world"
 status: "published"
 permalink: "/articles/2026-04-28-third-ukrainian-strike-hits-russian-oil-refinery-and-prompts-evacuations/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/176"
 image: "/images/articles/2026-04-28-third-ukrainian-strike-hits-russian-oil-refinery-and-prompts-evacuations.png"
 ---
 
