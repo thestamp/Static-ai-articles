@@ -8,7 +8,7 @@ subject: "opinion-editorials"
 category: "opinion-editorials"
 status: "published"
 permalink: "/articles/cbs-news-poll-and-analysis-on-california-voters-views-of-state-s-policies-ahead-of-debate/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/169"
 image: "/images/news-banner.png"
 ---
 
