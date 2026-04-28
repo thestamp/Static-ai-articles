@@ -7,7 +7,7 @@ subject: "business-economy"
 category: "business-economy"
 status: "published"
 permalink: "/articles/2026-04-28-a-data-heavy-week-monetary-policy-and-mega-cap-earnings-in-focus/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/161"
 image: "/images/news-banner.png"
 ---
 
