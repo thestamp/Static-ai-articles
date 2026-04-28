@@ -7,7 +7,7 @@ subject: "news-politics"
 category: "news-politics"
 status: "published"
 permalink: "/articles/2026-04-28-update-starmer-avoids-mandelson-vetting-inquiry-vote/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/177"
 image: "/images/news-banner.png"
 ---
 
