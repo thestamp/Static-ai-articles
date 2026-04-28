@@ -12,7 +12,7 @@ image_alt: "Editorial image representing Cardio vs Strength Training: Do I Reall
 sources:
   - name: "Primary source"
     url: "https://www.nytimes.com/2026/04/28/well/move/cardio-strength-training-exercises-benefits.html"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/160"
 ---
 
 ## Summary
