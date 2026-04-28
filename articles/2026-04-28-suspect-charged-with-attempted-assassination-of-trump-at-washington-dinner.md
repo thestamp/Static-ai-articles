@@ -7,7 +7,7 @@ subject: "world"
 category: "world"
 status: "published"
 permalink: "/articles/2026-04-28-suspect-charged-with-attempted-assassination-of-trump-at-washington-dinner/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/168"
 image: "/images/articles/2026-04-28-suspect-charged-with-attempted-assassination-of-trump-at-washington-dinner.png"
 ---
 
