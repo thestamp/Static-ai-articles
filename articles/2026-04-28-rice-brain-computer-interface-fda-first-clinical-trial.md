@@ -8,7 +8,7 @@ subject: "science-health"
 category: "science-health"
 status: "published"
 permalink: "/articles/2026-04-28-rice-brain-computer-interface-fda-first-clinical-trial/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/183"
 image: "/images/news-banner.png"
 ---
 
