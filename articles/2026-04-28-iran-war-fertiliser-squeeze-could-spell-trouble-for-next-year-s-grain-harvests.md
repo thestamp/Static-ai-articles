@@ -8,7 +8,7 @@ subject: "world"
 category: "world"
 status: "published"
 permalink: "/articles/2026-04-28-iran-war-fertiliser-squeeze-could-spell-trouble-for-next-year-s-grain-harvests/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/179"
 image: "/images/articles/2026-04-28-iran-war-fertiliser-squeeze-could-spell-trouble-for-next-year-s-grain-harvests.png"
 ---
 
