@@ -8,7 +8,7 @@ subject: "arts-entertainment"
 category: "arts-entertainment"
 status: "published"
 permalink: "/articles/2026-04-28-ted-lasso-season-4-trailer-reveals-august-release-date/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/175"
 image: "/images/news-banner.png"
 ---
 
