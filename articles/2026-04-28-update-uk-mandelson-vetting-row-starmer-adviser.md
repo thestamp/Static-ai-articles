@@ -7,7 +7,7 @@ subject: "news-politics"
 category: "news-politics"
 status: "published"
 permalink: "/articles/2026-04-28-update-uk-mandelson-vetting-row-starmer-adviser/"
-published_pr_url: "TO_BE_FILLED"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/158"
 image: "/images/articles/2026-04-28-update-uk-mandelson-vetting-row-starmer-adviser.png"
 ---
 
