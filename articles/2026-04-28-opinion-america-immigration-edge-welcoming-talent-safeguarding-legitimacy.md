@@ -8,7 +8,7 @@ subject: "opinion-editorials"
 category: "opinion-editorials"
 status: "published"
 permalink: "/articles/2026-04-28-opinion-america-immigration-edge-welcoming-talent-safeguarding-legitimacy/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/174"
 image: "/images/news-banner.png"
 ---
 
@@ -48,4 +48,4 @@ Critically, Congress should treat enforcement appropriations and legal-entry mod
 
 ## Publishing PR
 
-Published via PR: PENDING
+Published via PR: [https://github.com/thestamp/Static-ai-articles/pull/174](https://github.com/thestamp/Static-ai-articles/pull/174)
