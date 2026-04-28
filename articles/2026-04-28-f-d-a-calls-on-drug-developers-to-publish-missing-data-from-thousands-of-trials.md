@@ -8,7 +8,7 @@ subject: "science-health"
 category: "science-health"
 status: "published"
 permalink: "/articles/2026-04-28-f-d-a-calls-on-drug-developers-to-publish-missing-data-from-thousands-of-trials/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/172"
 image: "/images/news-banner.png"
 ---
 
