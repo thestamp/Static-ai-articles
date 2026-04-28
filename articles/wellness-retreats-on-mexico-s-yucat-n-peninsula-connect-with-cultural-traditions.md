@@ -8,7 +8,7 @@ subject: "Wellness retreats on Mexico’s Yucatán Peninsula connect with cultur
 category: lifestyle
 status: published
 permalink: /articles/wellness-retreats-on-mexico-s-yucat-n-peninsula-connect-with-cultural-traditions/
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/156"
 image: "/images/articles/wellness-retreats-on-mexico-s-yucat-n-peninsula-connect-with-cultural-traditions.png"
 ---
 
