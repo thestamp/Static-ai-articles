@@ -5,7 +5,7 @@ author: "Priya Desai"
 desk: "business-economy"
 summary: "Goldman stops bankers using Anthropic’s Claude in Hong Kong"
 canonical_url: "https://www.ft.com/content/aa3a7a19-ab94-4069-aea4-e192ab9abc41"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/187"
 image: "/images/news-banner.png"
 ---
 
