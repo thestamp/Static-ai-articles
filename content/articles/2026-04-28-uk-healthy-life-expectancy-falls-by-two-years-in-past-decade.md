@@ -12,7 +12,7 @@ image_alt: "Editorial image representing UK healthy life expectancy falls by two
 sources:
   - name: "Primary source"
     url: "https://www.bbc.com/news/articles/c20q07w3gl9o?at_medium=RSS&at_campaign=rss"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/184"
 ---
 
 ## Summary
