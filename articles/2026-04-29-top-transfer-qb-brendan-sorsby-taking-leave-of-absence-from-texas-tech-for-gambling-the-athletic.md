@@ -8,7 +8,7 @@ subject: "sports"
 category: "sports"
 status: "published"
 permalink: "/articles/2026-04-29-top-transfer-qb-brendan-sorsby-taking-leave-of-absence-from-texas-tech-for-gambling-the-athletic/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/204"
 image: "/images/articles/2026-04-29-top-transfer-qb-brendan-sorsby-taking-leave-of-absence-from-texas-tech-for-gambling-the-athletic.png"
 ---
 
