@@ -8,7 +8,7 @@ subject: "sports"
 category: "sports"
 status: "published"
 permalink: "/articles/2026-04-29-inside-the-fractured-relationship-between-giannis-and-the-bucks-espn"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/212"
 image: "/images/news-banner.png"
 ---
 
