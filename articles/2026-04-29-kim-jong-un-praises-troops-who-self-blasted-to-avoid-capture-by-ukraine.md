@@ -8,7 +8,7 @@ subject: "world"
 category: "world"
 status: "published"
 permalink: "/articles/2026-04-29-kim-jong-un-praises-troops-who-self-blasted-to-avoid-capture-by-ukraine/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/196"
 image: "/images/articles/2026-04-29-kim-jong-un-praises-troops-who-self-blasted-to-avoid-capture-by-ukraine.png"
 ---
 
