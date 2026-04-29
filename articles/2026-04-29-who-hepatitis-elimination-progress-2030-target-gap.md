@@ -8,7 +8,7 @@ subject: "science-health"
 category: "science-health"
 status: "published"
 permalink: "/articles/2026-04-29-who-hepatitis-elimination-progress-2030-target-gap/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/191"
 image: "/images/articles/2026-04-29-who-hepatitis-elimination-progress-2030-target-gap.png"
 ---
 
