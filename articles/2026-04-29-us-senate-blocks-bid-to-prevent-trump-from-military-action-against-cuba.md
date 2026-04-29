@@ -7,7 +7,7 @@ subject: news-politics
 category: news-politics
 status: published
 permalink: /articles/2026-04-29-us-senate-blocks-bid-to-prevent-trump-from-military-action-against-cuba/
-published_pr_url: TBD
+published_pr_url: https://github.com/thestamp/Static-ai-articles/pull/190
 image: "/images/articles/2026-04-29-us-senate-blocks-bid-to-prevent-trump-from-military-action-against-cuba.png"
 ---
 
