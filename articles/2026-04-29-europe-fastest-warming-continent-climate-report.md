@@ -8,7 +8,7 @@ subject: "environment"
 category: "environment"
 status: "published"
 permalink: "/articles/2026-04-29-europe-fastest-warming-continent-climate-report/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/211"
 image: "/images/news-banner.png"
 ---
 
