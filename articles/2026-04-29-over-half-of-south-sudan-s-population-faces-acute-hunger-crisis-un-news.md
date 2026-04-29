@@ -8,7 +8,7 @@ subject: "world"
 category: "world"
 status: "published"
 permalink: "/articles/2026-04-29-over-half-of-south-sudan-s-population-faces-acute-hunger-crisis-un-news/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/192"
 image: "/images/news-banner.png"
 ---
 
