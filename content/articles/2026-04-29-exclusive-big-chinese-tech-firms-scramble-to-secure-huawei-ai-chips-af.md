@@ -5,7 +5,7 @@ desk: "technology"
 author: "Adeline Park"
 summary: "Exclusive: Big Chinese tech firms scramble to secure Huawei AI chips after DeepSeek V4 launch, sources say - Reuters."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/216"
 ---
 
 Exclusive: Big Chinese tech firms scramble to secure Huawei AI chips after DeepSeek V4 launch, sources say - Reuters.
