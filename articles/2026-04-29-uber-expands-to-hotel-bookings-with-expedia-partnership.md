@@ -6,7 +6,7 @@ date: "2026-04-29T17:42:20Z"
 category: "lifestyle"
 tags: ["lifestyle", "travel", "platforms"]
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/208"
 ---
 
 Uber is expanding into hotel bookings through a partnership with Expedia, according to a New York Times report, marking another move beyond ride-hailing and food delivery.
