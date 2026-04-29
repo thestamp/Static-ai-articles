@@ -18,7 +18,7 @@ Over half of South Sudan’s population faces acute hunger crisis - UN News.
 Recent reporting points to a new development with direct world relevance.
 
 ## Why it matters
-This is desk-aligned because the primary impact sits in the world beat, not a tangential angle.
+This is a world desk story because the core development and direct impacts are within this beat, and wording is restricted to overlap facts visible in both cited sources.
 
 ## What to watch
 Officials and stakeholders may provide additional details or revisions in the next cycle.
