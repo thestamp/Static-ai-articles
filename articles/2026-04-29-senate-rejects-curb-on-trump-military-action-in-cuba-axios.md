@@ -8,7 +8,7 @@ subject: "news-politics"
 category: "news-politics"
 status: "published"
 permalink: "/articles/2026-04-29-senate-rejects-curb-on-trump-military-action-in-cuba-axios/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/215"
 image: "/images/news-banner.png"
 source_url: "https://news.google.com/rss/articles/CBMiggFBVV95cUxPanZaRzRtN0FySjhxcjFCRGVVQTNtcXNQZDZxelFLY0t2S2Z4M2ZnblFyNEVjc2NuUUlWd2RWV0duUVpteFZUZEc2ZGpHME9pS2RfVFUyZjRJNzZyVnB0V0hCUjFwWVpmSV9LdUpFVjV4RkxfR1c1RHItQS1KNkwzVUhn?oc=5"
 ---
