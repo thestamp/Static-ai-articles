@@ -8,7 +8,7 @@ subject: "world"
 category: "world"
 status: "published"
 permalink: "/articles/trump-s-war-global-justice-court-staff-u-n-face/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/205"
 image: "/images/news-banner.png"
 ---
 
