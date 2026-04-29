@@ -5,7 +5,7 @@ desk: "sports"
 author: "Jordan Reeves"
 date: "2026-04-29"
 image: "/images/articles/the-cw-network-and-espn-team-up-to-stream-more-than-800-hours-of-live-events-fro.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/207"
 ---
 
 The CW Network and ESPN team up to stream more than 800 hours of live events from CW Sports on the ESPN App is developing and remains a live sports story. Early reporting indicates notable movement relevant to this desk's audience, with implications that may evolve as officials and stakeholders release more details.
