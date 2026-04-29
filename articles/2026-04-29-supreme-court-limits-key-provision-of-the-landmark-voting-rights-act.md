@@ -8,7 +8,7 @@ subject: "news-politics"
 category: "news-politics"
 status: "published"
 permalink: "/articles/2026-04-29-supreme-court-limits-key-provision-of-the-landmark-voting-rights-act/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/214"
 image: "/images/news-banner.png"
 ---
 
