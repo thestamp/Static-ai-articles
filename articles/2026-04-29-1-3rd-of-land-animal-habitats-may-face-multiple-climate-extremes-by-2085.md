@@ -7,7 +7,7 @@ subject: "environment"
 category: "environment"
 status: "published"
 permalink: "/articles/2026-04-29-1-3rd-of-land-animal-habitats-may-face-multiple-climate-extremes-by-2085/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/189"
 image: "/images/articles/2026-04-29-1-3rd-of-land-animal-habitats-may-face-multiple-climate-extremes-by-2085.png"
 ---
 
