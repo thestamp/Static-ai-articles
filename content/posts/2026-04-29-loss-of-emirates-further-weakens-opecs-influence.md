@@ -6,7 +6,7 @@ desk: "news-politics"
 summary: "Loss of Emirates Further Weakens OPEC’s Influence — key verified developments and why they matter."
 image: "/images/news-banner.png"
 source_url: "https://www.nytimes.com/2026/04/29/business/energy-environment/uae-opec-oil-cartel.html"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/200"
 ---
 
 ## Key Developments
