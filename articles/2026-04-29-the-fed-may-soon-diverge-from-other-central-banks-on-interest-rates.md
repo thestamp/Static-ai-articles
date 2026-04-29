@@ -6,7 +6,7 @@ author: "Priya Desai"
 desk: "business-economy"
 date: "2026-04-29T06:55:19Z"
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/194"
 canonical_source: "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVEhSTml2a2hfLWxJUlpucUNXdkJTS2NJWUZmVng2ZU95UTdlcFotaTVlQmNTdlY3cGlOaEJBZ05FYmd6NWR0TXJGWERZcDY4VnJOVTNJa0t2UW5haE5jWmpiQk5WaDZiZ2JmenBNdXZrNjVKOW9pMnB6UVN5SEx2Z0NKSUxBV1AyeVBMRHl2eEdwNkhGQ3pOM2xuN2Y2Tk5JYS13TTJQcDN0dw?oc=5"
 ---
 Central banks entered this week with a shared challenge—persistent inflation risk—but an increasingly unshared response on interest rates.
