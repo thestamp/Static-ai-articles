@@ -5,7 +5,7 @@ desk: "world"
 author: "Elias Navarro"
 summary: "UN sanctions brother of Sudan's RSF leader, Colombian mercenaries - Reuters"
 image: "/images/articles/2026-04-29-un-sanctions-brother-of-sudan-s-rsf-leader-colombian-mercenaries-reuters.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/198"
 ---
 
 The latest developments in **world** center on: **UN sanctions brother of Sudan's RSF leader, Colombian mercenaries - Reuters**.
