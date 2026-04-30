@@ -6,7 +6,7 @@ author: "Priya Desai"
 summary: "Bank of England signals that persistent energy-driven inflation risks could keep rate hikes on the table even as officials hold policy steady."
 image: "/images/articles/2026-04-30-uk-rate-path-uncertain-as-energy-shock-keeps-bank-of-england-on-alert.png"
 source_url: "https://www.bbc.com/news/articles/cg4pqg250p2o?at_medium=RSS&at_campaign=rss"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/236"
 ---
 
 The Bank of England held interest rates but warned that renewed energy-price pressure could still force tighter policy if inflation risks persist.
