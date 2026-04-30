@@ -6,7 +6,7 @@ tags: [SoftBank, Robotics, Data Centers, IPO, AI infrastructure]
 author: "Adeline Park"
 description: "SoftBank is reportedly creating a robotics company focused on building data centers, with long-term ambitions that include a potential $100 billion IPO."
 image: "/images/articles/softbank-robotics-data-center-venture-100b-ipo.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/225"
 ---
 
 SoftBank is creating a new robotics-focused company that would build data centers, according to a TechCrunch report, in a move that underscores how quickly AI demand is reshaping physical infrastructure strategy across the tech sector.
