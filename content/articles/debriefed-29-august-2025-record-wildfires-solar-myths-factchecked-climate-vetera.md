@@ -8,7 +8,7 @@ tags:
   - "breaking-news"
 excerpt: "Rowan Hale reports on DeBriefed 29 August 2025: Record wildfires; Solar myths factchecked; Climate veteran on COP reform and what it means for the environment desk."
 image: "/images/articles/debriefed-29-august-2025-record-wildfires-solar-myths-factchecked-climate-vetera.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/243"
 ---
 
 ## Key Developments
