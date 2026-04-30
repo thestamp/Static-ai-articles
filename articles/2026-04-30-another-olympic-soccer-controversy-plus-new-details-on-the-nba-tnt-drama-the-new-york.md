@@ -10,7 +10,7 @@ status: "published"
 permalink: "/articles/2026-04-30-another-olympic-soccer-controversy-plus-new-details-on-the-nba-tnt-drama-the-new-york/"
 image: "/images/news-banner.png"
 source_url: "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMlZhZFRleUtKczhGNXdMVEpXdzV3TU5hTTgxODJyVEpGU25VUDZZWm5TdzUwS1VqdXlPb2tJemNlbHFJTW91SEZGNDNvYUFjZXhvMTFSZGNLSEllak5Zd0lqazFvckxtWVBWSXJpVl9nenpVWnBVOFlyclExWVZVT194c3UtVDdnTkItMFRrWXBZdnhMRHQtSHJpdw?oc=5"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/239"
 ---
 
 Another Olympic soccer controversy, plus new details on the NBA/TNT drama - The New York Times is a developing story currently circulating across mainstream aggregation channels.
