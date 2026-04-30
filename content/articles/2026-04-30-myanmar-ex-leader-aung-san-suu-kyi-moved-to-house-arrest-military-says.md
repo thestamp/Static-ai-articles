@@ -12,7 +12,7 @@ image_alt: "Editorial image for Myanmar ex-leader Aung San Suu Kyi moved to hous
 sources:
   - name: "Primary Source"
     url: "https://www.bbc.com/news/articles/cz72j8eex4eo?at_medium=RSS&at_campaign=rss"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/241"
 ---
 
 ## Summary
