@@ -8,7 +8,7 @@ subject: "news-politics"
 category: "news-politics"
 status: "published"
 permalink: "/articles/2026-04-30-what-s-at-stake-for-elections-at-the-supreme-court/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/223"
 image: "/images/articles/2026-04-30-what-s-at-stake-for-elections-at-the-supreme-court.png"
 ---
 
