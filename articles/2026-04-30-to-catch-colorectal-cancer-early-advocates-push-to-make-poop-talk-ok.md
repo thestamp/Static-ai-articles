@@ -7,7 +7,7 @@ subject: "science health"
 category: "news"
 status: "published"
 permalink: "/articles/2026-04-30-to-catch-colorectal-cancer-early-advocates-push-to-make-poop-talk-ok.html"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/230"
 image: "/images/articles/to-catch-colorectal-cancer-early-advocates-push-to-make-poop-talk-ok.png"
 ---
 
