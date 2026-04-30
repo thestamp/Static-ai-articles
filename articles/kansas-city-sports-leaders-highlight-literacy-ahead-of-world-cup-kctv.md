@@ -8,7 +8,7 @@ subject: "world"
 category: "world"
 status: "published"
 permalink: "/articles/kansas-city-sports-leaders-highlight-literacy-ahead-of-world-cup-kctv/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/238"
 image: "/images/news-banner.png"
 ---
 
