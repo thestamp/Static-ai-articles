@@ -8,7 +8,7 @@ subject: "environment"
 category: "environment"
 status: "published"
 permalink: "/articles/governor-newsom-expands-california-s-global-climate-leadership-at-cop30-creating/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/245"
 image: "/images/news-banner.png"
 ---
 
