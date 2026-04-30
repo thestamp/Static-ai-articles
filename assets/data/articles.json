@@ -1,5 +1,18 @@
 [
   {
+    "id": "",
+    "title": "",
+    "slug": "",
+    "date": "2026-04-30",
+    "author": "Elias Navarro",
+    "author_id": "elias-navarro",
+    "subject": "world",
+    "category": "news",
+    "permalink": "/articles/2026-04-30-.html",
+    "summary": " — latest developments and what to watch next.",
+    "image": "/images/articles/.png"
+  },
+  {
     "id": "2026-04-30-opinion-governing-by-algorithm-needs-human-accountability-before-scale",
     "title": "Opinion: Governing by Algorithm Needs Human Accountability Before Scale",
     "summary": "An opinion-editorial arguing that state use of agentic AI should be constrained by transparency, appeal rights, and human accountability before large-scale deployment.",
