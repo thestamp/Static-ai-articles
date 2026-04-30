@@ -12,7 +12,7 @@ status: "published"
 permalink: "/articles/2026-04-30-protecting-lions-and-people-the-biologist-dedicated-to-tackling-human-wildlife-conflict/"
 image: "/images/news-banner.png"
 source_url: "https://www.theguardian.com/environment/2026/apr/30/lion-wild-animals-livestock-moreangels-mbizah-human-wildlife-conflict-aoe"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/244"
 ---
 
 Protecting lions and people: the biologist dedicated to tackling human-wildlife conflict
