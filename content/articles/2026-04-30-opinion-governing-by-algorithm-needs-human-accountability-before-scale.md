@@ -14,7 +14,7 @@ sources:
     url: "https://www.project-syndicate.org/commentary/uae-plan-highlights-perils-of-governing-by-algorithm-by-gabriela-ramos-and-emilija-stojmenova-duh-2026-04"
   - name: "MIT Sloan Management Review Middle East"
     url: "https://www.mitsloanme.com/article/uae-plans-to-run-50-of-government-on-agentic-ai-within-two-years/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/229"
 ---
 
 ## Summary
