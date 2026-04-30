@@ -8,7 +8,7 @@ subject: "sports"
 category: "sports"
 status: "published"
 permalink: "/articles/2026-04-30-wrexham-climbs-into-championship-playoff-spot-after-dramatic-win/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/219"
 image: "/images/news-banner.png"
 ---
 
