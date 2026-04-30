@@ -14,7 +14,7 @@ sources:
     url: "https://www.who.int/news/item/29-04-2026-australia-becomes-the-30th-country-to-eliminate-trachoma-as-a-public-health-problem"
   - name: "Australian Government Department of Health and Aged Care"
     url: "https://www.health.gov.au/news/australia-eliminates-trachoma-as-a-public-health-problem"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/234"
 ---
 
 ## Summary
