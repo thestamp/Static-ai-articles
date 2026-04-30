@@ -9,7 +9,7 @@ tags:
   - "breaking-news"
 image: "/images/news-banner.png"
 source_url: "https://www.bbc.com/sport/football/articles/cr5p4335v7qo?at_medium=RSS&at_campaign=rss"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/221"
 ---
 
 ## Key Takeaways
