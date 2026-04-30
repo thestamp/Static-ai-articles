@@ -5,7 +5,7 @@ desk: "business-economy"
 author: "Priya Desai"
 summary: "Future base rate changes are hard to predict as analysts judge the economic impact of the Iran war."
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/217"
 ---
 
 Interest rates expected to be held as uncertainty over Iran war continues
