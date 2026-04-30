@@ -12,6 +12,7 @@ image_alt: "Editorial image representing Sean Penn, Paul Rudd and More Join Trib
 sources:
   - name: "Google News / Variety"
     url: "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdzFqczVLT0VKaDJNdjJBSVBka2Q5UlRJWGRWc3NzTmJ4dFh3d2l4TDNtRDc1eTJORzBlYnRscHVZSUxDRUhkcEV6eV94UFlNZlU2VWJHekVHRDRycFpWeWdjRnhqbm9pYnlPQXlQU1BwLTFValRmSGNxVmZYZFg5UEQzdkxGQQ?oc=5"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/220"
 ---
 
 ## Summary
