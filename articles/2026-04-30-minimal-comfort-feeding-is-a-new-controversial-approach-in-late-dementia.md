@@ -12,7 +12,7 @@ status: "published"
 permalink: "/articles/2026-04-30-minimal-comfort-feeding-is-a-new-controversial-approach-in-late-dementia/"
 image: "/images/articles/2026-04-30-minimal-comfort-feeding-is-a-new-controversial-approach-in-late-dementia.png"
 source_url: "https://www.nytimes.com/2026/04/30/well/late-stage-dementia-minimal-comfort-feeding-advance-directives.html"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/235"
 ---
 
 Minimal Comfort Feeding Is a New, Controversial Approach in Late Dementia is the lead development for the lifestyle desk today, according to current reporting from www.nytimes.com.
