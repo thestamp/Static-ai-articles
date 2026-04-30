@@ -8,7 +8,7 @@ subject: "lifestyle"
 category: "lifestyle"
 status: "published"
 permalink: "/articles/2026-04-30-wellness-trends-2026-personalization-prevention-real-life-well-being-t/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/232"
 image: "/images/news-banner.png"
 ---
 
