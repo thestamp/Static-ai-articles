@@ -8,7 +8,7 @@ category: "world"
 status: "published"
 permalink: "/articles/2026-05-01-dprk-korea-continued-militarisation-a-serious-concern-political-affairs-chief-warns-security-counci/"
 image: "/images/articles/2026-05-01-dprk-korea-continued-militarisation-a-serious-concern-political-affairs-chief-warns-security-counci.png"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/270"
 ---
 
 # DPRK Korea: Continued militarisation a ‘serious concern’, political affairs chief warns Security Council - UN News
