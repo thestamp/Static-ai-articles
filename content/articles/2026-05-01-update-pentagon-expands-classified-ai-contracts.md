@@ -6,7 +6,7 @@ desk: "technology"
 summary: "New reporting indicates the Pentagon’s classified AI contracting has broadened beyond Google to include additional major vendors, signaling a wider procurement push across secure defense networks."
 image: "/images/articles/2026-05-01-update-pentagon-expands-classified-ai-contracts.png"
 source_url: "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/269"
 ---
 
 # Update: Pentagon expands classified AI contracts to multiple cloud and model vendors
