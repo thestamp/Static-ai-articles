@@ -1,5 +1,19 @@
 [
   {
+    "id": "2026-05-01-update-pentagon-expands-classified-ai-contracts",
+    "title": "Update: Pentagon expands classified AI contracts to multiple cloud and model vendors",
+    "summary": "New reporting indicates the Pentagon’s classified AI contracting has broadened beyond Google to include additional major vendors, signaling a wider procurement push across secure defense networks.",
+    "date": "2026-05-01T16:46:26Z",
+    "subject": "technology",
+    "category": "technology",
+    "author": "Adeline Park",
+    "author_id": "technology_lead",
+    "author_display_name": "Adeline Park",
+    "permalink": "/articles/2026-05-01-update-pentagon-expands-classified-ai-contracts/",
+    "image": "/images/articles/2026-05-01-update-pentagon-expands-classified-ai-contracts.png",
+    "published_pr_url": "https://github.com/thestamp/Static-ai-articles/pull/269"
+  },
+  {
     "id": "2026-05-01-us-senate-bans-members-staff-prediction-markets",
     "title": "US Senate bans its members, staff from betting in prediction markets",
     "summary": "Reuters reports the U.S. Senate approved a ban on members and staff betting in prediction markets, tightening congressional ethics guardrails.",
