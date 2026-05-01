@@ -8,7 +8,7 @@ subject: "news-politics"
 category: "news-politics"
 status: "published"
 permalink: "/articles/2026-05-01-us-senate-bans-members-staff-prediction-markets/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/267"
 image: "/images/news-banner.png"
 ---
 
