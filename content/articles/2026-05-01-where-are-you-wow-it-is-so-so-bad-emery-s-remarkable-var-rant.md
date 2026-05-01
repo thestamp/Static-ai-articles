@@ -6,7 +6,7 @@ desk: "sports"
 summary: "Aston Villa boss Unai Emery says VAR made a \"huge mistake\" in not sending off Nottingham Forest's Elliot Anderson in their Europa League semi-final first leg."
 image: "/images/articles/2026-05-01-where-are-you-wow-it-is-so-so-bad-emery-s-remarkable-var-rant.png"
 source_url: "https://www.bbc.com/sport/football/articles/cwy2l4k1z0go?at_medium=RSS&at_campaign=rss"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/248"
 ---
 
 'Where are you? Wow. It is so, so bad' - Emery's remarkable VAR rant is drawing attention on the sports desk as new reporting outlines developments with potential near-term impact.
