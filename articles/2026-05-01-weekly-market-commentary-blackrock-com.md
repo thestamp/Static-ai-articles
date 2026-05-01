@@ -8,7 +8,7 @@ subject: "opinion-editorials"
 category: "opinion-editorials"
 status: "published"
 permalink: "/articles/2026-05-01-weekly-market-commentary-blackrock-com/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/266"
 image: "/images/articles/2026-05-01-weekly-market-commentary-blackrock-com.png"
 ---
 
