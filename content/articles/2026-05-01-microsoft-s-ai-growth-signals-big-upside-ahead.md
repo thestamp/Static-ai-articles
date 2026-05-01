@@ -6,7 +6,7 @@ desk: "technology"
 summary: "New York surged to a record 47-point halftime cushion against Atlanta and moved on, a benchmark blowout that reframes Eastern Conference expectations."
 image: "/images/news-banner.png"
 source_url: "https://news.google.com/rss/articles/CBMikwFBVV95cUxQckxMR2hlOFBsQzRwTjNhT2U5d2c1YXBtbzJLeXZSLVhIaGY1Q1pPNU9HeTR6cFE0ellxbEJQSC1qSG5vcmZPb2NnQXNuYVltUzB5dHYwSUxGOUZKdG93YlVvZG1wRWlLV21vNWpCN3RuOXZwbENUY0ZUWGZhQ01McWNlU2NMcm9PZUdWYUpwblFINmc?oc=5"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/258"
 ---
 
 Microsoft’s AI Growth Signals Big Upside Ahead
