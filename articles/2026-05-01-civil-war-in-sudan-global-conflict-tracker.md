@@ -8,7 +8,7 @@ subject: "world"
 category: "world"
 status: "published"
 permalink: "/world/2026-05-01/civil-war-in-sudan-global-conflict-tracker/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/252"
 image: "/images/news-banner.png"
 ---
 
