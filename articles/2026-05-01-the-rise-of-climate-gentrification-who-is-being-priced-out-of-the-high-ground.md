@@ -8,7 +8,7 @@ category: "environment"
 status: "published"
 permalink: "/articles/2026-05-01-the-rise-of-climate-gentrification-who-is-being-priced-out-of-the-high-ground/"
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/272"
 ---
 
 # The rise of climate gentrification: Who is being priced out of the high ground?
@@ -28,4 +28,4 @@ This development is primarily a environment story because the core news value ce
 
 ## Publishing PR
 
-Published via PR: PENDING
+Published via PR: https://github.com/thestamp/Static-ai-articles/pull/272
