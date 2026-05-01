@@ -6,7 +6,7 @@ desk: "science-health"
 summary: "World’s largest study of women’s health marks 30 years of pioneering research - ndph.ox.ac.uk is drawing current attention. This report summarizes what is confirmed, what remains uncertain, and why it matters for the science-health desk."
 image: "/images/news-banner.png"
 source_url: "https://news.google.com/rss/articles/CBMiekFVX3lxTFA1MkplZmVsYkZqLU5wU0JYUXB1UlVPZVJLOVZBeVFCVF92ZV9LQ1c2Vmt4SVpKVEx3MkZyQTB3akZTVEFTU21NZEJ4RmhDTUcwXy1jMHJtbFU5d0xNbjNRZlJEQU5SbUMwVzFmR1JvZml5OTJORWpzT05n?oc=5"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/275"
 ---
 
 # World’s largest study of women’s health marks 30 years of pioneering research - ndph.ox.ac.uk
