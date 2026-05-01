@@ -8,7 +8,7 @@ subject: "news-politics"
 category: "news-politics"
 status: "published"
 permalink: "/articles/trump-signs-bill-to-end-record-shutdown-over-immigration-enforcement/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/253"
 image: "/images/news-banner.png"
 ---
 
