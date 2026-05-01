@@ -8,7 +8,7 @@ subject: "science-health"
 category: "science-health"
 status: "published"
 permalink: "/articles/2026-05-01-fda-says-infant-formula-supply-safe-after-largest-us-testing-sweep/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/262"
 image: "/images/news-banner.png"
 ---
 
