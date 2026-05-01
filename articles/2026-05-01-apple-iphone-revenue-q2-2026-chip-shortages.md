@@ -8,7 +8,7 @@ category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-05-01-apple-iphone-revenue-q2-2026-chip-shortages/"
 image: "/images/articles/2026-05-01-apple-iphone-revenue-q2-2026-chip-shortages.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/261"
 ---
 
 # Apple's iPhone revenue jumps to $57 billion despite chip shortages
@@ -27,4 +27,4 @@ What remains uncertain: near-term margin effects from component pricing and whet
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [#261](https://github.com/thestamp/Static-ai-articles/pull/261)
