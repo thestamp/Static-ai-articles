@@ -8,7 +8,7 @@ subject: "sports"
 category: "sports"
 status: "published"
 permalink: "/sports/championship-promotion-race-ipswich-millwall-wrexham/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/265"
 image: "/images/news-banner.png"
 ---
 
