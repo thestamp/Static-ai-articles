@@ -10,7 +10,7 @@ author_display_name: "Camille Vega"
 status: "published"
 permalink: "/articles/2026-05-01-as-summer-opens-action-movies-have-lost-some-box-office-punch/"
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/277"
 ---
 
 ## The latest
