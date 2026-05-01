@@ -5,7 +5,7 @@ author: "Simone Hart"
 desk: "opinion-editorials"
 summary: "Analysis of why message discipline and source transparency are central to policy credibility during fast-moving geopolitical events."
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/249"
 ---
 
 Takeaways from Trump's address: Sales mode on economy, heavy on patriotism, dark turn on Democrats has intensified debate across policy circles, with analysts focusing less on headlines and more on institutional consequences, strategic signaling, and long-term governance risk.
