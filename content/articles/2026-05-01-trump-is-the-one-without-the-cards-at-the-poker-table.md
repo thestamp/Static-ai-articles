@@ -6,7 +6,7 @@ desk: "opinion-editorials"
 summary: "A.I. will drastically increase the power of small states and groups in conflict with the great powers."
 source_url: "https://www.nytimes.com/2026/05/01/opinion/trump-iran-artificial-intelligence-china.html"
 image: "/images/articles/2026-05-01-trump-is-the-one-without-the-cards-at-the-poker-table.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/256"
 ---
 
 # Trump Is the One Without the Cards at the Poker Table
