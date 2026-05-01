@@ -5,28 +5,8 @@
     "author": "Simone Hart",
     "desk": "opinion-editorials",
     "summary": "Analysis of why message discipline and source transparency are central to policy credibility during fast-moving geopolitical events.",
-    "link": "/articles/takeaways-from-trump-s-address-sales-mode-on-economy-heavy-on-patriotism-dark-tu.md",
+    "link": "/articles/takeaways-from-trump-s-address-sales-mode-on-economy-heavy-on-patriotism-dark-tu/",
     "image": "/images/news-banner.png"
-  },
-  {
-    "title": "'Where are you? Wow. It is so, so bad' - Emery's remarkable VAR rant",
-    "date": "2026-05-01",
-    "author": "Jordan Reeves",
-    "desk": "sports",
-    "summary": "Aston Villa boss Unai Emery says VAR made a \"huge mistake\" in not sending off Nottingham Forest's Elliot Anderson in their Europa League semi-final first leg.",
-    "url": "/content/articles/2026-05-01-where-are-you-wow-it-is-so-so-bad-emery-s-remarkable-var-rant.md",
-    "image": "/images/articles/2026-05-01-where-are-you-wow-it-is-so-so-bad-emery-s-remarkable-var-rant.png",
-    "published_pr_url": "https://github.com/thestamp/Static-ai-articles/pull/248"
-  },
-  {
-    "title": "How Team USA basketball is looking ahead to the 2028 L.A. Olympics",
-    "date": "2026-05-01",
-    "author": "Jordan Reeves",
-    "desk": "sports",
-    "summary": "How Team USA basketball is looking ahead to the 2028 L.A. Olympics&nbsp;&nbsp;The New York Times",
-    "url": "/content/articles/2026-05-01-how-team-usa-basketball-is-looking-ahead-to-the-2028-l-a-olympics.md",
-    "image": "/images/articles/how-team-usa-basketball-is-looking-ahead-to-the-2028-l-a-olympics.png",
-    "published_pr_url": "https://github.com/thestamp/Static-ai-articles/pull/246"
   },
   {
     "id": "governor-newsom-expands-california-s-global-climate-leadership-at-cop30-creating",
@@ -55,15 +35,6 @@
     "published_pr_url": "https://github.com/thestamp/Static-ai-articles/pull/244"
   },
   {
-    "title": "DeBriefed 29 August 2025: Record wildfires; Solar myths factchecked; Climate veteran on COP reform",
-    "date": "2026-04-30T21:29:07.230693+00:00",
-    "author": "Rowan Hale",
-    "desk": "environment",
-    "excerpt": "Rowan Hale reports on DeBriefed 29 August 2025: Record wildfires; Solar myths factchecked; Climate veteran on COP reform and what it means for the environment desk.",
-    "link": "/articles/debriefed-29-august-2025-record-wildfires-solar-myths-factchecked-climate-vetera",
-    "image": "/images/articles/debriefed-29-august-2025-record-wildfires-solar-myths-factchecked-climate-vetera.png"
-  },
-  {
     "id": "2026-04-30-myanmar-ex-leader-aung-san-suu-kyi-moved-to-house-arrest-military-says",
     "title": "Myanmar ex-leader Aung San Suu Kyi moved to house arrest, military says",
     "summary": "The Nobel Peace Prize laureate has been in detention since she was ousted in a military coup in 2021.",
@@ -74,7 +45,7 @@
     "subject": "world",
     "category": "world",
     "status": "published",
-    "permalink": "/articles/2026-04-30-myanmar-ex-leader-aung-san-suu-kyi-moved-to-house-arrest-military-says/",
+    "permalink": "/articles//",
     "image": "/images/articles/2026-04-30-myanmar-ex-leader-aung-san-suu-kyi-moved-to-house-arrest-military-says.png",
     "source_url": "https://www.bbc.com/news/articles/cz72j8eex4eo?at_medium=RSS&at_campaign=rss",
     "published_pr_url": "https://github.com/thestamp/Static-ai-articles/pull/241"
@@ -115,7 +86,7 @@
     "subject": "business-economy",
     "category": "business-economy",
     "status": "published",
-    "permalink": "/articles/2026-04-30-uk-rate-path-uncertain-as-energy-shock-keeps-bank-of-england-on-alert/",
+    "permalink": "/articles//",
     "image": "/images/articles/2026-04-30-uk-rate-path-uncertain-as-energy-shock-keeps-bank-of-england-on-alert.png",
     "source_url": "https://www.bbc.com/news/articles/cg4pqg250p2o?at_medium=RSS&at_campaign=rss",
     "published_pr_url": "https://github.com/thestamp/Static-ai-articles/pull/236"
@@ -147,7 +118,7 @@
     "subject": "science-health",
     "category": "science-health",
     "status": "published",
-    "permalink": "/articles/2026-04-30-australia-becomes-30th-country-to-eliminate-trachoma-public-health-problem/",
+    "permalink": "/articles//",
     "image": "/images/articles/2026-04-30-australia-becomes-30th-country-to-eliminate-trachoma-public-health-problem.png",
     "source_url": "https://www.who.int/news/item/29-04-2026-australia-becomes-the-30th-country-to-eliminate-trachoma-as-a-public-health-problem",
     "published_pr_url": "https://github.com/thestamp/Static-ai-articles/pull/234"
@@ -186,7 +157,7 @@
     "subject": "opinion-editorials",
     "category": "opinion-editorials",
     "status": "published",
-    "permalink": "/articles/2026-04-30-opinion-governing-by-algorithm-needs-human-accountability-before-scale/",
+    "permalink": "/articles//",
     "image": "/images/news-banner.png",
     "source_url": "https://www.project-syndicate.org/commentary/uae-plan-highlights-perils-of-governing-by-algorithm-by-gabriela-ramos-and-emilija-stojmenova-duh-2026-04",
     "published_pr_url": "https://github.com/thestamp/Static-ai-articles/pull/229"
@@ -238,7 +209,7 @@
     "date": "2026-04-30",
     "category": "sports",
     "excerpt": "Mikel Arteta was left \"fuming\" with the officials after Arsenal's draw at Atletico Madrid - what did they get right and wrong?",
-    "url": "/articles/2026-04-30-were-arsenal-right-to-be-fuming-with-refereeing-after-atletico-draw.html",
+    "url": "/articles/2026-04-30-were-arsenal-right-to-be-fuming-with-refereeing-after-atletico-draw/",
     "image": "/images/news-banner.png"
   },
   {
@@ -252,7 +223,7 @@
     "subject": "arts-entertainment",
     "category": "arts-entertainment",
     "status": "published",
-    "permalink": "/articles/2026-04-30-sean-penn-paul-rudd-and-more-join-tribeca-festival-s-2026-lineup/",
+    "permalink": "/articles//",
     "image": "/images/news-banner.png",
     "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdzFqczVLT0VKaDJNdjJBSVBka2Q5UlRJWGRWc3NzTmJ4dFh3d2l4TDNtRDc1eTJORzBlYnRscHVZSUxDRUhkcEV6eV94UFlNZlU2VWJHekVHRDRycFpWeWdjRnhqbm9pYnlPQXlQU1BwLTFValRmSGNxVmZYZFg5UEQzdkxGQQ?oc=5",
     "published_pr_url": "https://github.com/thestamp/Static-ai-articles/pull/220"
@@ -274,7 +245,7 @@
     "desk": "business-economy",
     "summary": "Future base rate changes are hard to predict as analysts judge the economic impact of the Iran war.",
     "slug": "interest-rates-expected-to-be-held-as-uncertainty-over-iran-war-continue-20260430",
-    "path": "/articles/interest-rates-expected-to-be-held-as-uncertainty-over-iran-war-continue-20260430/",
+    "path": "/articles//",
     "image": "/images/news-banner.png",
     "source_url": "https://www.bbc.com/news/articles/cg7p89mp2rjo?at_medium=RSS&at_campaign=rss"
   },
@@ -284,7 +255,7 @@
     "desk": "technology",
     "author": "Adeline Park",
     "summary": "Exclusive: Big Chinese tech firms scramble to secure Huawei AI chips after DeepSeek V4 launch, sources say - Reuters.",
-    "url": "/articles/2026-04-29-exclusive-big-chinese-tech-firms-scramble-to-secure-huawei-ai-chips-af/",
+    "url": "/articles//",
     "image": "/images/news-banner.png",
     "published_pr_url": "https://github.com/thestamp/Static-ai-articles/pull/216"
   },
