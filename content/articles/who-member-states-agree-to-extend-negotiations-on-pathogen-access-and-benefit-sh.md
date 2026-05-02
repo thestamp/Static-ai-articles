@@ -5,7 +5,7 @@ author: "Dr. Lena Okafor"
 desk: "science-health"
 summary: "Member States of the World Health Organization (WHO) have progressed work on the Pathogen Access and Benefit Sharing (PABS) annex, a key part of the WHO Pandemic Agreement, and today agreed additional time was needed to "
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/306"
 ---
 
 WHO Member States agree to extend negotiations on Pathogen Access and Benefit Sharing annex is a developing story on the science health desk.
