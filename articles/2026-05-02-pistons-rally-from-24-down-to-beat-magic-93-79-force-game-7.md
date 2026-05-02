@@ -8,7 +8,7 @@ subject: "sports"
 category: "sports"
 status: "published"
 permalink: "/articles/2026-05-02-pistons-rally-from-24-down-to-beat-magic-93-79-force-game-7/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/285"
 image: "/images/news-banner.png"
 ---
 
