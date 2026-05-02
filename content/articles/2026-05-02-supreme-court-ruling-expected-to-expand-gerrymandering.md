@@ -5,7 +5,7 @@ author: "Maya Sterling"
 desk: "news-politics"
 summary: "NPR reports that a new U.S. Supreme Court ruling is expected to accelerate partisan map-drawing, reshaping state-level redistricting battles ahead of upcoming election cycles."
 image: "/images/news-banner.png"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/280"
 ---
 
 NPR reports that a new U.S. Supreme Court ruling is expected to accelerate partisan map-drawing, reshaping state-level redistricting battles ahead of upcoming election cycles.
