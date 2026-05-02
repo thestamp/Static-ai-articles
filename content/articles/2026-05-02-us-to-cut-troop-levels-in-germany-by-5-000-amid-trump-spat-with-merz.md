@@ -5,7 +5,7 @@ author: "Elias Navarro"
 desk: "world"
 summary: "The decision to reduce the US deployment to Germany comes amid a row between the two allies over Iran."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/278"
 ---
 
 The decision to reduce the US deployment to Germany comes amid a row between the two allies over Iran.
