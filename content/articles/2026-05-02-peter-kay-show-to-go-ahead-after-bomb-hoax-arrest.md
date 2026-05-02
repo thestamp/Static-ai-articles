@@ -6,7 +6,7 @@ author: "Camille Vega"
 date: "2026-05-02T16:24:12Z"
 summary: "A teenage man remains in custody and police say no items of a suspicious nature were found."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/298"
 ---
 
 ## What happened
