@@ -8,7 +8,7 @@ subject: "opinion-editorials"
 category: "opinion-editorials"
 status: "published"
 permalink: "/articles/2026-05-02-update-voting-rights-act-ruling-reshapes-redistricting-fight/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/290"
 image: "/images/news-banner.png"
 ---
 
