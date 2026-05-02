@@ -14,7 +14,7 @@ sources:
     url: "https://www.bbc.com/news/articles/c3v2l2qq9qlo?at_medium=RSS&at_campaign=rss"
   - name: "U.S. Treasury OFAC"
     url: "https://ofac.treasury.gov/recent-actions/20260501"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/304"
 ---
 
 ## Summary
