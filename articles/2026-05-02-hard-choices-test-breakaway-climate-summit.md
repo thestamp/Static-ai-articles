@@ -8,7 +8,7 @@ subject: "world"
 category: "world"
 status: "published"
 permalink: "/articles/hard-choices-test-breakaway-climate-summit/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/294"
 image: "/images/news-banner.png"
 ---
 
