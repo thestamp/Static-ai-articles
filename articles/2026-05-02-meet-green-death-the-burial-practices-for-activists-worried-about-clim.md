@@ -8,7 +8,7 @@ subject: "environment"
 category: "environment"
 status: "published"
 permalink: "/articles/2026-05-02-meet-green-death-the-burial-practices-for-activists-worried-about-clim/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/299"
 image: "/images/news-banner.png"
 ---
 
