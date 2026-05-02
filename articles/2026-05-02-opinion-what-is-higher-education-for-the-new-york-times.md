@@ -7,7 +7,7 @@ subject: opinion-editorials
 category: opinion-editorials
 status: published
 permalink: /articles/2026-05-02-opinion-what-is-higher-education-for-the-new-york-times
-published_pr_url: TBD
+published_pr_url: https://github.com/thestamp/Static-ai-articles/pull/296
 image: "/images/news-banner.png"
 ---
 
