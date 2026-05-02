@@ -12,7 +12,7 @@ image_alt: "Editorial image representing The craziest part of Musk v. Altman hap
 sources:
   - name: "Google News syndication"
     url: "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRVZIUDFIQXh1S3pvZHFWbzdqWDBSd0dHZG12ZmF2Mlh6MmRmQXBZQjVUbHJwT085WThoWG1DWHFMTTBQSW5ZVnZOMkNQbk55UHdPNGg3WDhMSXlFSzdDZWJTWW5YY1FkVmxYbVFzb0YxWUN3ZXZsVnVMV3REcG02UUcwZkI1R1RuS0w0SzZTVmFrazlFWUo0VjBiQ2NFV1ltanc?oc=5"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/303"
 ---
 
 ## Summary
