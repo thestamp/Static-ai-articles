@@ -7,7 +7,7 @@ subject: "environment"
 category: "environment"
 status: "published"
 permalink: "/articles/2026-05-02-gen-z-leads-birdwatching-boom-as-more-britons-reach-for-binoculars/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/283"
 image: "/images/news-banner.png"
 ---
 
