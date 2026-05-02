@@ -5,7 +5,7 @@ author: "Priya Desai"
 desk: "business-economy"
 summary: "BBC reports that households in the UK could face pressure on mortgages, jobs and energy bills as Iran-war volatility feeds into inflation and borrowing costs."
 image: "/images/news-banner.png"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/295"
 ---
 
 BBC reports that households in the UK could face pressure on mortgages, jobs and energy bills as Iran-war volatility feeds into inflation and borrowing costs.
