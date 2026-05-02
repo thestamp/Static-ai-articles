@@ -5,7 +5,7 @@ desk: "science-health"
 author: "Dr. Lena Okafor"
 summary: "About the Global Health Center&nbsp;&nbsp;Centers for Disease Control and Prevention | CDC (.gov)"
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/291"
 ---
 
 About the Global Health Center - Centers for Disease Control and Prevention | CDC (.gov)
