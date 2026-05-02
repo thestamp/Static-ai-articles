@@ -6,7 +6,7 @@ author: "Camille Vega"
 date: "2026-05-02T08:56:54Z"
 summary: "The sequel's stars on what's changed since the original, and why the film still resonates with women."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/288"
 ---
 
 ## What happened
