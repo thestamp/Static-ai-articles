@@ -6,7 +6,7 @@ author: "Rowan Hale"
 date: "2026-05-02T22:44:00Z"
 summary: "Reuters reports Turkey says it would use a COP31 presidency to press stronger multilateral climate action, signaling an attempt to shape post-COP30 negotiations around implementation and finance."
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/305"
 ---
 
 ## What happened
