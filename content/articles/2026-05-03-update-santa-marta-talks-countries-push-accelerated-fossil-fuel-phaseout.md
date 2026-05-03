@@ -8,7 +8,7 @@ subject: "environment"
 category: "environment"
 status: "published"
 permalink: "/articles/2026-05-03-update-santa-marta-talks-countries-push-accelerated-fossil-fuel-phaseout/"
-published_pr_url: "PENDING_PR_URL"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/313"
 image: "/images/news-banner.png"
 summary: "Delegates meeting in Santa Marta, Colombia, are framing a faster fossil-fuel phaseout as both a climate and energy-security priority, with countries using the talks to pressure for clearer transition timelines before COP negotiations intensify."
 ---
