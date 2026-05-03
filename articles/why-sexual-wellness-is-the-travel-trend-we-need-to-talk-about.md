@@ -8,7 +8,7 @@ subject: "lifestyle"
 category: "lifestyle"
 status: published
 permalink: "/articles/why-sexual-wellness-is-the-travel-trend-we-need-to-talk-about/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/335"
 image: "/images/news-banner.png"
 ---
 
