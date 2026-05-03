@@ -6,7 +6,7 @@ author: "Nico Laurent"
 summary: "For five years, our column has attempted to settle rows about the important little things … but what happens after the verdicts are in?Since 2021, I’ve had one of the most brilliantly nosy jobs in journalism. Writing ..."
 image: "/images/news-banner.png"
 link: "/articles/from-shared-toothbrushes-to-mid-sex-water-bladders-you-be-the-judge-tries-to-settle-domest/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/324"
 ---
 
 From shared toothbrushes to mid-sex water bladders, You Be the Judge tries to settle domestic disputes. But what happened next?
