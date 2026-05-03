@@ -8,7 +8,7 @@ subject: "sports"
 category: "sports"
 status: "published"
 permalink: "/articles/2026-05-03-arsenal-go-six-points-clear-after-3-0-fulham-win-raising-title-race-pressure/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/311"
 image: "/images/news-banner.png"
 summary: "BBC Sport reports Arsenal beat Fulham 3-0 to move six points clear of Manchester City, tightening pressure in the Premier League title race."
 ---
