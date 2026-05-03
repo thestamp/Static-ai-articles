@@ -8,7 +8,7 @@ subject: "environment"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-05-03-california-last-persian-gulf-oil-shipment-long-beach/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/336"
 image: "/images/news-banner.png"
 ---
 
@@ -33,4 +33,4 @@ Why this matters: the end of a long-running import lane can reduce exposure to s
 
 ## Publishing PR
 
-Published via PR: PENDING
+Published via PR: https://github.com/thestamp/Static-ai-articles/pull/336
