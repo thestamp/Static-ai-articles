@@ -8,7 +8,7 @@ subject: "arts-entertainment"
 category: "arts-entertainment"
 status: "published"
 permalink: "/articles/music-labels-pilot-consent-first-synthetic-voice-collaboration-programs/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/319"
 image: "/images/news-banner.png"
 ---
 
