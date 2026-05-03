@@ -8,7 +8,7 @@ subject: "environment"
 category: "environment"
 status: "published"
 permalink: "/articles/2026-05-03-iran-war-is-supercharging-the-clean-energy-transition-un-climate-chief-says/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/307"
 image: "/images/news-banner.png"
 summary: "Reuters reports Czech Prime Minister Andrej Babis's government has won a confidence vote, locking in a policy shift on budget priorities and Ukraine that could reshape Prague's domestic and foreign-policy trajectory."
 ---
