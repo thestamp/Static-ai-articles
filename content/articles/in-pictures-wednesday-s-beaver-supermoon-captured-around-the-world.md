@@ -5,7 +5,7 @@ desk: "world"
 author: "Elias Navarro"
 summary: "In pictures: Wednesday's Beaver supermoon captured around the world: key confirmed developments and why this matters for the world desk."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/322"
 ---
 
 In pictures: Wednesday's Beaver supermoon captured around the world is the latest development on the world beat, based on current wire and publisher reporting.
