@@ -8,7 +8,7 @@ subject: "business-economy"
 category: "business-economy"
 status: "published"
 permalink: "/articles/2026-05-03-gold-strategy-shifts-as-investors-look-beyond-headline-cpi/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/318"
 image: "/images/news-banner.png"
 ---
 
