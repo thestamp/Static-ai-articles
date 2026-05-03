@@ -8,7 +8,7 @@ subject: "news-politics"
 category: "news-politics"
 status: "published"
 permalink: "/articles/2026-05-03-us-expands-sanctions-on-cuban-government-and-affiliated-entities/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/321"
 image: "/images/news-banner.png"
 ---
 
