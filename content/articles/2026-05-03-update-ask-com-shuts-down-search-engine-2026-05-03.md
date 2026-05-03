@@ -5,7 +5,7 @@ author: "Adeline Park"
 desk: "technology"
 tags: ["technology", "search", "internet history"]
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/331"
 ---
 
 ## What’s New
