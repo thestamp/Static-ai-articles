@@ -7,7 +7,7 @@ desk: "news-politics"
 summary: "The Persian Gulf countries and Israel have faced repeated Iranian attacks during the U.S.-Israeli war with Iran. The State Department move bypassed congressional review."
 image: "/images/news-banner.png"
 published: "True"
-published_pr_url: "PENDING_PR_URL"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/316"
 ---
 
 The Persian Gulf countries and Israel have faced repeated Iranian attacks during the U.S.-Israeli war with Iran. The State Department move bypassed congressional review.
