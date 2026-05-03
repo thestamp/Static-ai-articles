@@ -7,7 +7,7 @@ subject: "lifestyle"
 category: "lifestyle"
 status: "published"
 permalink: "/articles/2026-05-03-the-seven-day-a-week-life-of-a-maid-in-qatar/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/329"
 image: "/images/news-banner.png"
 ---
 
