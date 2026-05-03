@@ -7,7 +7,7 @@ desk: "sports"
 summary: "Unless Manchester United appoint Luis Enrique, it is hard to think of an acceptable alternative to giving Michael Carrick the job on a permanent basis, writes Simon Stone."
 image: "/images/news-banner.png"
 published: "True"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/334"
 ---
 
 Unless Manchester United appoint Luis Enrique, it is hard to think of an acceptable alternative to giving Michael Carrick the job on a permanent basis, writes Simon Stone.
