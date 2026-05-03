@@ -6,7 +6,7 @@ author: "Dr. Lena Okafor"
 desk: "science-health"
 summary: "&lt;a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxPVXRMWFBhYU54VjBBVEtLZDZZeUU4SEV1c1haZmgzYW4wRHk0NFNRX2p5b01yd0lLLWVUYVFRVlBLLXM0WDEzdjRFaWFsYk1UMHNoTTdMaEdmN2FHdzZVRFlubEc0WldEcllDZVRSZXMwSXdmZjFUVmZJWnh"
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/310"
 link: "/articles/2026-05-03-investigation-update-salmonella-outbreak-april-2026-centers-for-diseas/"
 ---
 
