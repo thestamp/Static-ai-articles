@@ -8,7 +8,7 @@ subject: "sports"
 category: "sports"
 status: "published"
 permalink: "/articles/2026-05-03-efl-transfer-news-rumours-and-gossip-for-championship-league-one-and-league-two/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/314"
 image: "/images/news-banner.png"
 ---
 
