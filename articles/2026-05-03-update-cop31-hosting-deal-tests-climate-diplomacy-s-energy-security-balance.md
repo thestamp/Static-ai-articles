@@ -8,6 +8,7 @@ subject: "opinion-editorials"
 category: "opinion-editorials"
 status: "published"
 permalink: "/articles/2026-05-03-update-cop31-hosting-deal-tests-climate-diplomacy-s-energy-security-balance/"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/327"
 image: "/images/news-banner.png"
 ---
 
