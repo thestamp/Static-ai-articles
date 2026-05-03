@@ -8,7 +8,7 @@ subject: "science-health"
 category: "science-health"
 status: "published"
 permalink: "/articles/2026-05-03-just-10-minutes-of-daily-floor-exercises-may-improve-balance-and-agility-study-f"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/326"
 image: "/images/news-banner.png"
 ---
 
