@@ -7,7 +7,7 @@ subject: technology
 category: Technology
 status: published
 permalink: /articles/2026-05-03-ai-er-diagnosis-harvard-study
-published_pr_url: TBD
+published_pr_url: https://github.com/thestamp/Static-ai-articles/pull/332
 image: "/images/news-banner.png"
 ---
 
@@ -30,3 +30,6 @@ Healthcare AI products are increasingly moving from pilot projects into clinical
 - TechCrunch report: https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/
 - Primary/academic source referenced in coverage: https://hms.harvard.edu/news/study-suggests-ai-good-enough-diagnosing-complex-medical-cases-warrant-clinical-testing
 - Additional coverage cluster: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbTNkUGRxQjktMjFkR2o3bDRPeFlPcE93Y0Z3R1ZLMFlaQXlnaW5WLXhJSEs2VHFMNlA5WTU0WGViUDdIcV8zY0xZTkNJXzdxaGNjNmFuRkt0WlJSOVljZWk4NVFtMHJqcFF0TWlDeHhnRGg4c2hodmVvYk1rOWNlRU9pM1g1ZjhW?oc=5
+
+
+_Editorial process: https://github.com/thestamp/Static-ai-articles/pull/332_
