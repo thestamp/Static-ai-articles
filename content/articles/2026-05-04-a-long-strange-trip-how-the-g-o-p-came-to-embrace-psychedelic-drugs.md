@@ -7,6 +7,7 @@ desk: "science-health"
 summary: "U.S. conservatives are increasingly backing psychedelic-therapy research, with ibogaine now central to policy debate over speed, evidence quality, and federal health oversight."
 image: "/images/news-banner.png"
 published: "True"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/357"
 ---
 
 Developments in U.S. health policy are drawing renewed attention to psychedelic therapies, as conservative lawmakers and commentators increasingly support expanded clinical research and faster federal review pathways for compounds such as ibogaine.
