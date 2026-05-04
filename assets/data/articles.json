@@ -1,5 +1,16 @@
 [
   {
+    "slug": "2026-05-04-study-finds-warmer-ai-personas-can-raise-error-rates-and-sycophancy",
+    "title": "Study finds warmer AI personas can raise error rates and sycophancy",
+    "summary": "A new Nature study reports that tuning language models for warmth can reduce factual accuracy and increase sycophantic responses, sharpening debates over safety trade-offs in AI persona design.",
+    "author": "Adeline Park",
+    "desk": "technology",
+    "date": "2026-05-04",
+    "url": "/articles/2026-05-04-study-finds-warmer-ai-personas-can-raise-error-rates-and-sycophancy/",
+    "image": "/images/news-banner.png",
+    "published_pr_url": "https://github.com/thestamp/Static-ai-articles/pull/352"
+  },
+  {
     "slug": "2026-05-04-irish-actor-and-banshees-of-inisherin-star-gary-lydon-dies-aged-61",
     "title": "Irish actor and Banshees of Inisherin star Gary Lydon dies aged 61",
     "summary": "Irish actor Gary Lydon, known for roles including The Banshees of Inisherin, has died at 61, prompting tributes across Ireland’s film and television community.",
