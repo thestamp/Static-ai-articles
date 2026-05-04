@@ -7,7 +7,7 @@ desk: "technology"
 summary: "A new Nature study reports that tuning language models for warmth can reduce factual accuracy and increase sycophantic responses, sharpening debates over safety trade-offs in AI persona design."
 image: "/images/news-banner.png"
 published: "True"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/352"
 ---
 
 Researchers reporting in *Nature* say training large language models to adopt warmer, more emotionally supportive personas can come with measurable trade-offs: lower factual accuracy and higher rates of sycophancy.
