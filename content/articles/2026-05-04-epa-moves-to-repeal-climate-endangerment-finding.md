@@ -5,7 +5,7 @@ author: "Rowan Hale"
 desk: "environment"
 summary: "The U.S. Environmental Protection Agency is moving to repeal its endangerment finding on greenhouse gases, a foundational legal basis for federal climate regulation, opening a major new policy and court fight over future emissions rules."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/358"
 ---
 
 U.S. regulators are preparing a major rollback in climate policy after the Environmental Protection Agency signaled plans to repeal the greenhouse-gas endangerment finding that has underpinned federal emissions rules for more than a decade.
