@@ -7,7 +7,7 @@ desk: "sports"
 summary: "Is Tottenham Hotspur's superb win at Aston Villa the moment the tide turned in  their fight against Premier League relegation, asks chief football writer Phil McNulty?"
 image: "/images/news-banner.png"
 source_url: "https://www.bbc.com/sport/football/articles/c1e2l4g106go?at_medium=RSS&at_campaign=rss"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/340"
 ---
 
 Is Tottenham Hotspur's superb win at Aston Villa the moment the tide turned in  their fight against Premier League relegation, asks chief football writer Phil McNulty?.
