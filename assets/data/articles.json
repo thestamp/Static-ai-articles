@@ -1,5 +1,14 @@
 [
   {
+    "title": "European leaders converge on Armenia as Russia looks on",
+    "date": "2026-05-04",
+    "desk": "world",
+    "author": "Elias Navarro",
+    "summary": "Two European summits are being held in a country long considered Russia's closest ally in the region.",
+    "link": "/articles/european-leaders-converge-on-armenia-as-russia-looks-on/",
+    "image": "/images/news-banner.png"
+  },
+  {
     "slug": "2026-05-04-study-finds-warmer-ai-personas-can-raise-error-rates-and-sycophancy",
     "title": "Study finds warmer AI personas can raise error rates and sycophancy",
     "summary": "A new Nature study reports that tuning language models for warmth can reduce factual accuracy and increase sycophantic responses, sharpening debates over safety trade-offs in AI persona design.",
