@@ -7,7 +7,7 @@ subject: "business-economy"
 category: "business-economy"
 status: "published"
 permalink: "/articles/2026-05-04-williams-says-fed-policy-well-positioned-for-economic-risks-uncertainty-kfgo"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/368"
 image: "/images/news-banner.png"
 ---
 
