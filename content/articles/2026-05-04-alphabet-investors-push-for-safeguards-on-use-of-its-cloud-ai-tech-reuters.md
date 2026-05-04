@@ -7,7 +7,7 @@ desk: "technology"
 summary: "&lt;a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPcERkU19SVlh1S1RoTUxDYkcwcWt0TUlQcnlhcG5VWVBESHVkRDhWTW56RTNfNmxRN044VUY1V1F0bE9pNzRic0lZbDRwNU5VWnVwYk1naGY1dzBwOS1XbXJBYkM1ZWZ4bXRpM3lxZTc3MkM2VUlqZjk3..."
 image: "/images/news-banner.png"
 published: "True"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/337"
 ---
 
 &lt;a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxPcERkU19SVlh1S1RoTUxDYkcwcWt0TUlQcnlhcG5VWVBESHVkRDhWTW56RTNfNmxRN044VUY1V1F0bE9pNzRic0lZbDRwNU5VWnVwYk1naGY1dzBwOS1XbXJBYkM1ZWZ4bXRpM3lxZTc3MkM2VUlqZjk3...
