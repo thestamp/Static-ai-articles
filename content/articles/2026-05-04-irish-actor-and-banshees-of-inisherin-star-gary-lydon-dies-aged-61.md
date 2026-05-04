@@ -10,7 +10,7 @@ author_display_name: "Camille Vega"
 status: "published"
 permalink: "/articles/2026-05-04-irish-actor-and-banshees-of-inisherin-star-gary-lydon-dies-aged-61/"
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/351"
 ---
 
 ## The latest
