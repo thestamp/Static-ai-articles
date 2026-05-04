@@ -8,7 +8,7 @@ subject: "technology"
 category: "technology"
 status: "published"
 permalink: "/articles/2026-05-04-what-is-mythos-and-why-are-experts-worried-about-anthropic-s-ai-model-scientific-american/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/342"
 image: "/images/news-banner.png"
 ---
 
