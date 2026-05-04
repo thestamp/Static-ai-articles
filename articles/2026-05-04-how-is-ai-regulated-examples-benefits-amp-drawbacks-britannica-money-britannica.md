@@ -8,7 +8,7 @@ subject: "technology"
 category: "technology"
 status: "published"
 permalink: "/articles/2026-05-04-how-is-ai-regulated-examples-benefits-amp-drawbacks-britannica-money-britannica/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/367"
 image: "/images/news-banner.png"
 ---
 
