@@ -5,7 +5,7 @@ desk: "science-health"
 author: "Dr. Lena Okafor"
 summary: "Thousands of cancer patients in England could spend significantly less time in hospital with a new NHS rollout of an injectable immunotherapy option, according to BBC reporting."
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/345"
 ---
 
 NHS cancer jab could mean patients spend hours less in hospital
