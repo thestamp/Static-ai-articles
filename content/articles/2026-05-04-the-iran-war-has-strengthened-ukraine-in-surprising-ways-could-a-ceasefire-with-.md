@@ -5,7 +5,7 @@ desk: "world"
 author: "Elias Navarro"
 summary: "President Zelensky has been visiting the Gulf to demonstrate his country's military nous."
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/341"
 ---
 
 President Zelensky has been visiting the Gulf to demonstrate his country's military nous.
