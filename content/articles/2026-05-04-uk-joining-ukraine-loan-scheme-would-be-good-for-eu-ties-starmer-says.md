@@ -7,7 +7,7 @@ desk: "news-politics"
 summary: "The UK is \"discussing participating\" in a \u00a378bn (\u20ac90bn) European Union loan scheme to support Ukraine, the prime minister says."
 image: "/images/news-banner.png"
 published: true
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/363"
 ---
 The UK is "discussing participating" in a £78bn (€90bn) European Union loan scheme to support Ukraine, the prime minister says.
 
