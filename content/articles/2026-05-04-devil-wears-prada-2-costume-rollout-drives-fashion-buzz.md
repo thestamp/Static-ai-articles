@@ -5,7 +5,7 @@ desk: "arts-entertainment"
 author: "Camille Vega"
 date: "2026-05-04"
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/339"
 ---
 
 A wave of early wardrobe reveals tied to *The Devil Wears Prada 2* is turning a film sequel into a cross-platform fashion event before release, with entertainment and style outlets treating costume stills as standalone news moments.
