@@ -5,7 +5,7 @@ desk: "environment"
 author: "Rowan Hale"
 summary: "Colombia hosted nearly 60 countries at pivotal time on world stage for fight to transition to a clean energy futureLooking out to sea from the grey sandy beaches of Santa Marta, on"
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/346"
 ---
 
 Could Santa Marta climate talks mark ground zero in push to ditch fossil fuels?
