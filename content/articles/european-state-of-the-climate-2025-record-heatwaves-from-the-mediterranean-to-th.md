@@ -5,7 +5,7 @@ author: "Rowan Hale"
 desk: "environment"
 summary: "European State of the Climate 2025: record heatwaves from the Mediterranean to the Arctic, while glaciers shrink and snow cover declines&nbsp;&nbsp;World Meteorological Organization WMO"
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/365"
 ---
 
 European State of the Climate 2025: record heatwaves from the Mediterranean to the Arctic, while glaciers shrink and snow cover declines&nbsp;&nbsp;World Meteorological Organization WMO
