@@ -5,7 +5,7 @@ author: "Camille Vega"
 desk: "arts-entertainment"
 summary: "The Icelandic star reflects on a phenomenal year, and the music video that let her go \"primal\"."
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/360"
 permalink: "/articles/2026-05-04-laufey-on-making-jazz-cool-again-and-the-fish-that-brought-out-her-inner-rage/"
 ---
 The Icelandic star reflects on a phenomenal year, and the music video that let her go "primal".
