@@ -7,7 +7,7 @@ subject: "environment"
 category: "environment"
 status: "published"
 permalink: "/articles/2026-05-05-extreme-weather-in-2025-drove-record-wildfire-emissions-in-europe-new-scientist/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/390"
 image: "/images/news-banner.png"
 ---
 
