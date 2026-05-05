@@ -8,7 +8,7 @@ subject: "science-health"
 category: "science-health"
 status: "published"
 permalink: "/articles/2026-05-05-fda-approves-veppanu-for-esr1-mutated-advanced-breast-cancer/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/371"
 image: "/images/news-banner.png"
 ---
 
