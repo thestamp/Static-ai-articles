@@ -8,7 +8,7 @@ subject: "news-politics"
 category: "news-politics"
 status: "published"
 permalink: "/articles/white-house-news-latest-updates-and-video-on-us-politics-and-government"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/382"
 image: "/images/news-banner.png"
 ---
 
