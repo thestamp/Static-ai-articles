@@ -6,7 +6,7 @@ desk: "arts-entertainment"
 summary: "2026 Lower East Side Film Festival award winners include ‘Public Access’ and ‘The Plan’&nbsp;&nbsp;Gold Derby"
 image: "/images/news-banner.png"
 source_url: "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWkYtNFdUOGNmbUVjcTZTUEhsYjdnLS1YR2huY2pyUDBERG9JTlBMd0N2VnlONVhJQU0td09sLUlXVWtHdnBlRDZiWTRMTTFlUmU2UG15aTZMN1AxLVhTbU80UncyMS1memNDbHhrVThSUlhiYmtaLVpYTVVCZk9FSHRBUG9ndGg2QWQybi1B?oc=5"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/392"
 ---
 
 # 2026 Lower East Side Film Festival award winners include ‘Public Access’ and ‘The Plan’
