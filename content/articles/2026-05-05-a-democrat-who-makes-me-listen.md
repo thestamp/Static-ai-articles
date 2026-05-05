@@ -6,7 +6,7 @@ desk: "opinion-editorials"
 summary: "A fresh interview spotlighting Rep. Jake Auchincloss revives the debate over whether a pragmatic, center-leaning Democratic lane can broaden coalition politics ahead of the 2026 cycle."
 image: "/images/news-banner.png"
 source_url: "https://www.nytimes.com/2026/05/05/opinion/jake-auchincloss-democrat-massachusetts.html"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/393"
 ---
 
 # Opinion: A Democrat Who Makes Me Listen
