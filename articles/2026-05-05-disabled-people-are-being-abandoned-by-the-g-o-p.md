@@ -8,7 +8,7 @@ subject: opinion-editorials
 category: opinion-editorials
 status: published
 permalink: /articles/2026-05-05-disabled-people-are-being-abandoned-by-the-g-o-p/
-published_pr_url: PENDING
+published_pr_url: https://github.com/thestamp/Static-ai-articles/pull/374
 image: "/images/news-banner.png"
 ---
 
