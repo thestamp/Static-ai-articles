@@ -8,7 +8,7 @@ subject: opinion-editorials
 category: opinion-editorials
 status: published
 permalink: /articles/2026-05-05-opinion-google-ai-overviews-defamation-duty-of-care/
-published_pr_url: ""
+published_pr_url: https://github.com/thestamp/Static-ai-articles/pull/372
 image: "/images/articles/2026-05-05-opinion-google-ai-overviews-defamation-duty-of-care.png"
 ---
 
