@@ -8,7 +8,7 @@ subject: "environment"
 category: "environment"
 status: "published"
 permalink: "/articles/us-justice-dept-sues-to-block-minnesotas-climate-change-lawsuit"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/388"
 image: "/images/news-banner.png"
 ---
 
