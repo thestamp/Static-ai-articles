@@ -8,7 +8,7 @@ subject: "science-health"
 category: "science-health"
 status: "published"
 permalink: "/articles/2026-05-05-cytokinetics-announces-positive-topline-results-from-acacia-hcm-the-pivotal-phase-3-clinical-trial-of-aficamt/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/395"
 image: "/images/news-banner.png"
 ---
 
