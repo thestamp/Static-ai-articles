@@ -8,7 +8,7 @@ subject: "technology"
 category: "technology"
 status: "published"
 permalink: "/articles/2026-05-05-white-house-considers-vetting-ai-models-before-they-are-released-the-new-york-times/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/379"
 image: "/images/news-banner.png"
 ---
 
