@@ -8,7 +8,7 @@ subject: "business-economy"
 category: "business-economy"
 status: "published"
 permalink: "/articles/market-expert-says-potential-fed-rate-cuts-could-spark-one-of-the-biggest-explosions-in-us"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/380"
 image: "/images/news-banner.png"
 ---
 
