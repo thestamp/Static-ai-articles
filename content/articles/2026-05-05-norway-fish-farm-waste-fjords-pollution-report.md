@@ -5,7 +5,7 @@ author: "Rowan Hale"
 desk: "environment"
 summary: "A new analysis cited by The Guardian says waste from Norwegian salmon aquaculture is adding nutrient loads to coastal waters on a scale likened to untreated sewage, intensifying pressure on fjord ecosystems and regulation debates."
 image: "/images/news-banner.png"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/384"
 ---
 
 Norway’s aquaculture sector is facing renewed scrutiny after a new analysis, cited in recent reporting, argued that waste discharges from fish farms are placing growing nutrient pressure on coastal fjord systems.
