@@ -5,7 +5,7 @@ author: "Priya Desai"
 desk: "business-economy"
 summary: "What to Expect in Markets This Week: Big Bank Earnings, December Inflation Data, Retail Sales, TSMC Earnings. Here’s what happened, why it matters, and what to watch next."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/396"
 permalink: "/articles/2026-05-05-what-to-expect-in-markets-this-week-big-bank-earnings-december-inflati/"
 ---
 What to Expect in Markets This Week: Big Bank Earnings, December Inflation Data, Retail Sales, TSMC Earnings
