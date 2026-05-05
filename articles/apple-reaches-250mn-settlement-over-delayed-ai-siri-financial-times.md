@@ -8,7 +8,7 @@ subject: "technology"
 category: "technology"
 status: "published"
 permalink: "/technology/2026/05/05/apple-reaches-250mn-settlement-over-delayed-ai-siri-financial-times"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/397"
 image: "/images/news-banner.png"
 ---
 
