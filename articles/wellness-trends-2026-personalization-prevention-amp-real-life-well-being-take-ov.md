@@ -8,7 +8,7 @@ subject: "lifestyle"
 category: "news"
 status: "published"
 permalink: "/articles/wellness-trends-2026-personalization-prevention-amp-real-life-well-being-take-ov/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/387"
 image: "/images/news-banner.png"
 ---
 
