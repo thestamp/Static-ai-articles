@@ -6,7 +6,7 @@ desk: "technology"
 summary: "Employees at Google DeepMind in the UK have voted to unionize after concerns over the company's defense-related AI work, escalating a labor-rights flashpoint in the AI sector."
 image: "/images/news-banner.png"
 source_url: "https://www.wired.com/story/google-deepmind-workers-vote-to-unionize-over-military-ai-deals/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/386"
 ---
 
 # Google DeepMind UK staff vote to unionize over military AI contracts
