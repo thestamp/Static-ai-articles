@@ -7,7 +7,7 @@ subject: "arts-entertainment"
 category: "news"
 status: "published"
 permalink: "/articles/2026-05-05-blake-lively-and-justin-baldoni-settle-lawsuit-over-it-ends-with-us-fi"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/370"
 image: "/images/news-banner.png"
 ---
 
