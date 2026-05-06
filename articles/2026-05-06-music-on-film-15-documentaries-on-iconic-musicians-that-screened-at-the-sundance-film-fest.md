@@ -8,7 +8,7 @@ subject: "arts-entertainment"
 category: "arts-entertainment"
 status: "published"
 permalink: "/articles/2026-05-06-music-on-film-15-documentaries-on-iconic-musicians-that-screened-at-the-sundance-film-fest/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/403"
 image: "/images/news-banner.png"
 ---
 
