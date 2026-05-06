@@ -6,7 +6,7 @@ author: "Jordan Reeves"
 desk: "sports"
 summary: "With Paris St-Germain waiting in the Champions League final, will Arsenal withstand the firepower of one of Europe's most formidable attacks and lift the trophy for the first time?"
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/423"
 ---
 
 Why resolute Arsenal will believe prolific PSG can be beaten in final
