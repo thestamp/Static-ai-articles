@@ -8,7 +8,7 @@ image: "/images/news-banner.png"
 tags:
   - arts-entertainment
 source_url: "https://www.screendaily.com/news/darren-aronofsky-to-receive-locarno-film-festivals-pardo-donore-award/5204427.article"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/411"
 ---
 
 Darren Aronofsky to receive Locarno Film Festival’s Pardo d’Onore award
