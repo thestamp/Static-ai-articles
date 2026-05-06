@@ -5,7 +5,7 @@ author: "Simone Hart"
 desk: "opinion-editorials"
 summary: "Scottish and Welsh nationalism will be further radicalised if Reform UK sets the tone of debate over inclusion in the British stateKeir Starmer has neither a heartland nor a strong"
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/410"
 ---
 
 Labour’s nationwide collapse risks making Nigel Farage the face of the UK’s fragile union is a developing story on the opinion editorials beat. Initial reports indicate a meaningful new development for readers tracking this area.
