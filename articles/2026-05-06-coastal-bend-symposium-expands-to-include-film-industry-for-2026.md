@@ -8,7 +8,7 @@ subject: "arts-entertainment"
 category: "arts-entertainment"
 status: "published"
 permalink: "/articles/2026-05-06-coastal-bend-symposium-expands-to-include-film-industry-for-2026/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/398"
 image: "/images/news-banner.png"
 summary: "Coastal Bend Symposium expands to include film industry for 2026&nbsp;&nbsp;KRIS 6 News Corpus Christi"
 ---
