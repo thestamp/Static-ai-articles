@@ -15,7 +15,7 @@ sources:
     url: "https://arstechnica.com/tech-policy/2026/05/openai-president-explains-to-jury-why-his-diary-entries-sound-greedy/"
   - name: "The Verge"
     url: "https://www.theverge.com/ai-artificial-intelligence/651159/openai-musk-trial-diary-entries-pressures"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/402"
 ---
 
 ## Summary
