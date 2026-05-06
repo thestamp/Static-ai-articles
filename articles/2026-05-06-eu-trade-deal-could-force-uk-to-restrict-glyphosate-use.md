@@ -9,7 +9,7 @@ category: "environment"
 status: "published"
 permalink: "/articles/2026-05-06-eu-trade-deal-could-force-uk-to-restrict-glyphosate-use/"
 image: "/images/news-banner.png"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/407"
 ---
 
 A developing UK-EU trade alignment is likely to increase pressure on UK regulators to narrow or phase down some glyphosate uses, according to current reporting on policy discussions and standards harmonization.
