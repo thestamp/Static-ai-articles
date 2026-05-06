@@ -7,7 +7,7 @@ subject: "science-health"
 category: "science-health"
 status: "published"
 permalink: "/articles/fda-fast-track-designation-for-oncology-drugs-in-april-2026-oncology-news-centra/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/400"
 image: "/images/news-banner.png"
 ---
 
