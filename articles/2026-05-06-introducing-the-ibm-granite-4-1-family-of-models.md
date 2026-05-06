@@ -8,7 +8,7 @@ subject: "technology"
 category: "technology"
 status: "published"
 permalink: "/articles/2026-05-06-introducing-the-ibm-granite-4-1-family-of-models"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/401"
 image: "/images/news-banner.png"
 ---
 

@@ -11,7 +11,8 @@
     "subject": "technology",
     "category": "technology",
     "permalink": "/articles/2026-05-06-introducing-the-ibm-granite-4-1-family-of-models/",
-    "image": "/images/news-banner.png"
+    "image": "/images/news-banner.png",
+    "published_pr_url": "https://github.com/thestamp/Static-ai-articles/pull/401"
   },
   {
     "id": "2026-05-06-coastal-bend-symposium-expands-to-include-film-industry-for-2026",
