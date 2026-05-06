@@ -8,7 +8,7 @@ image: "/images/news-banner.png"
 tags:
   - technology
 source_url: "https://www.theverge.com/tech/923994/remarkable-e-ink-tablet-paper-pure-black-and-white-pricing-availability"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/413"
 ---
 
 reMarkable has launched Paper Pure, a new E Ink tablet that returns to a monochrome screen and emphasizes distraction-free writing instead of feature-heavy multitasking.
