@@ -8,7 +8,7 @@ image: "/images/news-banner.png"
 tags:
   - technology
 source_url: "https://www.theverge.com/tech/924755/google-home-gemini-3-1-upgrade"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/409"
 ---
 
 Google Home&#8217;s Gemini AI can handle more complicated requests
