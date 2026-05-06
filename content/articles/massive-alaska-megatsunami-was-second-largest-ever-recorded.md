@@ -6,7 +6,7 @@ author: "Rowan Hale"
 desk: "environment"
 summary: "New research suggests glacier melt driven by climate change is increasing the risk of giant waves."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/421"
 ---
 
 Massive Alaska megatsunami was second largest ever recorded
