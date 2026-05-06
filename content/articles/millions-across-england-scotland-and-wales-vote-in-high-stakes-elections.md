@@ -7,7 +7,7 @@ desk: "news-politics"
 summary: "Voters across England, Scotland and Wales head to the polls in a major test of party strength and public sentiment ahead of the next national cycle."
 image: "/images/news-banner.png"
 published: "True"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/424"
 ---
 
 Voters across England, Scotland and Wales are casting ballots in a broad set of local and devolved contests that analysts view as a major political barometer between general elections.
