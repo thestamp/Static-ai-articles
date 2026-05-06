@@ -8,7 +8,7 @@ subject: "technology"
 category: "technology"
 status: "published"
 permalink: "/articles/2026-05-06-project-glasswing-securing-critical-software-for-the-ai-era"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/415"
 image: "/images/news-banner.png"
 ---
 
