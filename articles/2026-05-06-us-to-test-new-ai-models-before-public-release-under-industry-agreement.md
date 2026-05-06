@@ -8,7 +8,7 @@ category: "technology"
 status: "published"
 permalink: "/articles/2026-05-06-us-to-test-new-ai-models-before-public-release-under-industry-agreement/"
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/405"
 ---
 
 The U.S. government has reached an agreement with several major AI developers — including Google, Microsoft, and xAI — to allow pre-release safety assessments for certain new models before broader rollout. The framework is positioned as a national-security and public-safety checkpoint in the model deployment pipeline.
