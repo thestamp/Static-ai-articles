@@ -5,7 +5,7 @@ author: "Nico Laurent"
 desk: "lifestyle"
 summary: "Guests at the Met Gala had different interpretations of the night’s dress code."
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/417"
 permalink: "/articles/was-it-art-was-it-fashion-was-it-good/"
 ---
 
