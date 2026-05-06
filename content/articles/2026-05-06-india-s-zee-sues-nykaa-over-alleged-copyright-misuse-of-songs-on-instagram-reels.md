@@ -10,7 +10,7 @@ tags:
   - media
   - copyright
 source_url: "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUnFoSzl1VGhLVXV0UUJTZHlaVW01Y3ZUSFdTNjFyTXRzMXBVbV9Cd1BzLTl3ZFBXSzVLRnE2QU9QTkc1UmJjbzNKYlZfNkk0ejJIS1FUeW4tajlUYTc0bEhJUHRFbi05WHd0SFJXam9rZEJlaDdnUGE0Z18xTlRjLVNvVTJBMXlOTER2d2hid2duY0tRUDZ0YUFzS1ZCSUJ3dEtxR1BXcXFXYzdNaUlQXzVSVjFiUQ?oc=5"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/418"
 ---
 
 India's Zee sues Nykaa over alleged copyright misuse of songs on Instagram reels
