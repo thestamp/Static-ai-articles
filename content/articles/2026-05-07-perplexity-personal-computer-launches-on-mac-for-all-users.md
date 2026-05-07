@@ -5,7 +5,7 @@ author: "Adeline Park"
 subject: "technology"
 category: "technology"
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/449"
 ---
 
 Perplexity said its "Personal Computer" app is now available to all users on macOS, broadening access to its desktop AI workflow beyond earlier limited availability.
