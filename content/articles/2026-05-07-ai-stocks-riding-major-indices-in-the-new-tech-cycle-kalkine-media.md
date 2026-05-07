@@ -13,7 +13,7 @@ image_alt: "Editorial image illustrating technology coverage topic"
 sources:
   - name: "Kalkine Media"
     url: "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNGlPTi14LTI1LVp1WHpWa2lSMl93TkItbmFGYUx4Z2R4eEhTS1p3MWJRRGNvM3ZlV3ZuVHdQUHFBVXpsSEpndnp3N1VYQ25wazRxVlE3THg1QV9kQjB5NlAwbUFsSUNyRVJuR3MyMG9BUW1MWUNCb1NjSkh0QnNmajFqUWRmOGVhbTNKTkdyZy1CM1JNaWNKZ21lVHg0b05qR0g1azVkejJUYWdCVEpEUA?oc=5"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/429"
 ---
 
 ## Summary
