@@ -8,7 +8,7 @@ subject: "environment"
 category: "environment"
 status: "published"
 permalink: "/articles/environment-climate-change-fuels-wildfire-threats-across-appal-2026-05-07.html"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/442"
 image: "/images/news-banner.png"
 ---
 
