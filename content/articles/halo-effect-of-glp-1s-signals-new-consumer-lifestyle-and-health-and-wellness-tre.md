@@ -5,7 +5,7 @@ author: "Nico Laurent"
 subject: "lifestyle"
 category: "lifestyle"
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/451"
 ---
 
 Halo Effect of GLP-1s Signals New Consumer Lifestyle and Health and Wellness Trends - PR Newswire
