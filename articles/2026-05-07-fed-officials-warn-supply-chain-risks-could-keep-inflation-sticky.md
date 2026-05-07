@@ -8,7 +8,7 @@ subject: "business-economy"
 category: "business-economy"
 status: "published"
 permalink: "/articles/2026-05-07-fed-officials-warn-supply-chain-risks-could-keep-inflation-sticky/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/445"
 image: "/images/articles/2026-05-07-fed-officials-warn-supply-chain-risks-could-keep-inflation-sticky.png"
 ---
 
