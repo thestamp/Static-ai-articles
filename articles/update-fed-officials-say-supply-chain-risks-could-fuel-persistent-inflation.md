@@ -8,7 +8,7 @@ subject: "business-economy"
 category: "business-economy"
 status: "published"
 permalink: "/articles/update-fed-officials-say-supply-chain-risks-could-fuel-persistent-inflation/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/452"
 image: "/images/news-banner.png"
 ---
 
