@@ -7,7 +7,7 @@ desk: "lifestyle"
 summary: "A younger generation is embracing the nostalgic fitness craze."
 canonical_url: "https://www.nytimes.com/2026/05/06/well/move/tae-bo-workout-tiktok.html"
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/427"
 ---
 
 TikTok Has Discovered Tae Bo, the Beloved ’90s Workout
