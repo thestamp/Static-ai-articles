@@ -5,7 +5,7 @@ author: "Adeline Park"
 desk: "technology"
 summary: "Why Google, Microsoft and xAI’s U.S. AI deal matters. This is a developing technology story with details still emerging."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/432"
 ---
 Why Google, Microsoft and xAI’s U.S. AI deal matters
 
