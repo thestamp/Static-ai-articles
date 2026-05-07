@@ -8,7 +8,7 @@ subject: "lifestyle"
 category: "lifestyle"
 status: "published"
 permalink: "/articles/2026-05-07-fitness-focused-travel-retreats-market-emerging-trends-and-long-term-forecast-20/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/428"
 image: "/images/news-banner.png"
 ---
 
