@@ -7,7 +7,7 @@ subject: "sports"
 category: "sports"
 status: "published"
 permalink: "/2026-05-07/nba-stars-playing-in-europe-instead-of-u-s-that-s-what-soccer-giants-want"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/425"
 image: "/images/news-banner.png"
 ---
 
