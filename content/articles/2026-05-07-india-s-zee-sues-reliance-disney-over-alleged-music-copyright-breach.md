@@ -16,7 +16,7 @@ tags:
   - copyright
 source_url: "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQnMxY3Z2TGtUUG80RlhieENSUGdJbHFKc1h3dG1KREt0S2NQbmRNMDBNRTFZb0U0LXcweXlpWTQ3Y3BnNFZvZG44YnhaX3FTU1Baaldma2JvbUFySlNscnh1MWNVSUVia1VGeGFRSjNGcEVJTnY2Ml9tWWtIYTgzVFJMNmRXUGhjaXlKY015MWRXd3BkbjFfYTAySGtqSlB2S3liZHM3dlJ6TF9QVnc?oc=5"
 permalink: "/articles/2026-05-07-india-s-zee-sues-reliance-disney-over-alleged-music-copyright-breach/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/453"
 ---
 
 Zee Entertainment has sued Reliance-Disney over alleged unauthorized use of music content, according to Reuters.
