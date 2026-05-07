@@ -5,7 +5,7 @@ desk: "environment"
 author: "Rowan Hale"
 date: "2026-05-07"
 image: "/images/news-banner.png"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/443"
 ---
 
 New reporting this week points to growing scientific concern that continued deforestation in the Amazon could significantly reduce rainfall across parts of South America, with downstream effects for ecosystems, farming, and water security.
