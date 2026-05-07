@@ -21,7 +21,7 @@ Recent reporting indicates a concrete update tied to this event. The current pub
 
 ## Why It Matters
 
-For this desk, the near-term significance is whether the development changes short-run decisions, resource allocation, or risk expectations in the coming week.
+For sports readers, the immediate significance is whether this update changes near-term planning assumptions and observable outcomes over the next week.
 
 ## What to Watch Next
 
