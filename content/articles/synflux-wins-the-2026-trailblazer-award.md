@@ -7,7 +7,7 @@ desk: "lifestyle"
 summary: "Vogue reports that Synflux won the 2026 Trailblazer Award, highlighting sustainability-focused innovation in fashion design and production."
 canonical_url: "https://www.vogue.com/article/meet-the-2026-trailblazer-award-finalists"
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/437"
 ---
 
 Synflux Wins the 2026 Trailblazer Award
