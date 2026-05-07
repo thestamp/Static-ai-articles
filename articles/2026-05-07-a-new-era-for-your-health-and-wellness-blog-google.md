@@ -8,7 +8,7 @@ subject: "science-health"
 category: "science-health"
 status: "published"
 permalink: "/articles/2026-05-07-a-new-era-for-your-health-and-wellness-blog-google/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/448"
 image: "/images/news-banner.png"
 ---
 
