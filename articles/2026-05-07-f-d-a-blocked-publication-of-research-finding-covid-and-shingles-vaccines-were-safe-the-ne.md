@@ -8,7 +8,7 @@ subject: "science-health"
 category: "science-health"
 status: "published"
 permalink: "/articles/2026-05-07-f-d-a-blocked-publication-of-research-finding-covid-and-shingles-vaccines-were-safe-the-ne/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/438"
 image: "/images/news-banner.png"
 ---
 
