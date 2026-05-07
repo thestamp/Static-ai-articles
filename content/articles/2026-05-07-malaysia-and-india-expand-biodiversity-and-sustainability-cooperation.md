@@ -5,7 +5,7 @@ desk: "environment"
 author: "Rowan Hale"
 date: "2026-05-07"
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/441"
 ---
 
 Malaysia and India announced expanded bilateral cooperation on biodiversity conservation and sustainability, adding environmental priorities to a broader set of cross-border economic and strategic talks.
