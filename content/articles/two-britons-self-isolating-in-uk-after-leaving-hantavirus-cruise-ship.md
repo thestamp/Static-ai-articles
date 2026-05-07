@@ -6,7 +6,7 @@ author: "Simone Hart"
 summary: "Two Britons self-isolating in UK after leaving hantavirus cruise ship"
 image: "/images/news-banner.png"
 source_url: "https://www.bbc.com/news/articles/c9wepl8we90o?at_medium=RSS&amp;at_campaign=rss"
-published_pr_url: "PENDING_PR_URL"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/434"
 ---
 
 Two Britons self-isolating in UK after leaving hantavirus cruise ship
