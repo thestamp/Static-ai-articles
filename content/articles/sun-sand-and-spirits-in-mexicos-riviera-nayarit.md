@@ -7,7 +7,7 @@ desk: "lifestyle"
 summary: "A Bon Appétit report spotlights how Riviera Nayarit’s Rosewood Mandarina is centering local sourcing and agave-led beverage culture in luxury travel experiences."
 canonical_url: "https://www.bonappetit.com/story/rosewood-mandarina-mexico-agave-tasting"
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/436"
 ---
 
 Sun, Sand, and Spirits in Mexico's Riviera Nayarit
