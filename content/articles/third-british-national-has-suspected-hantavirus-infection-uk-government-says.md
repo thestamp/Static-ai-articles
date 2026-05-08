@@ -5,7 +5,7 @@ author: "Elias Navarro"
 desk: "world"
 summary: "The patient is on the remote Atlantic island of Tristan da Cunha, which was visited by the cruise ship in April."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/467"
 ---
 
 The patient is on the remote Atlantic island of Tristan da Cunha, which was visited by the cruise ship in April.
