@@ -6,7 +6,7 @@ author: "Dr. Lena Okafor"
 desk: "science-health"
 summary: "Dr Tedros Adhanom Ghebreyesus, WHO Director-General, briefed media today on a cluster of hantavirus cases linked to a cruise ship, the MV Hondius.Eight cases have been reported so "
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/468"
 ---
 
 # WHO’s response to hantavirus cases linked to a cruise ship
