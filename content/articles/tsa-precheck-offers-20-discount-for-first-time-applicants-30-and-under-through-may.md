@@ -6,7 +6,7 @@ author: "Nico Laurent"
 desk: "lifestyle"
 summary: "TSA launched a limited-time “$20 Take Off” promotion that cuts the cost of new TSA PreCheck enrollment for travelers 30 and under who complete enrollment during May."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/483"
 ---
 
 # TSA PreCheck offers $20 discount for first-time applicants 30 and under through May
