@@ -8,7 +8,7 @@ subject: "business-economy"
 category: "business-economy"
 status: "published"
 permalink: "/articles/rsm-and-u-s-chamber-survey-middle-market-firms-see-growth-despite-inflation-pres/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/462"
 image: "/images/news-banner.png"
 ---
 
