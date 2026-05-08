@@ -8,7 +8,7 @@ subject: lifestyle
 category: lifestyle
 status: published
 permalink: /articles/update-why-regenerative-farming-is-the-latest-wellness-travel-trend/
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/463"
 image: "/images/news-banner.png"
 ---
 
