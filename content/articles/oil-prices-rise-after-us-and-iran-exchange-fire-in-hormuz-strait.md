@@ -5,7 +5,7 @@ author: "Priya Desai"
 desk: "business-economy"
 summary: "The flare-up further endangers the US-Iran ceasefire, which Trump extended indefinitely on 21 April."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/457"
 ---
 
 Oil prices rise after US and Iran exchange fire in Hormuz strait
