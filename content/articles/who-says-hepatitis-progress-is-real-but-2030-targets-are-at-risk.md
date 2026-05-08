@@ -6,7 +6,7 @@ author: "Dr. Lena Okafor"
 desk: "science-health"
 summary: "WHO reports declines in new hepatitis B infections and hepatitis C deaths, but says prevention, diagnosis and treatment must accelerate to hit 2030 elimination goals."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/482"
 ---
 
 # WHO says hepatitis progress is real, but 2030 elimination targets are at risk
