@@ -5,7 +5,7 @@ author: "Rowan Hale"
 desk: "environment"
 summary: "New reporting on a massive Alaska fjord wave says glacier retreat and slope instability are increasing the probability of rare but high-impact megatsunami hazards in coastal channels."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/465"
 ---
 
 A new analysis of a major Alaska fjord wave event is refocusing attention on how warming-driven glacier retreat can amplify landslide and tsunami risk in steep coastal terrain.
