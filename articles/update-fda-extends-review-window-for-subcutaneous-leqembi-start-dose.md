@@ -8,7 +8,7 @@ subject: "science-health"
 category: "science-health"
 status: "published"
 permalink: "/articles/update-fda-extends-review-window-for-subcutaneous-leqembi-start-dose/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/479"
 image: "/images/news-banner.png"
 ---
 
