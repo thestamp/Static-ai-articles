@@ -5,7 +5,7 @@ desk: "business-economy"
 author: "Priya Desai"
 summary: "Market Minute: Earnings deliver, but inflation threat remains - Morningstar — latest verified development for the business-economy desk."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/456"
 ---
 
 ## What happened
