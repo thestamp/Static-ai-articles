@@ -5,7 +5,7 @@ author: "Adeline Park"
 desk: "technology"
 summary: "Instructure’s status page shows an active Canvas availability incident affecting some environments, underscoring how outages in core learning platforms can disrupt coursework, exams and campus operations."
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/477"
 ---
 Canvas availability incident highlights resilience risks for schools using cloud edtech
 
