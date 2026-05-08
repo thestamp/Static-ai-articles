@@ -5,7 +5,7 @@ author: "Adeline Park"
 subject: "technology"
 category: "technology"
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/458"
 ---
 
 The platform said it would remove end-to-end encrypted messages, a major U‑turn by parent company Meta.
