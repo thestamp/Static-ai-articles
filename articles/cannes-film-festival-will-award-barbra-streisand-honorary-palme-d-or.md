@@ -8,7 +8,7 @@ subject: "arts-entertainment"
 category: "arts-entertainment"
 status: "published"
 permalink: "/articles/cannes-film-festival-will-award-barbra-streisand-honorary-palme-d-or/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/473"
 image: "/images/news-banner.png"
 ---
 
