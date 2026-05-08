@@ -5,7 +5,7 @@ author: "Simone Hart"
 desk: "opinion-editorials"
 summary: "After reported exchanges of fire in and around the Strait of Hormuz, Washington and Tehran are still publicly treating the ceasefire as active—underscoring how fragile crisis stability becomes when military signaling outruns diplomacy."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/460"
 ---
 
 ## What’s New
