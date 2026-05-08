@@ -5,7 +5,7 @@ desk: "sports"
 author: "Jordan Reeves"
 summary: "2025/26 Champions League: All the fixtures and results - UEFA.com — latest verified development for the sports desk."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/454"
 ---
 
 ## What happened
