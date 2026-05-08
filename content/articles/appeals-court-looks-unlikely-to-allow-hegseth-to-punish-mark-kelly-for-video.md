@@ -5,7 +5,7 @@ author: "Maya Sterling"
 desk: "news-politics"
 summary: "A three-judge panel in Washington heard arguments in the lawsuit aimed at stopping the Pentagon from disciplining Senator Mark Kelly for a video warning about illegal military orders."
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/459"
 ---
 # Appeals Court Looks Unlikely to Allow Hegseth to Punish Mark Kelly for Video
 
