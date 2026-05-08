@@ -6,7 +6,7 @@ desk: "arts-entertainment"
 summary: "2026 Lower East Side Film Festival award winners include ‘Public Access’ and ‘The Plan’&nbsp;&nbsp;Gold Derby"
 image: "/images/news-banner.png"
 tags: ["arts-entertainment", "breaking-news"]
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/472"
 ---
 
 2026 Lower East Side Film Festival award winners include ‘Public Access’ and ‘The Plan’&nbsp;&nbsp;Gold Derby
