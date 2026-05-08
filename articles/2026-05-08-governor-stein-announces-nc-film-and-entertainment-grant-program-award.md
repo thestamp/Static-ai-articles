@@ -8,7 +8,7 @@ subject: "arts-entertainment"
 category: "arts-entertainment"
 status: "published"
 permalink: "/articles/2026-05-08-governor-stein-announces-nc-film-and-entertainment-grant-program-award/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/480"
 image: "/images/news-banner.png"
 ---
 
