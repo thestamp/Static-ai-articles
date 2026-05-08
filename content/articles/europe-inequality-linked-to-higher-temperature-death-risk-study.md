@@ -5,7 +5,7 @@ author: "Rowan Hale"
 desk: "environment"
 summary: "A new Europe-focused health-climate analysis finds socioeconomic inequality is linked to significantly higher temperature-related mortality, with researchers estimating around 100,000 additional heat- and cold-related deaths each year across the continent."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/469"
 ---
 
 A Europe-wide climate-health analysis is drawing new attention to how social inequality shapes who dies during extreme temperatures.
