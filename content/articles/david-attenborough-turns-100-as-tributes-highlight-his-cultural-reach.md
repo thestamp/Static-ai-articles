@@ -5,7 +5,7 @@ author: "Camille Vega"
 desk: "arts-entertainment"
 summary: "Broadcasters, cultural institutions and public figures marked David Attenborough’s 100th birthday, underscoring the natural-history presenter’s enduring influence across television and environmental storytelling."
 image: "/images/news-banner.png"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/474"
 permalink: "/articles/david-attenborough-turns-100-as-tributes-highlight-his-cultural-reach/"
 ---
 
