@@ -5,7 +5,7 @@ desk: "environment"
 author: "Rowan Hale"
 date: "2026-05-09"
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/510"
 ---
 
 New global forest monitoring data show a substantial decline in tropical primary forest loss in 2025, but researchers and climate analysts say the world remains off track to end deforestation by 2030 and vulnerable to renewed fire-driven losses.
