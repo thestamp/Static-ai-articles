@@ -6,7 +6,7 @@ author: "Adeline Park"
 desk: "technology"
 image: "/images/news-banner.png"
 published: true
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/511"
 ---
 
 Chaos erupts as cyberattack disrupts learning platform Canvas amid finals
