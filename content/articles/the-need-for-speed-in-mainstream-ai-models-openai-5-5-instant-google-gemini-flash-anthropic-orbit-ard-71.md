@@ -5,7 +5,7 @@ author: "Adeline Park"
 desk: "technology"
 summary: "The 'Need for Speed' in Mainstream AI Models — OpenAI 5.5 Instant, Google Gemini Flash, Anthropic Orbit. ARD-71. This dispatch summarizes what happened, why it matters for the technology desk, and what to watch next."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/488"
 ---
 The 'Need for Speed' in Mainstream AI Models — OpenAI 5.5 Instant, Google Gemini Flash, Anthropic Orbit. ARD-71
 
