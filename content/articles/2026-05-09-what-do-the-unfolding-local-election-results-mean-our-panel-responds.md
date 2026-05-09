@@ -5,7 +5,7 @@ desk: "opinion-editorials"
 author: "Simone Hart"
 summary: "What do the unfolding local election results mean? Our panel responds — latest verified development for the opinion-editorials desk."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/487"
 ---
 
 ## What happened
