@@ -8,7 +8,7 @@ subject: "news-politics"
 category: "news-politics"
 status: "published"
 permalink: "/articles/2026-05-09-update-republicans-gain-edge-midterm-house-map-redistricting-race/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/504"
 image: "/images/news-banner.png"
 ---
 
