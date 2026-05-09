@@ -5,7 +5,7 @@ author: "Elias Navarro"
 desk: "world"
 summary: "It comes as the two countries accused each other of violating separate ceasefires to cover the celebrations of the Soviet Union's victory over Nazi Germany."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/493"
 ---
 
 Trump says Russia and Ukraine to observe three-day ceasefire has emerged as a major development on the world desk today, with early reporting indicating fresh implications for stakeholders and policymakers.
