@@ -7,7 +7,7 @@ subject: "science-health"
 category: "science-health"
 status: "published"
 permalink: "/articles/2026-05-09-trump-is-planning-to-fire-fda-commissioner-marty-makary.html"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/495"
 image: "/images/news-banner.png"
 ---
 
