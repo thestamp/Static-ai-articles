@@ -8,7 +8,7 @@ subject: "sports"
 category: "sports"
 status: "published"
 permalink: "/articles/2026-05-09-hull-city-0-0-millwall-championship-playoff-semi-final-first-leg-as-it/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/484"
 image: "/images/news-banner.png"
 ---
 Hull City 0-0 Millwall: Championship playoff semi-final, first leg – as it happened&nbsp;&nbsp;The Guardian
