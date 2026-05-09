@@ -6,7 +6,7 @@ author: "Camille Vega"
 desk: "arts-entertainment"
 summary: "The naturalist's seven-decade career was marked with a special concert at the Royal Albert Hall."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/497"
 ---
 
 William hails Sir David Attenborough's 'remarkable milestone' at 100th birthday concert
