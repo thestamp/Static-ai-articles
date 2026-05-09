@@ -5,7 +5,7 @@ author: "Maya Sterling"
 desk: "news-politics"
 summary: "How states are following, and resisting, Trump’s lead on election policy&nbsp;&nbsp;Votebeat"
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/501"
 ---
 
 How states are following, and resisting, Trump’s lead on election policy&nbsp;&nbsp;Votebeat
