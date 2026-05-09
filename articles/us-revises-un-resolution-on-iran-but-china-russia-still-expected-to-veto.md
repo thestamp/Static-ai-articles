@@ -8,7 +8,7 @@ subject: "world"
 category: "world"
 status: "published"
 permalink: "/articles/us-revises-un-resolution-on-iran-but-china-russia-still-expected-to-veto/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/489"
 image: "/images/news-banner.png"
 ---
 
