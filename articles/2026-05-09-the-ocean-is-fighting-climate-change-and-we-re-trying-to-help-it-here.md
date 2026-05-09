@@ -8,7 +8,7 @@ subject: "environment"
 category: "environment"
 status: "published"
 permalink: "/articles/2026-05-09-the-ocean-is-fighting-climate-change-and-we-re-trying-to-help-it-here/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/500"
 image: "/images/news-banner.png"
 ---
 
