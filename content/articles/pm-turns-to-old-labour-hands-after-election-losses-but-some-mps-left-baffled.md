@@ -6,7 +6,7 @@ author: "Maya Sterling"
 desk: "news-politics"
 summary: "News Politics desk brief on PM turns to old Labour hands after election losses but some MPs left baffled."
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/509"
 ---
 
 PM turns to old Labour hands after election losses but some MPs left baffled
