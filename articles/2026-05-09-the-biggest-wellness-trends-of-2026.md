@@ -8,7 +8,7 @@ subject: "lifestyle"
 category: "lifestyle"
 status: "published"
 permalink: "/articles/2026-05-09-the-biggest-wellness-trends-of-2026.html"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/502"
 image: "/images/news-banner.png"
 ---
 
