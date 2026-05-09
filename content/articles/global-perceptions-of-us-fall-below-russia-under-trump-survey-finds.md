@@ -5,7 +5,7 @@ author: "Elias Navarro"
 desk: "world"
 summary: "Global perceptions of US fall below Russia under Trump, survey finds. This dispatch summarizes what happened, why it matters for the world desk, and what to watch next."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/486"
 ---
 What happened
 Global perceptions of US fall below Russia under Trump, survey finds is drawing fresh attention in the world beat, according to current wire and syndication feeds.
