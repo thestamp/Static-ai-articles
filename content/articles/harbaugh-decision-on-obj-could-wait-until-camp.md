@@ -5,7 +5,7 @@ author: "Jordan Reeves"
 desk: "sports"
 summary: "Giants coach John Harbaugh said he spoke to Odell Beckham Jr. three to four times in the past week as they remain in touch about reuniting. But they will \"play it out over the next month and into training camp\" before making a decision."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/508"
 ---
 
 Giants coach John Harbaugh said he spoke to Odell Beckham Jr. three to four times in the past week as they remain in touch about reuniting. But they will "play it out over the next month and into training camp" before making a decision.
