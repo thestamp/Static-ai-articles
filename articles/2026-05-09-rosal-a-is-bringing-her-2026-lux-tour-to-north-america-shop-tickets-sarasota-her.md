@@ -7,7 +7,7 @@ subject: "arts-entertainment"
 category: "arts-entertainment"
 status: "published"
 permalink: "/articles/2026-05-09-rosal-a-is-bringing-her-2026-lux-tour-to-north-america-shop-tickets-sarasota-her"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/490"
 image: "/images/news-banner.png"
 ---
 
