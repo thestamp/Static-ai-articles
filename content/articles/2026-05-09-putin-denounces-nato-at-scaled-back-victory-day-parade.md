@@ -6,7 +6,7 @@ author: "Elias Navarro"
 desk: "world"
 summary: "At Russia's Victory Day parade in Moscow, President Vladimir Putin framed the war in Ukraine as a just fight against a NATO-backed adversary, as officials reported a reduced-format event and fresh ceasefire violations claims."
 image: "/images/news-banner.png"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/505"
 ---
 
 # Putin denounces Nato at scaled-back Victory Day parade
