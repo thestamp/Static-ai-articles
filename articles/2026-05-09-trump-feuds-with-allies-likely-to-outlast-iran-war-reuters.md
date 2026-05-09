@@ -8,7 +8,7 @@ subject: "world"
 category: "world"
 status: "published"
 permalink: "/articles/2026-05-09-trump-feuds-with-allies-likely-to-outlast-iran-war-reuters.html"
-published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/496"
 image: "/images/news-banner.png"
 ---
 
