@@ -8,7 +8,7 @@ subject: "sports"
 category: "sports"
 status: "published"
 permalink: "/articles/crystal-palace-into-conference-league-final-with-win-over-shakhtar-reu.html"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/534"
 image: "/images/news-banner.png"
 ---
 
