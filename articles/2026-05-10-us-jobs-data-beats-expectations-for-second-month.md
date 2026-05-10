@@ -8,7 +8,7 @@ subject: "business-economy"
 category: "business-economy"
 status: "published"
 permalink: "/articles/2026-05-10-us-jobs-data-beats-expectations-for-second-month/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/519"
 image: "/images/news-banner.png"
 ---
 
