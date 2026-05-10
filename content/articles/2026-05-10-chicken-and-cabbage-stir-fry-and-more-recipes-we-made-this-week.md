@@ -5,7 +5,7 @@ desk: lifestyle
 author: Nico Laurent
 summary: "Like pepperoni pasta and diner-style pancakes."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/532"
 ---
 
 Like pepperoni pasta and diner-style pancakes.
