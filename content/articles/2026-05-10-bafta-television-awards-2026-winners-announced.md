@@ -5,7 +5,7 @@ author: "Camille Vega"
 desk: "arts-entertainment"
 summary: "The 2026 BAFTA Television Awards handed out top UK TV honors in London, with major drama and performance categories drawing the most attention."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/538"
 ---
 The 2026 BAFTA Television Awards were presented in London on Sunday, with winners announced across drama, performance, and entertainment categories.
 
