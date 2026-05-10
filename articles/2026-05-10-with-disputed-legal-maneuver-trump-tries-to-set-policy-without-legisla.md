@@ -8,7 +8,7 @@ subject: "news-politics"
 category: "news-politics"
 status: "published"
 permalink: "/articles/2026-05-10-with-disputed-legal-maneuver-trump-tries-to-set-policy-without-legisla/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/515"
 image: "/images/news-banner.png"
 ---
 
