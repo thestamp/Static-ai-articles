@@ -6,7 +6,7 @@ author: "Simone Hart"
 summary: "A new UK opinion essay argues public hostility toward Keir Starmer reflects a deeper leadership-fragility problem that Labour will need to confront before the next electoral cycle."
 image: "/images/news-banner.png"
 source_url: "https://www.theguardian.com/commentisfree/2026/may/10/britain-hatred-keir-starmer-prime-minister"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/537"
 ---
 
 A new UK opinion essay argues public hostility toward Keir Starmer reflects a deeper leadership-fragility problem that Labour will need to confront before the next electoral cycle.
