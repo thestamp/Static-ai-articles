@@ -8,7 +8,7 @@ subject: "business-economy"
 category: "business-economy"
 permalink: "/articles/2026-05-10-surprising-jobs-report-complicates-fed-rate-cut-bet/"
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/527"
 ---
 
 Surprising jobs report complicates Fed rate-cut bet is developing and remains a high-priority item for the business-economy desk.
