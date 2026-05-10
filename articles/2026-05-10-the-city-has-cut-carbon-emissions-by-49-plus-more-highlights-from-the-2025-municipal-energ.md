@@ -8,7 +8,7 @@ subject: "environment"
 category: "environment"
 status: "published"
 permalink: "/articles/the-city-has-cut-carbon-emissions-by-49-plus-more-highlights-from-the-2025-municipal-energ.html"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/540"
 image: "/images/news-banner.png"
 ---
 
