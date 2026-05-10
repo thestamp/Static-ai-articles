@@ -8,7 +8,7 @@ subject: "business-economy"
 category: "business-economy"
 status: "published"
 permalink: "/articles/2026-05-10-the-federal-reserve-is-quickly-running-out-of-reasons-to-cut-interest-/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/520"
 image: "/images/news-banner.png"
 ---
 
