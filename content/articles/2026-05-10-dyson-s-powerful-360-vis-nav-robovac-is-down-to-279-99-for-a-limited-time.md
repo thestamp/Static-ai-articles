@@ -5,7 +5,7 @@ author: "Adeline Park"
 desk: "technology"
 summary: "If you’re tired of running your vacuum multiple times just to get the dirt and debris out of the carpets in your living room, Dyson’s 360 Vis Nav is worth a look. It’s one of the more powerful robot vacuums currently ava"
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/523"
 ---
 
 # Dyson’s powerful 360 Vis Nav robovac is down to $279.99 for a limited time
