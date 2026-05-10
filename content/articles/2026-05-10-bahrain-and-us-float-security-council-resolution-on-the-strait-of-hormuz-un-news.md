@@ -5,7 +5,7 @@ author: "Elias Navarro"
 desk: "world"
 summary: "Bahrain and US float Security Council resolution on the Strait of Hormuz&nbsp;&nbsp;UN News"
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/514"
 ---
 Bahrain and US float Security Council resolution on the Strait of Hormuz - UN News
 
