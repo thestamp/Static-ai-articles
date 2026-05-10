@@ -5,7 +5,7 @@ desk: environment
 author: Rowan Hale
 summary: "East Midlands electric car club helps residents and cuts emissions – but the need for a volunteer-led scheme reflects a much wider problemIn the aftermath of the Covid pandemic Miriam Stoate, a regenerative farmer from r"
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/531"
 permalink: "/articles/a-long-road-ahead-could-community-car-sharing-help-uk-hit-climate-targets/"
 ---
 
