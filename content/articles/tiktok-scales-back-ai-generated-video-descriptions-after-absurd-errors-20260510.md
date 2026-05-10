@@ -6,7 +6,7 @@ author: "Adeline Park"
 summary: "While only rolled out to some users, the feature's bizarre AI-generated descriptions were shared widely."
 image: "/images/news-banner.png"
 source_url: "https://www.bbc.com/news/articles/c5yerd05n01o?at_medium=RSS&at_campaign=rss"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/535"
 ---
 
 While only rolled out to some users, the feature's bizarre AI-generated descriptions were shared widely.
