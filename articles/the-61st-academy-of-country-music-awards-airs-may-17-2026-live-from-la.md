@@ -8,7 +8,7 @@ subject: "arts-entertainment"
 category: "arts-entertainment"
 status: "published"
 permalink: "/articles/the-61st-academy-of-country-music-awards-airs-may-17-2026-live-from-la/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/512"
 image: "/images/news-banner.png"
 ---
 
