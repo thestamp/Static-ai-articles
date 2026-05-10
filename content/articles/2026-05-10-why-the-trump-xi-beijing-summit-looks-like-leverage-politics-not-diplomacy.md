@@ -5,7 +5,7 @@ author: "Simone Hart"
 desk: "opinion-editorials"
 summary: "An emerging round of U.S.-China summit positioning is being framed less as breakthrough diplomacy and more as a test of bargaining power on Taiwan, Iran, and trade."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/530"
 permalink: "/articles/2026-05-10-why-the-trump-xi-beijing-summit-looks-like-leverage-politics-not-diplomacy/"
 ---
 
