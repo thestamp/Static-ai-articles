@@ -8,7 +8,7 @@ subject: "lifestyle"
 category: "lifestyle"
 status: "published"
 permalink: "/articles/2026-05-10-the-biggest-wellness-travel-trends-set-to-shape-2026"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/541"
 image: "/images/news-banner.png"
 ---
 
