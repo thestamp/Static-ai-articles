@@ -6,7 +6,7 @@ date: 2026-05-10 10:06:59 +0000
 author: "Elias Navarro"
 desk: world
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/526"
 categories: [world]
 ---
 
