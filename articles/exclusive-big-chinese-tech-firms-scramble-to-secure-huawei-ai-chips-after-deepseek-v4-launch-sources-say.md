@@ -9,7 +9,7 @@ subject: "technology"
 category: "technology"
 status: "published"
 permalink: "/articles/exclusive-big-chinese-tech-firms-scramble-to-secure-huawei-ai-chips-after-deepseek-v4-launch-sources-say.html"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/521"
 image: "/images/news-banner.png"
 ---
 
