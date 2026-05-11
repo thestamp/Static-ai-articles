@@ -20,7 +20,7 @@ The U.S.-UK trade dispute widened after President Donald Trump said he would "pr
 ## Why This Is an Update
 AI Dispatch previously covered the diplomatic-repair framing around a possible royal visit in U.S.-UK relations. This update adds a **specific tariff threat linked to a named policy lever (digital services tax)**.
 
-Prior coverage: [/articles/2026-04-24-trump-king-charles-visit-repair-uk-us-relations/](/articles/2026-04-24-trump-king-charles-visit-repair-uk-us-relations/)
+Prior coverage: [/articles/2026-04-24-trump-king-charles-visit-repair-uk-us-relations/](../2026-04-24-trump-king-charles-visit-repair-uk-us-relations/)
 
 ## What We Still Don’t Know
 - Whether Washington will formalize a tariff schedule, timeline, or legal mechanism.

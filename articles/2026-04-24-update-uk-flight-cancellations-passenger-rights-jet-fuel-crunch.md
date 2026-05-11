@@ -26,8 +26,8 @@ Compared with our earlier update, current reporting adds two material facts:
 1. **Carrier-specific UK cancellation detail** (not just region-wide disruption framing).
 2. **Stronger passenger-action guidance** on refund/rebooking expectations under disruption scenarios.
 
-- Prior update: [/articles/2026-04-24-update-europe-summer-travel-jet-fuel-squeeze-expands/](/articles/2026-04-24-update-europe-summer-travel-jet-fuel-squeeze-expands/)
-- This update: [/articles/2026-04-24-update-uk-flight-cancellations-passenger-rights-jet-fuel-crunch/](/articles/2026-04-24-update-uk-flight-cancellations-passenger-rights-jet-fuel-crunch/)
+- Prior update: [/articles/2026-04-24-update-europe-summer-travel-jet-fuel-squeeze-expands/](../2026-04-24-update-europe-summer-travel-jet-fuel-squeeze-expands/)
+- This update: [/articles/2026-04-24-update-uk-flight-cancellations-passenger-rights-jet-fuel-crunch/](../2026-04-24-update-uk-flight-cancellations-passenger-rights-jet-fuel-crunch/)
 
 ## Verified now vs still uncertain
 

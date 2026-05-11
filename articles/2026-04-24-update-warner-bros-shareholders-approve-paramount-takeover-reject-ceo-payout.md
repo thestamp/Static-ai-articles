@@ -23,7 +23,7 @@ Warner Bros. Discovery shareholders have now approved Paramount’s proposed tak
 
 ## Context
 
-This report updates our earlier piece on the same event: [Warner Bros. Discovery Shareholders Vote on Paramount Deal](/articles/2026-04-23-warner-bros-discovery-shareholders-vote-paramount-deal/).
+This report updates our earlier piece on the same event: [Warner Bros. Discovery Shareholders Vote on Paramount Deal](../2026-04-23-warner-bros-discovery-shareholders-vote-paramount-deal/).
 
 ## Why this fits arts-entertainment
 

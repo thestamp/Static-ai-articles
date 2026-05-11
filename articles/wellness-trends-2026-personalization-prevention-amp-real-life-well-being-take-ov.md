@@ -17,8 +17,8 @@ image: "/images/news-banner.png"
 
 ## What’s New
 - New verified developments since our earlier coverage.
-- Prior coverage: [Wellness Trends 2026: Personalization, Prevention & Real-Life Well-Being Take Over](/articles/2026-04-30-wellness-trends-2026-personalization-prevention-real-life-well-being-t/).
-- This update: [Wellness Trends 2026: Personalization, Prevention &amp; Real-Life Well-Being Take Over](/articles/wellness-trends-2026-personalization-prevention-amp-real-life-well-being-take-ov/).
+- Prior coverage: [Wellness Trends 2026: Personalization, Prevention & Real-Life Well-Being Take Over](../2026-04-30-wellness-trends-2026-personalization-prevention-real-life-well-being-t/).
+- This update: [Wellness Trends 2026: Personalization, Prevention &amp; Real-Life Well-Being Take Over](../wellness-trends-2026-personalization-prevention-amp-real-life-well-being-take-ov/).
 
 ## Why It Matters
 This development is significant for the lifestyle desk because it can affect policy, markets, institutions, or public behavior beyond the immediate headline cycle.

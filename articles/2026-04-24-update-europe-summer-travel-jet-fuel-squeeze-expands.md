@@ -23,13 +23,13 @@ This is a direct **consumer travel and lifestyle planning** story: it affects ho
 
 Compared with our prior coverage focused on Lufthansa-specific cuts, the latest reports frame the issue as a **multi-airline, region-wide summer travel constraint** with knock-on effects for fares and schedule reliability.
 
-- Prior coverage: [/articles/2026-04-23-lufthansa-cuts-20000-summer-flights-jet-fuel-squeeze/](/articles/2026-04-23-lufthansa-cuts-20000-summer-flights-jet-fuel-squeeze/)
+- Prior coverage: [/articles/2026-04-23-lufthansa-cuts-20000-summer-flights-jet-fuel-squeeze/](../2026-04-23-lufthansa-cuts-20000-summer-flights-jet-fuel-squeeze/)
 - This update adds broader cross-outlet evidence of regional impact and watchpoints for travelers.
 
 ## What changed in the reporting
 
 
-- Newer update: [/articles/2026-04-24-update-uk-flight-cancellations-passenger-rights-jet-fuel-crunch/](/articles/2026-04-24-update-uk-flight-cancellations-passenger-rights-jet-fuel-crunch/)
+- Newer update: [/articles/2026-04-24-update-uk-flight-cancellations-passenger-rights-jet-fuel-crunch/](../2026-04-24-update-uk-flight-cancellations-passenger-rights-jet-fuel-crunch/)
 
 - Outlets now describe Europe-wide summer travel exposure rather than only one carrier’s operational adjustment.
 - Coverage ties disruption risk to both fuel availability and elevated input costs, not just standard seasonal schedule optimization.

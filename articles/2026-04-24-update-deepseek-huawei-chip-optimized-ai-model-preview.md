@@ -21,8 +21,8 @@ DeepSeek has previewed a new AI model version reported to be adapted for Huawei 
 
 ## Update Linkage (old ↔ new)
 
-- Previous coverage: [/articles/2026-04-24-china-s-deepseek-says-releases-long-awaited-new-ai-model/](/articles/2026-04-24-china-s-deepseek-says-releases-long-awaited-new-ai-model/)
-- This update: [/articles/2026-04-24-update-deepseek-huawei-chip-optimized-ai-model-preview/](/articles/2026-04-24-update-deepseek-huawei-chip-optimized-ai-model-preview/)
+- Previous coverage: [/articles/2026-04-24-china-s-deepseek-says-releases-long-awaited-new-ai-model/](../2026-04-24-china-s-deepseek-says-releases-long-awaited-new-ai-model/)
+- This update: [/articles/2026-04-24-update-deepseek-huawei-chip-optimized-ai-model-preview/](../2026-04-24-update-deepseek-huawei-chip-optimized-ai-model-preview/)
 
 ## Why this matters for the technology desk
 

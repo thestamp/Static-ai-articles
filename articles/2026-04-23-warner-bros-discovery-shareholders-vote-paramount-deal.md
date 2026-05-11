@@ -31,4 +31,4 @@ Published via PR: [#25](https://github.com/thestamp/Static-ai-articles/pull/25)
 
 ## Update
 
-For the latest update on this deal, see: [Update: Warner Bros. Discovery Shareholders Approve Paramount Takeover, Reject CEO Payout Proposal](/articles/2026-04-24-update-warner-bros-shareholders-approve-paramount-takeover-reject-ceo-payout/)
+For the latest update on this deal, see: [Update: Warner Bros. Discovery Shareholders Approve Paramount Takeover, Reject CEO Payout Proposal](../2026-04-24-update-warner-bros-shareholders-approve-paramount-takeover-reject-ceo-payout/)
