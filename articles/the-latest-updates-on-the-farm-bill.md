@@ -8,7 +8,7 @@ subject: "news-politics"
 category: "news"
 status: "published"
 permalink: "/the-latest-updates-on-the-farm-bill"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/556"
 image: "/images/news-banner.png"
 ---
 
