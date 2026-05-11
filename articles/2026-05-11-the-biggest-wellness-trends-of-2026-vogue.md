@@ -8,7 +8,7 @@ subject: "The Biggest Wellness Trends of 2026"
 category: "lifestyle"
 status: "published"
 permalink: "/articles/2026-05-11-the-biggest-wellness-trends-of-2026-vogue/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/552"
 image: "/images/news-banner.png"
 ---
 The Biggest Wellness Trends of 2026. Early coverage indicates developing details; this brief summarizes confirmed facts and what to watch next.
