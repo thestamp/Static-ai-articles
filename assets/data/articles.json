@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-05-11-appliance-efficiency-policies-slashing-emissions",
+    "title": "Appliance efficiency policies slashing emissions",
+    "permalink": "/environment/appliance-efficiency-policies-slashing-emissions/",
+    "date": "2026-05-11",
+    "subject": "environment",
+    "category": "environment",
+    "author_id": "environment_lead",
+    "author_display_name": "Rowan Hale",
+    "image": "/images/news-banner.png",
+    "published_pr_url": "https://github.com/thestamp/Static-ai-articles/pull/566"
+  },
+  {
     "id": "2026-05-11-update-us-push-un-hormuz-resolution-faces-china-russia-veto-threat",
     "title": "Update: U.S. push for U.N. Hormuz resolution faces China-Russia veto threat",
     "summary": "Reuters reports the United States revised a Security Council resolution on Iran-related actions in the Strait of Hormuz, but China and Russia are still expected to oppose it, raising the odds of another diplomatic impasse at the U.N.",
@@ -42,7 +54,7 @@
     "published_pr_url": "https://github.com/thestamp/Static-ai-articles/pull/562"
   },
   {
-    "title": "EDITORIAL: Japan joining growing global trend of declining democracy - 朝日新聞",
+    "title": "EDITORIAL: Japan joining growing global trend of declining democracy - \u671d\u65e5\u65b0\u805e",
     "date": "2026-05-11",
     "author": "Simone Hart",
     "desk": "opinion-editorials",
