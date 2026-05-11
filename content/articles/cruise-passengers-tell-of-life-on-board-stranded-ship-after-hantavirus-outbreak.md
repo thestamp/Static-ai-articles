@@ -5,7 +5,7 @@ desk: science-health
 author: Dr. Lena Okafor
 summary: "While passengers onboard the MV Hondius say the situation is calm, they face days at sea as officials warn the disease may have spread."
 image: "/images/articles/cruise-passengers-tell-of-life-on-board-stranded-ship-after-hantavirus-outbreak.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/570"
 ---
 
 Cruise passengers tell of life on board stranded ship after hantavirus outbreak has emerged as a leading science health development, with coverage indicating a clear near-term policy and market relevance.
