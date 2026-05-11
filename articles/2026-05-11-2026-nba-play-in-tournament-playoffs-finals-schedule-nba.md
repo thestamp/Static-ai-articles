@@ -24,7 +24,7 @@ A developing story aligned with the **sports** desk, focused on confirmed facts 
 
 ## Why this fits the sports desk
 
-The claim is primarily relevant to the sports coverage mandate and audience.
+The claim is primarily relevant to the sports coverage mandate and audience, based on direct impact domain rather than cross-desk spillover.
 
 ## What to watch next
 
