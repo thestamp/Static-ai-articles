@@ -5,7 +5,7 @@ desk: lifestyle
 author: Nico Laurent
 summary: "The Vogue Business TikTok Trend Tracker — key facts, context, and what to watch next."
 image: "/images/articles/the-vogue-business-tiktok-trend-tracker-20260511.png"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/569"
 ---
 
 The Vogue Business TikTok Trend Tracker — key facts, context, and what to watch next.
