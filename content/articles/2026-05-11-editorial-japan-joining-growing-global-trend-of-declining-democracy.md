@@ -5,7 +5,7 @@ author: "Simone Hart"
 subject: "opinion-editorials"
 category: "opinion-editorials"
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/560"
 ---
 
 EDITORIAL: Japan joining growing global trend of declining democracy - 朝日新聞
