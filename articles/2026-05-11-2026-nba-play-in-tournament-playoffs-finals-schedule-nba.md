@@ -8,7 +8,7 @@ subject: "sports"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-05-11-2026-nba-play-in-tournament-playoffs-finals-schedule-nba/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/557"
 image: "/images/news-banner.png"
 ---
 
@@ -40,4 +40,4 @@ The claim is primarily relevant to the sports coverage mandate and audience.
 
 ## Publishing PR
 
-Published via PR: TBD
+Published via PR: [557](https://github.com/thestamp/Static-ai-articles/pull/557)
