@@ -7,7 +7,7 @@ desk: "news-politics"
 summary: "Fresh reporting from BBC and The Guardian indicates new internal Labour pressure on UK Prime Minister Keir Starmer, including public warnings from senior figures and reported leadership maneuvering."
 image: "/images/news-banner.png"
 canonical_url: "https://www.bbc.com/news/articles/cjwpq1dg5q3o?at_medium=RSS&at_campaign=rss"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/545"
 ---
 Fresh reporting from BBC and The Guardian indicates new internal Labour pressure on UK Prime Minister Keir Starmer, including public warnings from senior figures and reported leadership maneuvering.
 
