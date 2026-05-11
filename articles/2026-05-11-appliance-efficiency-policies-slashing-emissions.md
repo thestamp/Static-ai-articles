@@ -7,7 +7,7 @@ subject: "environment"
 category: "environment"
 status: "published"
 permalink: "/environment/appliance-efficiency-policies-slashing-emissions/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/566"
 image: "/images/news-banner.png"
 ---
 
