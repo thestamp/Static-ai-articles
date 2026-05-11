@@ -8,7 +8,7 @@ subject: "opinion-editorials"
 category: "opinion-editorials"
 permalink: "/articles/2026-05-11-opinion-hello-greenland-goodbye-checks-and-balances-the-new-york-times/"
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/546"
 ---
 
 What happened
