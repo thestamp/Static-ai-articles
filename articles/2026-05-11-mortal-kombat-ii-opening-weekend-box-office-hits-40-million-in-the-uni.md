@@ -19,6 +19,8 @@ According to recent coverage, forecasts describe the potential for a strong El N
 
 ### Why it matters
 
+A key caveat: forecast signal is not the same as verified local impacts, and outcomes remain provisional until in-season measurements are available.
+
 A key caveat: forecast strength signals elevated risk, but observed local outcomes can still vary and should be treated as provisional until measured in-season.
 
 For the environment desk, this is directly relevant because El Niño shifts can influence heat, precipitation, drought pressure, and storm behavior across regions. The near-term policy and preparedness implications depend on how quickly forecasts translate into observed conditions.
