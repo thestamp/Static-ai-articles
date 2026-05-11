@@ -7,7 +7,7 @@ desk: "sports"
 summary: "Minnesota tied its Western Conference semifinal at 2-2 after a 114-109 Game 4 win over San Antonio, in a game that included Victor Wembanyama's first career ejection."
 image: "/images/news-banner.png"
 source_url: "https://www.espn.com/nba/story/_/id/48737913/anthony-edwards-rallies-timberwolves-even-series-spurs"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/548"
 ---
 
 The Minnesota Timberwolves beat the San Antonio Spurs 114-109 in Game 4 on Sunday night, leveling their Western Conference semifinal series at 2-2.
