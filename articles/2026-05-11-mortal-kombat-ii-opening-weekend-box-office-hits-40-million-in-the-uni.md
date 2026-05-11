@@ -7,7 +7,7 @@ subject: "arts-entertainment"
 category: "arts-entertainment"
 status: "published"
 permalink: "/2026-05-11-mortal-kombat-ii-opening-weekend-box-office-hits-40-million-in-the-uni/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/568"
 image: "/images/news-banner.png"
 ---
 
