@@ -8,7 +8,7 @@ subject: "environment"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-05-11-indonesia-forest-loss-surges-2025-prabowo-drive/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/554"
 image: "/images/news-banner.png"
 ---
 
@@ -36,4 +36,4 @@ Why this matters: Indonesia is central to global rainforest conservation and emi
 
 ## Publishing PR
 
-Published via PR: (pending)
+Published via PR: [#554](https://github.com/thestamp/Static-ai-articles/pull/554)
