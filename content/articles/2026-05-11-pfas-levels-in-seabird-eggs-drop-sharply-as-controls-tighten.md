@@ -5,7 +5,7 @@ author: "Rowan Hale"
 desk: "environment"
 summary: "New reporting from The Guardian and Environmental Health News says PFAS concentrations in northern fulmar eggs have fallen substantially over recent decades, a trend researchers link to tighter controls on long-chain PFAS chemicals."
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/563"
 ---
 
 Monitoring data cited in new coverage indicate a sharp long-run decline in some PFAS (“forever chemicals”) measured in northern fulmar eggs, with researchers describing the drop as evidence that targeted regulation can reduce environmental burdens over time.
