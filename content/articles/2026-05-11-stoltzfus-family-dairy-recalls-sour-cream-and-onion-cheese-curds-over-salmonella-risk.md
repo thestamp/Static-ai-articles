@@ -6,7 +6,7 @@ author: "Dr. Lena Okafor"
 desk: "science-health"
 summary: "Stoltzfus Family Dairy says it is recalling Sour Cream and Onion cheese curds after potential salmonella contamination, with FDA and CDC syndication pages carrying the notice."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/551"
 ---
 
 # Stoltzfus Family Dairy recalls Sour Cream and Onion Cheese Curds over salmonella risk
