@@ -7,7 +7,7 @@ subject: "technology"
 category: "technology"
 status: "published"
 permalink: "/articles/2026-05-11-top-5-ai-stocks-for-beginners-to-buy-in-2026.md"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/549"
 image: "/images/news-banner.png"
 ---
 
