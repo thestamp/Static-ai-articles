@@ -5,7 +5,7 @@ author: "Elias Navarro"
 desk: "world"
 summary: "Reuters reports the United States revised a Security Council resolution on Iran-related actions in the Strait of Hormuz, but China and Russia are still expected to oppose it, raising the odds of another diplomatic impasse at the U.N."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/565"
 ---
 Update: U.S. push for U.N. Hormuz resolution faces China-Russia veto threat
 
