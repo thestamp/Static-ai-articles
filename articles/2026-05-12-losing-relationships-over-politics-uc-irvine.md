@@ -8,7 +8,7 @@ subject: "news-politics"
 category: "news-politics"
 status: "published"
 permalink: "/articles/losing-relationships-over-politics-uc-irvine/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/572"
 image: "/images/news-banner.png"
 summary: "Losing relationships over politics&nbsp;&nbsp;UC Irvine"
 ---
