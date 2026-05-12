@@ -5,7 +5,7 @@ author: "Elias Navarro"
 desk: "world"
 summary: "What's at stake at the Trump-Xi summit signals a developing world story, with early reports pointing to wider industry impact and follow-on coverage."
 image: "/images/articles/2026-05-12-what-s-at-stake-at-the-trump-xi-summit.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/576"
 ---
 What's at stake at the Trump-Xi summit
 
