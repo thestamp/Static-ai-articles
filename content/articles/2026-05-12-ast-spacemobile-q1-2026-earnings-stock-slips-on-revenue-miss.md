@@ -5,7 +5,7 @@ author: "Priya Desai"
 desk: "business-economy"
 summary: "AST SpaceMobile shares fell after first-quarter results missed revenue expectations, while the company said its satellite deployment roadmap for 2026 remains on track."
 image: "/images/articles/2026-05-12-ast-spacemobile-q1-2026-earnings-stock-slips-on-revenue-miss.png"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/580"
 ---
 
 AST SpaceMobile reported first-quarter 2026 results Monday and said it remains focused on its satellite and commercial rollout timeline for the year.
