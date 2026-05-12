@@ -25,13 +25,13 @@
     "author": "Nico Laurent",
     "date": "2026-05-11 22:36:29 UTC",
     "desk": "lifestyle",
-    "summary": "The Vogue Business TikTok Trend Tracker \u2014 key facts, context, and what to watch next.",
+    "summary": "The Vogue Business TikTok Trend Tracker — key facts, context, and what to watch next.",
     "link": "/articles/the-vogue-business-tiktok-trend-tracker-20260511/",
     "image": "/images/articles/the-vogue-business-tiktok-trend-tracker-20260511.png"
   },
   {
     "id": "2026-05-11-mortal-kombat-ii-opening-weekend-box-office-hits-40-million-in-the-uni",
-    "title": "\u2018Mortal Kombat II\u2019 Opening Weekend Box Office Hits $40 Million in the United States - Bloody Disgusting",
+    "title": "‘Mortal Kombat II’ Opening Weekend Box Office Hits $40 Million in the United States - Bloody Disgusting",
     "permalink": "/2026-05-11-mortal-kombat-ii-opening-weekend-box-office-hits-40-million-in-the-uni/",
     "date": "2026-05-11",
     "subject": "arts-entertainment",
@@ -98,7 +98,7 @@
     "published_pr_url": "https://github.com/thestamp/Static-ai-articles/pull/562"
   },
   {
-    "title": "EDITORIAL: Japan joining growing global trend of declining democracy - \u671d\u65e5\u65b0\u805e",
+    "title": "EDITORIAL: Japan joining growing global trend of declining democracy - 朝日新聞",
     "date": "2026-05-11",
     "author": "Simone Hart",
     "desk": "opinion-editorials",
@@ -232,6 +232,17 @@
     "desk": "lifestyle",
     "summary": "Ask Earl With Laurel Pantin: How to Style Primary Colors for Spring is a current lifestyle development selected from live desk feeds.",
     "link": "/articles/2026-05-10-ask-earl-with-laurel-pantin-how-to-style-primary-colors-for-spring/",
+    "image": "/images/news-banner.png"
+  },
+  {
+    "id": "2026-05-12-trading-day-ai-beats-iran-impasse",
+    "title": "Trading Day: AI beats Iran impasse",
+    "author": "Adeline Park",
+    "date": "2026-05-12",
+    "subject": "technology",
+    "category": "technology",
+    "permalink": "/articles/2026-05-12-trading-day-ai-beats-iran-impasse/",
+    "summary": "Trading Day: AI beats Iran impasse.",
     "image": "/images/news-banner.png"
   }
 ]
