@@ -5,7 +5,7 @@ author: "Nico Laurent"
 desk: "lifestyle"
 summary: "Juicy tomatoes, stone fruit, crunchy slaws—these salads were made for hot days."
 image: "/images/articles/2026-05-12-29-summer-salad-recipes-for-peak-produce-season.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/577"
 permalink: "/articles/2026-05-12-29-summer-salad-recipes-for-peak-produce-season/"
 ---
 
