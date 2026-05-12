@@ -8,7 +8,7 @@ category: "lifestyle"
 subject: "lifestyle"
 permalink: "/articles/2026-05-12-global-travel-advisory-update-for-tourists-hidden-risks-safer-destinations-and-expert-tips/"
 image: "/images/articles/2026-05-12-global-travel-advisory-update-for-tourists-hidden-risks-safer-destinations-and-expert-tips.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/578"
 ---
 
 Global Travel Advisory Update for Tourists: Hidden Risks, Safer Destinations, and Expert Tips for Stress-Free Travel in 2026 has moved into focus on the lifestyle desk following fresh wire and syndication pickups.
