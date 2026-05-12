@@ -5,7 +5,7 @@ author: "Simone Hart"
 desk: "opinion-editorials"
 summary: "Editorial: Review symposium: the problem of democracy is a current opinion editorials development selected from live desk feeds."
 image: "/images/articles/2026-05-12-editorial-review-symposium-the-problem-of-democracy.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/575"
 ---
 
 Editorial: Review symposium: the problem of democracy is developing, with initial reporting indicating material movement in this story line.
