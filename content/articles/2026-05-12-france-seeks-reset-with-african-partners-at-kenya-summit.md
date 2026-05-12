@@ -5,7 +5,7 @@ author: "Elias Navarro"
 desk: "world"
 summary: "France used a summit in Kenya to pitch a new partnership model with African governments, signaling a shift away from older France-Africa power dynamics."
 image: "/images/articles/2026-05-12-france-seeks-reset-with-african-partners-at-kenya-summit.png"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/582"
 ---
 France seeks reset with African partners at Kenya summit
 
