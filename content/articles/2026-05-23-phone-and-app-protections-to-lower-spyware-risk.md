@@ -10,7 +10,7 @@ published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/693"
 
 Smartphone spyware no longer depends only on suspicious links or obvious downloads. Security researchers and incident-response teams increasingly warn that modern attacks can exploit messaging clients, media parsers, or unpatched system components with minimal user interaction.
 
-For users and organizations, that threat model is shifting practical guidance toward platform-level protections that already ship on mainstream devices:
+For users and organizations, that threat model is shifting practical guidance toward platform-level protections that already ship on mainstream devices. Risk is not uniform: public officials, journalists, activists, and executives may face higher targeting pressure than the average consumer.
 
 - **Keep automatic updates enabled** for both the operating system and critical apps.
 - **Use high-security modes** (such as device lockdown profiles) when facing elevated risk.
