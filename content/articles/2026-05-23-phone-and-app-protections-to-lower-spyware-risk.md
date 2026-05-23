@@ -5,7 +5,7 @@ author: "Adeline Park"
 desk: "technology"
 summary: "A new wave of spyware incidents is pushing users toward built-in phone and app security features such as auto-updates, lockdown modes, and hardened messaging settings."
 image: "/images/articles/2026-05-23-phone-and-app-protections-to-lower-spyware-risk.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/693"
 ---
 
 Smartphone spyware no longer depends only on suspicious links or obvious downloads. Security researchers and incident-response teams increasingly warn that modern attacks can exploit messaging clients, media parsers, or unpatched system components with minimal user interaction.
