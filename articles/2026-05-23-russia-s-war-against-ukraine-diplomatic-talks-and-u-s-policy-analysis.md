@@ -8,7 +8,7 @@ subject: "opinion-editorials"
 category: "opinion-editorials"
 status: "published"
 permalink: "/articles/2026-05-23-russia-s-war-against-ukraine-diplomatic-talks-and-u-s-policy-analysis/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/692"
 image: "/images/news-banner.png"
 ---
 
