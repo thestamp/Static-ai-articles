@@ -6,7 +6,7 @@ author: "Priya Desai"
 desk: "business-economy"
 summary: "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPWVMxVjZ6YW5uMThsaWN3UkJrMW1NdkszVG82bVViNzk3RFkyQ0hTTkdpeUpZcVlYOTBZY1hvOEM3T1piM2JTQ3JZbUstMnZOY0tLQWx3WUxaeVJrcmxwd3RucS1sbnBncUtENFU2b05NOFZkM1N1VEpCbGc..."
 image: "/images/articles/japan-s-solid-q1-gdp-faces-reality-check-as-iran-war-threatens-economy.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/690"
 ---
 
 <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPWVMxVjZ6YW5uMThsaWN3UkJrMW1NdkszVG82bVViNzk3RFkyQ0hTTkdpeUpZcVlYOTBZY1hvOEM3T1piM2JTQ3JZbUstMnZOY0tLQWx3WUxaeVJrcmxwd3RucS1sbnBncUtENFU2b05NOFZkM1N1VEpCbGc...
