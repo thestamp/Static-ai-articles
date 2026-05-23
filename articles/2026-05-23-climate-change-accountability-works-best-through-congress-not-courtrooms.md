@@ -7,7 +7,7 @@ subject: "environment"
 category: "environment"
 status: "published"
 permalink: "/articles/2026-05-23-climate-change-accountability-works-best-through-congress-not-courtrooms/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/686"
 image: "/images/news-banner.png"
 ---
 
