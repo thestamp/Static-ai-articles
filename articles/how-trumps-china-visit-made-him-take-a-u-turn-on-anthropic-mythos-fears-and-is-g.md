@@ -8,7 +8,7 @@ subject: technology
 category: technology
 status: published
 permalink: "/articles/how-trumps-china-visit-made-him-take-a-u-turn-on-anthropic-mythos-fears-and-is-g/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/709"
 image: "/images/news-banner.png"
 ---
 
