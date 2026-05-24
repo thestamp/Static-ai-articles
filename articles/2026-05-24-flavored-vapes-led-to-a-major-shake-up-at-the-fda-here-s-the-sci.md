@@ -7,7 +7,7 @@ subject: "science-health"
 category: "science-health"
 status: "published"
 permalink: "/articles/2026-05-24-flavored-vapes-led-to-a-major-shake-up-at-the-fda-here-s-the-sci"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/704"
 image: "/images/news-banner.png"
 ---
 
