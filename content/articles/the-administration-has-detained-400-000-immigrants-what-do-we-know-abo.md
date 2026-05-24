@@ -5,7 +5,7 @@ desk: 'opinion-editorials'
 author: 'Simone Hart'
 summary: 'The administration has detained 400,000 immigrants: What do we know about their children? - Brookings'
 image: '/images/news-banner.png'
-published_pr_url: ''
+published_pr_url: 'https://github.com/thestamp/Static-ai-articles/pull/715'
 permalink: '/articles/the-administration-has-detained-400-000-immigrants-what-do-we-know-abo/'
 ---
 
