@@ -9,7 +9,7 @@ subject: "business-economy"
 category: "business-economy"
 status: "published"
 permalink: "/articles/2026-05-24-us-week-ahead-key-economic-data/"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/712"
 image: "/images/news-banner.png"
 ---
 
