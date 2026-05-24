@@ -7,7 +7,7 @@ author: "Dr. Lena Okafor"
 summary: "U.S. authorities announced time-limited entry restrictions and enhanced screening tied to the Ebola Bundibugyo outbreak in the DRC and Uganda, marking a policy escalation after WHO convened an IHR emergency committee."
 image: "/images/articles/2026-05-24-update-us-imposes-entry-restrictions-amid-ebola-outbreak.png"
 source_url: "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRWVCUEhzVHFQRjNoR1BhTUFCWk5fZEMwamMydkpRay1GSHZBcnZZZmZtbEQ3YWs1UU1qLXFzLW4zYmRWbEoxSlVrbU12Y0cwdjRodkV2aGlLVURHVmhHNVNpSk5RLXcxb1dUdU15SnpEaXF2N2l2eXhVU2FSVnBQYTRNMlZ2aktaZXVLalJJNDJfUQ?oc=5"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/700"
 ---
 
 U.S. officials have announced entry restrictions and enhanced traveler screening tied to the Ebola Bundibugyo outbreak centered in the Democratic Republic of the Congo and Uganda, adding a new cross-border policy layer after WHO’s emergency coordination steps.
