@@ -6,7 +6,7 @@ author: "Jordan Reeves"
 desk: "sports"
 summary: "Oleksandr Usyk retained his heavyweight titles with a late stoppage over Rico Verhoeven in a bout that drew immediate debate over timing and officiating."
 image: "/images/articles/2026-05-24-usyk-retains-titles-after-late-stoppage-of-verhoeven.png"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/696"
 ---
 
 Usyk retains heavyweight titles after late stoppage of Verhoeven
