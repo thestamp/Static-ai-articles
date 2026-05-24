@@ -5,7 +5,7 @@ desk: technology
 author: "Adeline Park"
 summary: "SpaceX flew Starship V3 for the first time, with reports from TechCrunch and Ars Technica describing a mostly successful test flight that still ended with the Super Heavy booster lost on return."
 image: "/images/articles/2026-05-24-spacex-starship-v3-first-flight-booster-loss.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/705"
 ---
 
 SpaceX has carried out the first flight test of its upgraded Starship V3, marking a key development step for the company’s next-generation launch system.
