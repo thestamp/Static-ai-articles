@@ -5,7 +5,7 @@ author: "Rowan Hale"
 desk: "environment"
 summary: "Temperatures reached 30.5C in parts of the UK on Saturday, marking the hottest day of 2026 so far as forecasters warned the heat could intensify over the bank-holiday period."
 image: "/images/articles/2026-05-24-uk-records-hottest-day-of-year-as-heat-risks-rise.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/707"
 ---
 
 The UK recorded its hottest day of the year so far on Saturday, with temperatures reaching 30.5C, according to widely cited weather reporting.
