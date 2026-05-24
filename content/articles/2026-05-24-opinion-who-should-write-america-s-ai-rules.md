@@ -8,7 +8,7 @@ subject: "opinion-editorials"
 category: "opinion-editorials"
 permalink: "/articles/2026-05-24-opinion-who-should-write-america-s-ai-rules/"
 image: "/images/articles/2026-05-24-opinion-who-should-write-america-s-ai-rules.png"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/697"
 ---
 
 What happened
