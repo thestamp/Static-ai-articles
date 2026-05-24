@@ -5,7 +5,7 @@ desk: "arts-entertainment"
 author: "Camille Vega"
 summary: "Cannes Film Festival Winners List: Palme d’Or Goes to ‘Fjord,’ Neon’s Seventh in a Row &nbsp;&nbsp; IndieWire"
 image: "/images/articles/2026-05-24-cannes-film-festival-winners-list-palme-d-or-goes-to-fjord-neon-s-seve.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/702"
 ---
 
 ## Key Points
