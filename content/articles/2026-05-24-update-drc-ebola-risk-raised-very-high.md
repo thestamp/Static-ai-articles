@@ -7,7 +7,7 @@ author: "Dr. Lena Okafor"
 summary: "WHO and UN-linked reporting say Ebola risk in eastern DR Congo has been raised to very high, with responders citing expanding suspected cases and new frontline fatalities as containment efforts intensify."
 image: "/images/articles/2026-05-24-update-drc-ebola-risk-raised-very-high.png"
 source_url: "https://www.bbc.com/news/articles/cr7p30m1dn1o"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/711"
 ---
 
 Health authorities and UN-linked reporting indicate the Ebola outbreak centered in eastern Democratic Republic of the Congo has entered a higher-risk phase, with the risk level described as **very high** and emergency operations scaling up.
