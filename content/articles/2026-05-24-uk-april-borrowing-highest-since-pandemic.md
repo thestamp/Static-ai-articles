@@ -8,7 +8,7 @@ subject: "news-politics"
 category: "news-politics"
 permalink: "/articles/2026-05-24-uk-april-borrowing-highest-since-pandemic/"
 image: "/images/news-banner.png"
-published_pr_url: "PENDING_PR_URL"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/698"
 ---
 
 What happened
