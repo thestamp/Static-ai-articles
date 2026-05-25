@@ -20,7 +20,7 @@ The news politics desk is tracking this developing story based on current report
 Trump Administration Plan for State Citizenship Lists Escalates Election Battles - NCHStats.
 
 ### Why it matters
-This development is significant for readers following news politics because it may influence near-term decisions, policy, or market/public outcomes.
+This development is significant for readers following news politics because it could influence near-term decisions, policy, or public outcomes as more verified details emerge.
 
 ### What to watch next
 We will monitor official statements, primary-source documents, and follow-on reporting for verified updates.
