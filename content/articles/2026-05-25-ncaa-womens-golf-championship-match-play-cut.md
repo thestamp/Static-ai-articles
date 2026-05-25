@@ -5,7 +5,7 @@ author: "Jordan Reeves"
 desk: "sports"
 summary: "NCAA championship coverage and live tournament reporting show the Division I women’s field narrowing to match play after stroke-play rounds, setting up the title chase at Omni La Costa."
 image: "/images/articles/2026-05-25-ncaa-womens-golf-championship-match-play-cut.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/740"
 ---
 NCAA's official championship tracker for Division I women's golf shows the 2026 event progressing from stroke play into the match-play phase after the field was cut, tightening the title race at Omni La Costa.
 
