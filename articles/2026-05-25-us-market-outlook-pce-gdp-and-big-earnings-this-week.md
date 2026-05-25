@@ -8,7 +8,7 @@ subject: "business-economy"
 category: "business-economy"
 status: "published"
 permalink: "/articles/us-market-outlook-pce-gdp-and-big-earnings-this-week/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/719"
 image: "/images/news-banner.png"
 ---
 
