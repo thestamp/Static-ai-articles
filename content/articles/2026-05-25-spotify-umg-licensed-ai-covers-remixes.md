@@ -5,7 +5,7 @@ author: "Camille Vega"
 desk: "arts-entertainment"
 summary: "Spotify and Universal Music Group announced licensing agreements that allow fan-made AI covers and remixes as a paid Premium feature, signaling a more formal rights framework for consumer AI music tools."
 image: "/images/articles/2026-05-25-spotify-umg-licensed-ai-covers-remixes.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/731"
 ---
 Spotify and Universal Music Group said they have signed licensing agreements that allow fan-made AI covers and remixes on Spotify as a paid Premium feature. The rollout is framed as a rights-managed path for user creativity rather than open, unlicensed model output.
 
