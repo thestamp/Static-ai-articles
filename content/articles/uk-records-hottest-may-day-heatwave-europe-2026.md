@@ -9,7 +9,7 @@ tags:
   - Climate
   - Europe
   - UK
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/739"
 ---
 
 The UK recorded its hottest day ever observed in May, reaching **34.8°C**, as unusually intense heat spread across parts of Europe during the holiday weekend.
