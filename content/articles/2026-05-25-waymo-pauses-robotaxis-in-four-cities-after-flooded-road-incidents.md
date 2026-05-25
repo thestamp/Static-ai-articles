@@ -5,7 +5,7 @@ author: "Adeline Park"
 desk: "technology"
 summary: "Waymo said it temporarily expanded robotaxi service pauses across four Texas cities and Atlanta after vehicles encountered floodwater, a sign that edge-case weather handling remains a live challenge for autonomous fleets."
 image: "/images/articles/2026-05-25-waymo-pauses-robotaxis-in-four-cities-after-flooded-road-incidents.png"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/720"
 ---
 Waymo has temporarily paused robotaxi operations in four Texas cities and Atlanta after incidents in which autonomous vehicles entered flooded streets, according to BBC reporting and follow-on local coverage.
 
