@@ -8,7 +8,7 @@ subject: "environment"
 category: "environment"
 status: "published"
 permalink: "/articles/can-ai-help-combat-the-climate-crisis-university-of-pennsylvania/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/733"
 image: "/images/news-banner.png"
 ---
 
