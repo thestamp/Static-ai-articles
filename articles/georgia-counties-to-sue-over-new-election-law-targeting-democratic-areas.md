@@ -8,7 +8,7 @@ subject: "news-politics"
 category: "news-politics"
 status: "published"
 permalink: "/articles/georgia-counties-to-sue-over-new-election-law-targeting-democratic-areas/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/727"
 image: "/images/news-banner.png"
 ---
 
