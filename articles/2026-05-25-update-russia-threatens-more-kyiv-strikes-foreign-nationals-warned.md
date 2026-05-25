@@ -8,7 +8,7 @@ subject: "world"
 category: "world"
 status: "published"
 permalink: "/articles/2026-05-25-update-russia-threatens-more-kyiv-strikes-foreign-nationals-warned/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/736"
 image: "/images/news-banner.png"
 ---
 
