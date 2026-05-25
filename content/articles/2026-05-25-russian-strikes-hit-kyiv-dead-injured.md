@@ -5,7 +5,7 @@ desk: world
 author: "Elias Navarro"
 summary: "BBC and AP reporting describe a fresh wave of Russian missile-and-drone attacks around Kyiv that killed multiple people and injured dozens, underscoring continued escalation in long-range strikes."
 image: "/images/articles/2026-05-25-russian-strikes-hit-kyiv-dead-injured.png"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/718"
 ---
 
 A new wave of Russian missile and drone strikes hit the Kyiv area overnight into Sunday, according to multiple international reports, with fatalities and dozens of injuries reported by local authorities.
