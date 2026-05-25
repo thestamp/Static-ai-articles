@@ -5,7 +5,7 @@ author: "Dr. Lena Okafor"
 desk: "science-health"
 summary: "Ebola risk raised to 'very high' in DR Congo is emerging as a current science health development, based on same-day reporting signals across multiple outlets."
 image: "/images/articles/2026-05-25-ebola-risk-raised-to-very-high-in-dr-congo.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/722"
 ---
 Ebola risk raised to 'very high' in DR Congo is drawing fresh attention on the science health desk, with current reporting indicating new developments relevant to readers tracking this beat.
 
