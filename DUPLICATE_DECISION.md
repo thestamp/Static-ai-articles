@@ -1,0 +1,4 @@
+Duplicate decision for: When Bad Protocol Design Hits Your Site, AI Won’t Save You
+Canonical: https://news.google.com/rss/articles/CBMivAFBVV95cUxPV19aQmc1d0hVUy1hWmp1VG1pZExVQ000VXRBUXhTQTh3WXRyV01kSjh0eU1PNVYzdDRoOExzWmcwYVBHQnpPNVowcnB2SEhhSGFkd2lKX3NURUVkVXF1cTJFY0swWjl6dk5MMkNxb1pFZDg3WXk5bU83Rl9NU01iZk1YM1RBMkMtTUkwSmZtczJ1UG80ZmU2Z09uTFRPWjhxRDhRcm15VE9WVmptdm5tM0M1cTI3M28wOF80Ng?oc=5
+Closest existing: 2026-05-05-opinion-google-ai-overviews-defamation-duty-of-care.md
+@thestamp
