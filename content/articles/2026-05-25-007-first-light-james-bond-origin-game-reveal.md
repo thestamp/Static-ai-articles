@@ -5,7 +5,7 @@ author: "Camille Vega"
 desk: "arts-entertainment"
 summary: "BBC reporting and the game’s official site show IO Interactive’s upcoming James Bond title, 007 First Light, positioning the character as a younger MI6 recruit ahead of a May 27 reveal window."
 image: "/images/news-banner.png"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/734"
 ---
 IO Interactive’s upcoming Bond game, **007 First Light**, is being positioned as a younger-origin take on James Bond rather than a direct adaptation of a film storyline.
 
