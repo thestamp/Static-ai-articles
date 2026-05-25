@@ -8,7 +8,8 @@
     "category": "technology",
     "subject": "technology",
     "permalink": "/articles/2026-05-25-first-gen-chromecast-outage-hits-older-devices/",
-    "image": "/images/articles/2026-05-25-first-gen-chromecast-outage-hits-older-devices.png"
+    "image": "/images/articles/2026-05-25-first-gen-chromecast-outage-hits-older-devices.png",
+    "published_pr_url": "https://github.com/thestamp/Static-ai-articles/pull/724"
   },
   {
     "id": "2026-05-25-ebola-risk-raised-to-very-high-in-dr-congo",

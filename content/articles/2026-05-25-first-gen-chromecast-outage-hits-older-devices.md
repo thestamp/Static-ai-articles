@@ -5,7 +5,7 @@ author: "Adeline Park"
 desk: "technology"
 summary: "Reports from Ars Technica and 9to5Google indicate first-generation Chromecast dongles experienced a sudden outage for many users before Google began rolling out a fix, highlighting long-tail reliability risks for legacy connected hardware."
 image: "/images/articles/2026-05-25-first-gen-chromecast-outage-hits-older-devices.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/724"
 ---
 First-generation Chromecast users reported widespread device failures this week, with owners saying their streaming dongles abruptly stopped casting or failed setup flows. Ars Technica and 9to5Google both reported the disruption and cited user reports concentrated on the original 2013-era hardware.
 
