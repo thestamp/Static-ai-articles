@@ -5,7 +5,7 @@ desk: sports
 author: "Jordan Reeves"
 summary: "Multiple race reports say Felix Rosenqvist won the 110th Indianapolis 500 after a late shootout, in what outlets described as the closest finish in event history."
 image: "/images/articles/2026-05-25-felix-rosenqvist-wins-indy-500-in-closest-finish.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/716"
 ---
 
 Felix Rosenqvist won the 110th Indianapolis 500 on Sunday, with race coverage from ESPN, INDYCAR, and Indianapolis local outlet WISH-TV all describing a dramatic late-race sprint to the flag.
