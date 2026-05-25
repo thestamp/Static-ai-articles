@@ -5,7 +5,7 @@ author: "Dr. Lena Okafor"
 desk: "science-health"
 summary: "CDC's latest measles tracker and independent reporting from CIDRAP indicate continued case growth across multiple U.S. states, sharpening pressure on vaccination outreach and local outbreak response."
 image: "/images/articles/2026-05-25-cdc-updates-us-measles-case-tracker-outbreaks-expand.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/738"
 ---
 The U.S. measles picture is continuing to worsen, with the CDC's latest national tracker showing additional confirmed cases and ongoing multistate outbreaks. The update adds to evidence that local transmission chains are still active rather than fully contained.
 
