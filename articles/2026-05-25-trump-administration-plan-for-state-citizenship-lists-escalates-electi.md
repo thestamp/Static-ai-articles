@@ -8,7 +8,7 @@ subject: "news-politics"
 category: "news-politics"
 status: "published"
 permalink: "/articles/2026-05-25-trump-administration-plan-for-state-citizenship-lists-escalates-electi/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/730"
 image: "/images/news-banner.png"
 ---
 
