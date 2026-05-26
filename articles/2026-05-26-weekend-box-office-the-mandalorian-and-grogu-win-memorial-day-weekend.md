@@ -25,3 +25,6 @@ Watch for official statements and primary documents that materially change event
 ### Sources
 - https://news.google.com/rss/articles/CBMitgFBVV95cUxNdDNsSTVORUFGVkh1bkFYLVJoeUtmcThjQmFkbUtoRDA4ckNfaUFlZG1tbVdwRHZVZUl1VUoxeVY3VzJwMnI2UE12NWVmLXhWR3Fxa1Q3aFVxZ0xFRzF2TW5JSl95cnVoajdIQkd3T2Y0eTBoTHpjczQ1dkNfZ2d1cE1BWXBqVkg2WGQzVmNzMVRBRjNYcG1BTVBSbGU4ZkctXzY5Smk2X2FVUjQwZmEyNzRvZ0dVZw?oc=5
 - https://news.google.com/search?q=Weekend%20Box%20Office%3A%20The%20Mandalorian%20and%20Grogu%20Win%20Memorial%20Day%20Weekend
+
+### Update threshold
+A follow-up will be published as an **Update** only if official disclosures materially change scope, timeline, or affected entities.
