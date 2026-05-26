@@ -5,7 +5,7 @@ author: "Maya Sterling"
 desk: "news-politics"
 summary: "Iranian officials said conflicting U.S. statements are hindering negotiations, while separate reporting said President Trump described a deal as largely negotiated, highlighting a fresh messaging gap in current diplomacy."
 image: "/images/articles/2026-05-26-update-iran-says-mixed-us-signals-complicate-nuclear-talks.png"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/762"
 ---
 Update: Iran says mixed U.S. signals are slowing nuclear-deal momentum
 
