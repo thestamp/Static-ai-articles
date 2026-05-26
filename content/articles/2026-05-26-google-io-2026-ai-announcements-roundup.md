@@ -5,7 +5,7 @@ author: "Adeline Park"
 desk: "technology"
 summary: "Google’s I/O 2026 announcements emphasize Gemini model improvements and new developer integrations, signaling a deeper push to turn flagship AI capabilities into production-ready tools across products and APIs."
 image: "/images/articles/2026-05-26-google-io-2026-ai-announcements-roundup.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/744"
 ---
 Google used I/O 2026 to frame its next phase of AI deployment around two tracks: headline Gemini capability upgrades and practical developer pathways for shipping those capabilities in products.
 
