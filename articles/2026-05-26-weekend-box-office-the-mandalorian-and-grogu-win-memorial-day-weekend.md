@@ -7,7 +7,7 @@ subject: arts-entertainment
 category: breaking-news
 status: published
 permalink: /articles/2026-05-26-weekend-box-office-the-mandalorian-and-grogu-win-memorial-day-weekend.md
-published_pr_url: TBD
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/746"
 image: "/images/news-banner.png"
 ---
 
