@@ -8,7 +8,7 @@ subject: "news-politics"
 category: "breaking-news"
 status: "published"
 permalink: "/articles/2026-05-26-brennan-center-ceo-calls-some-of-trump-s-moves-corrupt-what-/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/749"
 image: "/images/news-banner.png"
 ---
 
