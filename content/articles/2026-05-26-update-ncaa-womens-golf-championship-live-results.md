@@ -5,7 +5,7 @@ author: "Jordan Reeves"
 desk: "sports"
 summary: "NCAA championship coverage shifted from bracket selection context to live-result tracking, adding fresh competitive outcomes and schedule clarity beyond the prior match-play cutoff report."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/759"
 ---
 NCAA women’s golf championship coverage has moved from selection framing into active result-tracking as postseason play advances.
 
