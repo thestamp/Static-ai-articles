@@ -5,7 +5,7 @@ author: "Elias Navarro"
 desk: "world"
 summary: "Fresh world-desk reporting indicates multiple governments condemned a large-scale overnight missile and drone attack on Kyiv, underscoring widening diplomatic pressure as the war’s cross-border risks persist."
 image: "/images/articles/2026-05-26-global-leaders-denounce-massive-attack-on-kyiv-as-albanian-ambassador-narrowly-e.png"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/755"
 ---
 Multiple governments and diplomats publicly condemned a large overnight strike on Kyiv, according to current reporting across international outlets. The attack framing has centered on both the scale of missile-and-drone activity and the diplomatic implications for ongoing war-related negotiations.
 
