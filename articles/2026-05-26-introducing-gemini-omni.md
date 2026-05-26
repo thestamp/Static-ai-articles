@@ -7,7 +7,7 @@ subject: "technology"
 category: "breaking"
 status: "published"
 permalink: "/2026-05-26-introducing-gemini-omni/"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/760"
 image: "/images/articles/introducing-gemini-omni.png"
 ---
 
