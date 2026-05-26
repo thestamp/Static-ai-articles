@@ -5,7 +5,7 @@ author: "Adeline Park"
 desk: "technology"
 summary: "Sub-$600 laptops have existed for years, but consistently good ones remain rare."
 image: "/images/articles/2026-05-26-we-re-starting-to-see-some-pc-makers-respond-to-apple-s-macbook-neo.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/763"
 ---
 
 We're starting to see some PC makers respond to Apple's MacBook Neo
