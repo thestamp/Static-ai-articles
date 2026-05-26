@@ -5,7 +5,7 @@ author: "Camille Vega"
 desk: "arts-entertainment"
 summary: "BBC coverage and the official American Music Awards winners release indicate BTS led this year's AMA results while a Black Eyed Peas reunion performance became a major broadcast moment."
 image: "/images/articles/2026-05-26-bts-tops-2026-american-music-awards-black-eyed-peas-reunion.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/752"
 ---
 BTS emerged as one of the biggest winners at the 2026 American Music Awards, according to BBC coverage and the show’s official winners publication. The ceremony also featured a Black Eyed Peas reunion that drew broad audience attention.
 
