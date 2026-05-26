@@ -5,7 +5,7 @@ author: "Elias Navarro"
 desk: "world"
 summary: "Fresh reporting indicates U.S. military strikes in southern Iran coincided with renewed Qatar talks, marking a new escalation point in the broader Iran conflict tracked earlier this month."
 image: "/images/news-banner.png"
-published_pr_url: ""
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/745"
 ---
 New reporting from multiple world desks indicates U.S. forces carried out additional strikes in southern Iran while diplomatic contacts resumed in Qatar, introducing a sharper military-diplomatic split into the same news cycle.
 
