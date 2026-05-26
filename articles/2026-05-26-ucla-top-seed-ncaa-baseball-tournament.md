@@ -8,7 +8,7 @@ subject: "sports"
 category: "sports"
 status: "published"
 permalink: "/articles/2026-05-26-ucla-top-seed-ncaa-baseball-tournament/"
-published_pr_url: "PENDING"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/741"
 image: "/images/news-banner.png"
 ---
 
