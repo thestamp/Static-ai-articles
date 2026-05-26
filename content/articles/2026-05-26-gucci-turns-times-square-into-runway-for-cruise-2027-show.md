@@ -5,7 +5,7 @@ author: "Nico Laurent"
 desk: "lifestyle"
 summary: "Multiple entertainment and fashion outlets reported Gucci's Times Square Cruise 2027 show, where Demna's debut for the house drew a celebrity-heavy runway and signaled New York's growing pull as a global fashion-stage venue."
 image: "/images/news-banner.png"
-published_pr_url: "TBD"
+published_pr_url: "https://github.com/thestamp/Static-ai-articles/pull/757"
 ---
 Gucci converted Times Square into a full-scale runway production for its Cruise 2027 presentation, marking a high-visibility New York debut for designer Demna at the brand.
 
