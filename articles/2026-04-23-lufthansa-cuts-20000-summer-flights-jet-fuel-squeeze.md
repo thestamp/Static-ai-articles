@@ -41,7 +41,7 @@ This development directly affects personal travel planning decisions — when to
 
 ## Update
 
-For the latest regional-angle follow-up, see: [Update: Europe Summer Travel Plans Face Wider Risk as Jet-Fuel Squeeze Spreads Across Airlines](/articles/2026-04-24-update-europe-summer-travel-jet-fuel-squeeze-expands/).
+For the latest regional-angle follow-up, see: [Update: Europe Summer Travel Plans Face Wider Risk as Jet-Fuel Squeeze Spreads Across Airlines](../2026-04-24-update-europe-summer-travel-jet-fuel-squeeze-expands/).
 
 ## Publishing PR
 

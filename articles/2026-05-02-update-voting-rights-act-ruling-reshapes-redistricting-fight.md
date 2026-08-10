@@ -30,8 +30,8 @@ In the long run, the ruling may deepen a broader legitimacy problem: voters incr
 If courts narrow federal remedies, legislatures inherit more responsibility for legitimacy. States that want durable public trust should pursue transparent criteria, independent map review mechanisms, and clearer disclosure around proposed district changes. Absent that, the default future is prolonged litigation, intensified polarization, and lower confidence in electoral fairness.
 
 ## Related coverage
-- Previous: [/articles/2026-04-29-supreme-court-limits-key-provision-of-the-landmark-voting-rights-act/](/articles/2026-04-29-supreme-court-limits-key-provision-of-the-landmark-voting-rights-act/)
-- News baseline: [/articles/2026-05-02-supreme-court-ruling-expected-to-expand-gerrymandering/](/articles/2026-05-02-supreme-court-ruling-expected-to-expand-gerrymandering/)
+- Previous: [/articles/2026-04-29-supreme-court-limits-key-provision-of-the-landmark-voting-rights-act/](../2026-04-29-supreme-court-limits-key-provision-of-the-landmark-voting-rights-act/)
+- News baseline: Supreme Court ruling expected to expand gerrymandering (link removed pending republish of source article).
 
 ## Sources
 - [SCOTUSblog: Court decides major Voting Rights Act case](https://www.scotusblog.com/)

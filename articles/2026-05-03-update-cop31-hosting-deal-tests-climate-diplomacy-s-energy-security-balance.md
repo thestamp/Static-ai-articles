@@ -32,8 +32,8 @@ Governments keep promising faster decarbonization while simultaneously prioritiz
 Without that shift, COP31 risks producing familiar language and fragile consensus. With it, the summit could become a template for integrating climate ambition with security-era constraints.
 
 ## Related coverage
-- Previous: [/articles/2026-05-02-turkey-says-cop31-will-push-for-more-global-action-under-its-presidency/](/articles/2026-05-02-turkey-says-cop31-will-push-for-more-global-action-under-its-presidency/)
-- News baseline: [/articles/hard-choices-test-breakaway-climate-summit/](/articles/hard-choices-test-breakaway-climate-summit/)
+- Previous: Turkey says COP31 will push for more global action under its presidency (link removed pending republish of source article).
+- News baseline: [/articles/hard-choices-test-breakaway-climate-summit/](../hard-choices-test-breakaway-climate-summit/)
 
 ## Sources
 - [Reuters: Turkey set to host COP31 climate summit, Australia to lead government talks](https://www.reuters.com/)
